@@ -1,13 +1,13 @@
 pageInfo:
-  title: My Startpage
-  description: Powerful Websites & Bookmark Hub
+  title: Mukesh's Cyber Hub
+  description: 395+ Curated Tools, OSINT, AI & Learning Center
   navLinks:
-  - title: Start.me View
+  - title: Dashboard
     path: /
   - title: Config
     path: /#config
 appConfig:
-  theme: adventure
+  theme: glow
   layout: auto
   iconSize: medium
   language: en
@@ -15,7 +15,60 @@ appConfig:
   enableQuickSearch: true
   enableSearchHotkeys: true
   showSearchClearButton: true
-  faviconApi: faviconkit
+  faviconApi: google
+  backgroundImg: https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2560&auto=format&fit=crop
+  customCss: "/* Futuristic Glassmorphism & Cyber-Tech Styling */\n@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');\n\
+    \n:root {\n  --font-body: 'Plus Jakarta Sans', system-ui, sans-serif !important;\n\
+    \  --font-headings: 'Plus Jakarta Sans', system-ui, sans-serif !important;\n}\n\
+    \nbody {\n  font-family: 'Plus Jakarta Sans', system-ui, sans-serif !important;\n\
+    \  background-attachment: fixed !important;\n  background-size: cover !important;\n\
+    \  background-position: center !important;\n}\n\n/* Background dark vignette overlay\
+    \ */\nbody::before {\n  content: '';\n  position: fixed;\n  top: 0; left: 0; right:\
+    \ 0; bottom: 0;\n  background: radial-gradient(circle at 50% 20%, rgba(10, 14,\
+    \ 26, 0.45), rgba(5, 8, 16, 0.88));\n  pointer-events: none;\n  z-index: 0;\n\
+    }\n\n#app, #main-page {\n  position: relative;\n  z-index: 1;\n}\n\n/* Glass Header\
+    \ / Nav Bar */\nheader, #nav {\n  background: rgba(13, 17, 30, 0.65) !important;\n\
+    \  backdrop-filter: blur(20px) saturate(180%) !important;\n  -webkit-backdrop-filter:\
+    \ blur(20px) saturate(180%) !important;\n  border-bottom: 1px solid rgba(255,\
+    \ 255, 255, 0.08) !important;\n  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5) !important;\n\
+    }\n\n/* Floating Futuristic Search Bar */\n.search-container {\n  background:\
+    \ rgba(18, 24, 42, 0.75) !important;\n  backdrop-filter: blur(24px) saturate(200%)\
+    \ !important;\n  -webkit-backdrop-filter: blur(24px) saturate(200%) !important;\n\
+    \  border: 1px solid rgba(99, 102, 241, 0.35) !important;\n  border-radius: 16px\
+    \ !important;\n  box-shadow: 0 0 25px rgba(99, 102, 241, 0.2), inset 0 1px 1px\
+    \ rgba(255, 255, 255, 0.1) !important;\n  transition: all 0.3s cubic-bezier(0.4,\
+    \ 0, 0.2, 1) !important;\n}\n.search-container:focus-within {\n  border-color:\
+    \ rgba(56, 189, 248, 0.8) !important;\n  box-shadow: 0 0 35px rgba(56, 189, 248,\
+    \ 0.35), inset 0 1px 2px rgba(255, 255, 255, 0.2) !important;\n  transform: translateY(-1px)\
+    \ scale(1.005) !important;\n}\n.search-container input {\n  color: #f1f5f9 !important;\n\
+    \  font-weight: 500 !important;\n}\n\n/* Frosted Glass Section Cards */\n.collapsable\
+    \ {\n  background: rgba(15, 21, 37, 0.68) !important;\n  backdrop-filter: blur(20px)\
+    \ saturate(190%) !important;\n  -webkit-backdrop-filter: blur(20px) saturate(190%)\
+    \ !important;\n  border: 1px solid rgba(255, 255, 255, 0.08) !important;\n  border-radius:\
+    \ 18px !important;\n  box-shadow: 0 12px 36px 0 rgba(0, 0, 0, 0.45) !important;\n\
+    \  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;\n}\n.collapsable:hover\
+    \ {\n  border-color: rgba(99, 102, 241, 0.4) !important;\n  box-shadow: 0 16px\
+    \ 40px 0 rgba(0, 0, 0, 0.6), 0 0 20px rgba(99, 102, 241, 0.15) !important;\n}\n\
+    \n/* Glowing Category Header */\n.section-header {\n  padding: 12px 18px !important;\n\
+    \  border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;\n}\n.section-header\
+    \ h3 {\n  font-weight: 700 !important;\n  letter-spacing: 0.4px !important;\n\
+    \  color: #f8fafc !important;\n}\n.section-icon {\n  filter: drop-shadow(0 0 8px\
+    \ rgba(56, 189, 248, 0.6)) !important;\n  color: #38bdf8 !important;\n}\n\n/*\
+    \ Tech Item Tiles */\n.item-wrapper {\n  margin: 4px !important;\n}\n.tile-title\
+    \ {\n  background: rgba(255, 255, 255, 0.035) !important;\n  border: 1px solid\
+    \ rgba(255, 255, 255, 0.06) !important;\n  border-radius: 12px !important;\n \
+    \ padding: 8px 12px !important;\n  transition: all 0.22s cubic-bezier(0.4, 0,\
+    \ 0.2, 1) !important;\n}\n.item-wrapper a:hover .tile-title {\n  background: rgba(99,\
+    \ 102, 241, 0.18) !important;\n  border-color: rgba(56, 189, 248, 0.6) !important;\n\
+    \  box-shadow: 0 8px 24px -4px rgba(56, 189, 248, 0.3), 0 0 12px rgba(99, 102,\
+    \ 241, 0.25) !important;\n  transform: translateY(-2px) !important;\n}\n\n/* Crisp\
+    \ App-Badge Favicons */\n.tile-icon, .item-icon img, .tile-icon img {\n  border-radius:\
+    \ 8px !important;\n  padding: 2px !important;\n  background: rgba(255, 255, 255,\
+    \ 0.08) !important;\n  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.5)) !important;\n\
+    \  width: 28px !important;\n  height: 28px !important;\n  object-fit: contain\
+    \ !important;\n}\n\n/* Text Polish */\n.tile-title .title {\n  font-weight: 600\
+    \ !important;\n  color: #f1f5f9 !important;\n}\n.tile-title .description {\n \
+    \ color: #94a3b8 !important;\n  font-size: 0.82rem !important;\n}"
 sections:
 - name: AI & Machine Learning
   icon: fas fa-brain
@@ -110,7 +163,7 @@ sections:
     description: Generate different image angles [Freemium]
     url: https://huggingface.co/spaces/multimodalart/qwen-image-multiple-angles-3d-camera
     icon: favicon
-  - title: Acapella extractor
+  - title: Acapella Extractor
     description: Extract clean vocals from any song for remixes and music production
       projects [Freemium]
     url: https://acapella-extractor.com
@@ -250,7 +303,7 @@ sections:
       or production [Freemium]
     url: https://vocalremover.org
     icon: favicon
-  - title: X minus
+  - title: X Minus
     description: Split any song into vocals and instrumentals for karaoke remixing
       or music production [Freemium]
     url: https://x-minus.pro
@@ -362,7 +415,7 @@ sections:
     description: Remove unwanted objects
     url: https://cleanup.pictures
     icon: favicon
-  - title: Sweezy cursors
+  - title: Sweezy Cursors
     description: Customize your mouse cursor
     url: https://sweezy-cursors.com
     icon: favicon
@@ -374,7 +427,7 @@ sections:
     description: YouTube for interactive content
     url: https://plethora.studio/?ref=indihunt
     icon: favicon
-  - title: Opendirectory finder
+  - title: Opendirectory Finder
     description: Search anything hidden on the internet
     url: https://opendirectory-finder.io
     icon: favicon
@@ -498,7 +551,7 @@ sections:
     description: Cyber intelligence and digital investigation platform
     url: https://shadowdragon.io
     icon: favicon
-  - title: 1aauto
+  - title: 1Aauto
     description: Free DIY car repair video guides showing step-by-step fixes for common
       vehicle problems [Free]
     url: https://1aauto.com
@@ -730,7 +783,7 @@ sections:
     description: 800M+ openly licensed images and audio
     url: https://openverse.org
     icon: favicon
-  - title: Sentinel hub
+  - title: Sentinel Hub
     description: Near real-time satellite imagery analysis
     url: https://sentinel-hub.com
     icon: favicon
@@ -742,7 +795,7 @@ sections:
     description: Social media template booster packs [Freemium]
     url: https://hyperpost.studio
     icon: favicon
-  - title: 3dtuning
+  - title: 3Dtuning
     description: Virtual car customization tool to visualize modifications and dream
       builds before spending money [Freemium ($2.99)]
     url: https://3dtuning.com
@@ -787,7 +840,7 @@ sections:
       who want professional results [Freemium ($30/mo)]
     url: https://framer.com
     icon: favicon
-  - title: Music map
+  - title: Music Map
     description: Discover similar artists visualized as a spatial map - type any band
       and explore [Free]
     url: https://music-map.com
@@ -864,7 +917,7 @@ sections:
     description: Millions of royalty-free images to use (Deepstock) [Free]
     url: https://deepstock.com/
     icon: favicon
-  - title: 29a
+  - title: 29A
     description: Create cosmic art with glowing brushstrokes (Neon Flames) [Free]
     url: https://29a.ch/sandbox/2011/neonflames/
     icon: favicon
@@ -880,7 +933,7 @@ sections:
     description: Free educational content
     url: https://openculture.com
     icon: favicon
-  - title: Learn anything
+  - title: Learn Anything
     description: Learn anything you like
     url: https://learn-anything.xyz
     icon: favicon
@@ -920,7 +973,7 @@ sections:
     description: Cat that replaces social media with micro-learning
     url: https://purrfessor.io
     icon: favicon
-  - title: 101languages
+  - title: 101Languages
     description: Free foreign language learning guides
     url: https://101languages.net
     icon: favicon
@@ -1091,7 +1144,7 @@ sections:
     description: Play retro games online
     url: https://emugames.net
     icon: favicon
-  - title: Globle game
+  - title: Globle Game
     description: Daily mystery country geography game
     url: https://globle-game.com
     icon: favicon
@@ -1274,7 +1327,7 @@ sections:
     description: Find free academic books
     url: https://libgen.is
     icon: favicon
-  - title: Sci hub
+  - title: Sci Hub
     description: Access research papers
     url: https://sci-hub.se
     icon: favicon
@@ -1314,7 +1367,7 @@ sections:
     description: Crypto market research and analytics
     url: https://messari.io
     icon: favicon
-  - title: Annas archive
+  - title: Annas Archive
     description: Universal shadow library search engine
     url: https://annas-archive.org
     icon: favicon
@@ -1492,7 +1545,7 @@ sections:
       learning a game engine [Free (Open Source)]
     url: https://internet-janitor.itch.io
     icon: favicon
-  - title: N8n
+  - title: N8N
     description: Open-source workflow automation that connects apps and automates
       tasks with visual builder [Freemium ($20/mo)]
     url: https://n8n.io
@@ -1696,7 +1749,7 @@ sections:
     description: All-in-one fake generator
     url: https://10015.io
     icon: favicon
-  - title: Temp mail
+  - title: Temp Mail
     description: Disposable temporary email address
     url: https://temp-mail.org
     icon: favicon
