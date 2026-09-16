@@ -26,7 +26,7 @@ appConfig:
   defaultOpeningMethod: newtab
   allowConfigEdit: true
   statusCheckInterval: 0
-  colCount: 4
+  colCount: 2
 sections:
 - name: "\U0001F6F0\uFE0F Mission Control & Live Intel"
   icon: fas fa-satellite-dish
@@ -34,6 +34,7 @@ sections:
     collapsed: false
     itemSize: medium
     rows: 1
+    cols: 1
   widgets:
   - type: clock
     options:
@@ -51,6 +52,7 @@ sections:
     collapsed: false
     itemSize: medium
     rows: 1
+    cols: 1
   widgets:
   - type: custom-search
     options:
@@ -77,6 +79,7 @@ sections:
     collapsed: false
     itemSize: medium
     rows: 1
+    cols: 2
   widgets:
   - type: daily-dev-news
     options: {}
@@ -85,7 +88,7 @@ sections:
   displayData:
     sortBy: title
     rows: 0
-    cols: 0
+    cols: 2
     collapsed: false
     itemSize: small
   items:
