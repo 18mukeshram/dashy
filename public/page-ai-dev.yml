@@ -639,8 +639,8 @@ sections:
     - ai
     - ml
   - title: Thispersondoesnotexist
-    description: AI-generated faces that don’t exist (This Person Does Not Exist)
-      [Free]
+    description: "AI-generated faces that don\u2019t exist (This Person Does Not Exist)\
+      \ [Free]"
     url: https://thispersondoesnotexist.com/
     icon: favicon
     tags:
@@ -1444,3 +1444,5 @@ sections:
     - photo
     - image-gen
     - creative
+appConfig:
+  layout: horizontal

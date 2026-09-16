@@ -360,3 +360,5 @@ sections:
     - finance
     - money
     - calculator
+appConfig:
+  layout: horizontal

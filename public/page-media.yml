@@ -559,3 +559,5 @@ sections:
     - audio
     - voice
     - music
+appConfig:
+  layout: horizontal
