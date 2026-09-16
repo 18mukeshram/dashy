@@ -9,7 +9,7 @@ appConfig:
   layout: auto
   iconSize: medium
   language: en
-  statusCheck: false
+  statusCheck: true
   enableQuickSearch: true
   enableSearchHotkeys: true
   showSearchClearButton: true
@@ -93,6 +93,7 @@ appConfig:
     \ {\n  background: rgba(56, 189, 248, 0.6);\n}\n"
   defaultOpeningMethod: newtab
   allowConfigEdit: true
+  statusCheckInterval: 300
 sections:
 - name: 🛰️ Mission Control & Live Intel
   icon: fas fa-satellite-dish
