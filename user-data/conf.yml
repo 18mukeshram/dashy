@@ -69,6 +69,8 @@ appConfig:
     \ !important;\n}\n\n/* Text Polish */\n.tile-title .title {\n  font-weight: 600\
     \ !important;\n  color: #f1f5f9 !important;\n}\n.tile-title .description {\n \
     \ color: #94a3b8 !important;\n  font-size: 0.82rem !important;\n}"
+  defaultOpeningMethod: newtab
+  allowConfigEdit: true
 sections:
 - name: AI & Machine Learning
   icon: fas fa-brain
@@ -87,7 +89,7 @@ sections:
       exposure is
     url: https://AIMAP
     icon: favicon
-  - title: Poe
+  - title: Poe AI
     description: Access to all premium AI tools
     url: https://poe.com
     icon: favicon
@@ -105,15 +107,15 @@ sections:
     icon: favicon
   - title: Z-Image Turbo
     description: Create premium looking AI images for free
-    url: https://www.google.com/search?q=Z-Image%20Turbo
+    url: https://huggingface.co/spaces/Tongyi-MAI/Z-Image-Turbo
     icon: favicon
   - title: Trellis 2
     description: Turn any image into 3D model
-    url: https://www.google.com/search?q=Trellis%202
+    url: https://trellis3d.co
     icon: favicon
   - title: LTX 2 Distilled
     description: Turn one photo into talking video
-    url: https://www.google.com/search?q=LTX%202%20Distilled
+    url: https://huggingface.co/spaces/Lightricks/ltx-2-distilled
     icon: favicon
   - title: MUAPI
     description: Top AI video & image models in one place
@@ -198,7 +200,7 @@ sections:
       platforms [Freemium]
     url: https://coze.com
     icon: favicon
-  - title: Hf
+  - title: DeepSite (HuggingFace)
     description: AI generates complete websites from text prompts using open-source
       models - free hosting included [Free]
     url: https://enzostvs-deepsite.hf.space
@@ -293,7 +295,7 @@ sections:
       - free research demo [Free]
     url: https://sketch.metademolab.com
     icon: favicon
-  - title: Zoo
+  - title: Zoo Text-to-CAD
     description: AI generates 3D CAD models from text descriptions for engineering
       and design projects [Free]
     url: https://text-to-cad.zoo.dev
@@ -437,7 +439,7 @@ sections:
     icon: favicon
   - title: Internet Archive
     description: Search the history of more than 1 trillion web pages on the net
-    url: https://www.google.com/search?q=Internet%20Archive
+    url: https://archive.org
     icon: favicon
   - title: Capsulehub
     description: Just one click and it will capture entire conversation into a capsule
@@ -703,7 +705,7 @@ sections:
     description: Browser-based photo editor
     url: https://photopea.com
     icon: favicon
-  - title: Ray
+  - title: Ray.so
     description: Create code images
     url: https://ray.so
     icon: favicon
@@ -715,7 +717,7 @@ sections:
     description: Build device mockups
     url: https://smartmockups.com
     icon: favicon
-  - title: Zoo
+  - title: Zookeeper 3D
     description: Turn ideas into 3D
     url: https://zoo.dev/zookeeper
     icon: favicon
@@ -723,11 +725,11 @@ sections:
     description: Build storyboards without drawing
     url: https://storytribeapp.com
     icon: favicon
-  - title: netryx astra v2
+  - title: Netryx Astra V2
     description: Use one photo and find where it was taken even without metadata
-    url: https://www.google.com/search?q=netryx%20astra%20v2
+    url: https://github.com/sparkyniner/Netryx-Astra-V2-Geolocation-Tool
     icon: favicon
-  - title: By
+  - title: HomeByMe
     description: Design your own home in 3D
     url: https://home.by.me
     icon: favicon
@@ -745,7 +747,7 @@ sections:
     icon: favicon
   - title: Omni Image Editor
     description: Edit any image with AI
-    url: https://www.google.com/search?q=Omni%20Image%20Editor
+    url: https://huggingface.co/spaces/selfit-camera/Omni-Image-Editor
     icon: favicon
   - title: Nasa
     description: Explore solar system in 3D
@@ -759,7 +761,7 @@ sections:
     description: Satellite imagery of Earth changes
     url: https://browser.dataspace.copernicus.eu
     icon: favicon
-  - title: Si
+  - title: Smithsonian Open Access
     description: Spin museum artifacts in 3D & free images
     url: https://openaccess.si.edu
     icon: favicon
@@ -917,7 +919,7 @@ sections:
     description: Millions of royalty-free images to use (Deepstock) [Free]
     url: https://deepstock.com/
     icon: favicon
-  - title: 29A
+  - title: Neon Flames
     description: Create cosmic art with glowing brushstrokes (Neon Flames) [Free]
     url: https://29a.ch/sandbox/2011/neonflames/
     icon: favicon
@@ -1033,7 +1035,7 @@ sections:
       with reading great books [Freemium]
     url: https://typelit.io
     icon: favicon
-  - title: Zty
+  - title: ZType
     description: Typing game where you shoot down enemy ships by typing words - fun
       skill practice [Free]
     url: https://zty.pe
@@ -1046,7 +1048,7 @@ sections:
     description: Printable cheat sheets (Cheatography) [Free]
     url: https://cheatography.com
     icon: favicon
-  - title: Edx
+  - title: edX
     description: Free university courses (edX) [Freemium]
     url: https://www.edx.org/
     icon: favicon
@@ -1443,7 +1445,7 @@ sections:
     description: Sit in window seat of any plane flying over you
     url: https://towaway.live
     icon: favicon
-  - title: My
+  - title: Volcano Monitor
     description: Monitor volcanoes & ash in real time
     url: https://abu.cikoytew.my.id
     icon: favicon
@@ -1503,7 +1505,7 @@ sections:
     cols: 0
     collapsed: false
   items:
-  - title: Now
+  - title: Carbon
     description: Style code snippets
     url: https://carbon.now.sh
     icon: favicon
@@ -1545,7 +1547,7 @@ sections:
       learning a game engine [Free (Open Source)]
     url: https://internet-janitor.itch.io
     icon: favicon
-  - title: N8N
+  - title: n8n Automation
     description: Open-source workflow automation that connects apps and automates
       tasks with visual builder [Freemium ($20/mo)]
     url: https://n8n.io
@@ -1594,11 +1596,11 @@ sections:
     icon: favicon
   - title: MVT (Mobile Verification Toolkit)
     description: Scan your phone for traces of pegasus spyware
-    url: https://www.google.com/search?q=MVT%20%28Mobile%20Verification%20Toolkit%29
+    url: https://github.com/mvt-project/mvt
     icon: favicon
   - title: VOID ACCESS
     description: Search leaked logins crypto wallet references & dark-web mentions
-    url: https://www.google.com/search?q=VOID%20ACCESS
+    url: https://github.com/KatrielMoses/voidaccess
     icon: favicon
   - title: MAILACCESS
     description: Find leaked accounts profiles and public exposure signals
@@ -1672,7 +1674,7 @@ sections:
     description: Alternative financial data & political trading
     url: https://quiverquant.com
     icon: favicon
-  - title: Ac
+  - title: Oxford Roman Economy
     description: Ancient Roman trade and shipwreck database
     url: https://oxrep.classics.ox.ac.uk
     icon: favicon
