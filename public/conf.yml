@@ -94,6 +94,42 @@ appConfig:
   defaultOpeningMethod: newtab
   allowConfigEdit: true
 sections:
+- name: 🛰️ Mission Control & Live Intel
+  icon: fas fa-satellite-dish
+  displayData:
+    collapsed: false
+    itemSize: medium
+    rows: 1
+  widgets:
+  - type: clock
+    options:
+      customCityName: Mission Time
+      hideDate: false
+      hideSeconds: false
+  - type: public-ip
+    options:
+      hideLocation: false
+  - type: apod
+    options: {}
+- name: 📡 Worldwide Tech, AI & Space Intelligence
+  icon: fas fa-broadcast-tower
+  displayData:
+    collapsed: false
+    itemSize: medium
+    rows: 1
+  widgets:
+  - type: rss-feed
+    options:
+      rssUrl: https://techcrunch.com/feed/
+      limit: 4
+  - type: rss-feed
+    options:
+      rssUrl: https://venturebeat.com/category/ai/feed/
+      limit: 4
+  - type: rss-feed
+    options:
+      rssUrl: https://www.space.com/feeds/all
+      limit: 4
 - name: Productivity & Utilities
   icon: fas fa-screwdriver-wrench
   displayData:
