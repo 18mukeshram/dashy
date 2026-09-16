@@ -107,286 +107,636 @@ sections:
     description: Discover similar apps
     url: https://alternativeto.net
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Archive
     description: Browse archived websites
     url: https://archive.org
     icon: si-internetarchive
+    tags:
+    - archive
+    - utility
+    - productivity
+    - tools
+    - download
+    - files
   - title: Wolframalpha
     description: Solves math instantly
     url: https://wolframalpha.com
     icon: si-wolframmathematica
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Cleanup
     description: Remove unwanted objects
     url: https://cleanup.pictures
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Sweezy Cursors
     description: Customize your mouse cursor
     url: https://sweezy-cursors.com
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Chute
     description: Send files through notch
     url: https://curvw.chute.fyi
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Plethora
     description: YouTube for interactive content
     url: https://plethora.studio/?ref=indihunt
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Opendirectory Finder
     description: Search anything hidden on the internet
     url: https://opendirectory-finder.io
     icon: favicon
+    tags:
+    - recon
+    - lookup
+    - utility
+    - productivity
+    - tools
+    - osint
   - title: Sejda
     description: Edit PDF for free
     url: https://sejda.com
     icon: favicon
+    tags:
+    - reading
+    - utility
+    - books
+    - productivity
+    - tools
+    - pdf
   - title: Internet Archive
     description: Search the history of more than 1 trillion web pages on the net
     url: https://archive.org
     icon: si-internetarchive
+    tags:
+    - recon
+    - lookup
+    - utility
+    - archive
+    - productivity
+    - tools
+    - osint
+    - download
   - title: Capsulehub
     description: Just one click and it will capture entire conversation into a capsule
     url: https://Capsulehub
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Musclewiki
     description: Select the muscle part you want to train & workout plan
     url: https://musclewiki.com
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Grayhatwarfare
     description: Find files that were never meant to be found
     url: https://buckets.grayhatwarfare.com
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Delphi
     description: Find tons of free tools that should be paid
     url: https://delphi.tools
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Darebee
     description: Get completely free unlimited workouts
     url: https://darebee.com
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Downdetector
     description: Check if apps and websites are down
     url: https://downdetector.com
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Mynoise
     description: Customizable soundscapes for focus and relaxation
     url: https://mynoise.net
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Archive
     description: Preserved snapshot of webpage before it gets deleted
     url: https://archive.ph
     icon: favicon
+    tags:
+    - archive
+    - utility
+    - productivity
+    - tools
+    - download
+    - files
   - title: Worldwatcher
     description: Teleport into live cameras around the world
     url: https://worldwatcher.live
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Servier
     description: Over 3000 medical illustrations
     url: https://smart.servier.com
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Ninite
     description: Install all apps on a new PC at once
     url: https://ninite.com
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Ciechanow
     description: Explore complex physics & math ideas interactively
     url: https://ciechanow.ski/archives
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Histography
     description: Interactive timeline of historical events
     url: https://histography.io
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Warmwind
     description: Automate any task with AI
     url: https://warmwind.com
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Kickresume
     description: Create a beautiful resume
     url: https://kickresume.com
     icon: favicon
+    tags:
+    - utility
+    - productivity
+    - tools
+    - jobs
+    - career
+    - resume
   - title: Halfbakedharvest
     description: Discover delicious recipes
     url: https://halfbakedharvest.com
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Prioritypass
     description: Global airport lounge access
     url: https://prioritypass.com
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Abeto
     description: Virtual world NPC talk and adventure
     url: https://messenger.abeto.com
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Cvaurum
     description: Match resume to job postings
     url: https://cvaurum.com
     icon: favicon
+    tags:
+    - utility
+    - productivity
+    - tools
+    - jobs
+    - career
+    - resume
   - title: Terraink
     description: Stylized city poster generator
     url: https://terraink.app
     icon: favicon
+    tags:
+    - editor
+    - utility
+    - productivity
+    - tools
+    - converter
   - title: Massgrave
     description: Windows and Office activation & downloads
     url: https://massgrave.dev
     icon: favicon
+    tags:
+    - programming
+    - developer
+    - utility
+    - productivity
+    - tools
+    - coding
   - title: Whatsmyname
     description: Search username across hundreds of platforms
     url: https://whatsmyname.app
     icon: favicon
+    tags:
+    - recon
+    - lookup
+    - utility
+    - productivity
+    - tools
+    - osint
   - title: Crackstation
     description: Free password hash lookup engine
     url: https://crackstation.net
     icon: favicon
+    tags:
+    - recon
+    - lookup
+    - utility
+    - productivity
+    - tools
+    - osint
   - title: Replit
     description: Design build and host apps in browser
     url: https://replit.com
     icon: si-replit
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Vole
     description: Delightfully weird web toys and surprises
     url: https://vole.wtf
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Lens
     description: Global patent and scholarly literature search
     url: https://lens.org
     icon: favicon
+    tags:
+    - recon
+    - papers
+    - lookup
+    - utility
+    - research
+    - productivity
+    - tools
+    - osint
   - title: Documentcloud
     description: Analyze public and investigative primary documents
     url: https://documentcloud.org
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Shadowdragon
     description: Cyber intelligence and digital investigation platform
     url: https://shadowdragon.io
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: 1Aauto
     description: Free DIY car repair video guides showing step-by-step fixes for common
       vehicle problems [Free]
     url: https://1aauto.com
     icon: favicon
+    tags:
+    - streaming
+    - watch
+    - utility
+    - productivity
+    - tools
+    - video
   - title: Myretrotvs
     description: Nostalgic 90s TV channel experience that recreates the feeling of
       old-school channel surfing [Free]
     url: https://90s.myretrotvs.com
     icon: favicon
+    tags:
+    - learning
+    - utility
+    - productivity
+    - tools
+    - courses
+    - study
   - title: Drivenlisten
     description: Virtual drives through cities worldwide with real dashcam footage
       and local radio [Free]
     url: https://drivenlisten.com
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Fakeupdate
     description: Fake system update screens perfect for office pranks or looking busy
       during meetings [Free]
     url: https://fakeupdate.net
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Freesewing
     description: Generate custom sewing patterns from your exact body measurements
       - open source and free [Free (Open Source)]
     url: https://freesewing.eu
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Github
     description: Cute animated cat desktop overlay that reacts to your typing and
       mouse movements [Free (Open Source)]
     url: https://github.com-ayangweb-BongoCat
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Google
     description: Google's hidden Katamari game Easter egg - roll up search results
       into a ball [Free]
     url: https://google.com-search-katamari
     icon: favicon
+    tags:
+    - recon
+    - lookup
+    - utility
+    - productivity
+    - tools
+    - osint
+    - retro
+    - games
   - title: Makemydrivefun
     description: Find quirky roadside attractions and interesting detours along your
       planned driving route [Free]
     url: https://makemydrivefun.com
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Mcbroken
     description: Check if the McDonald's ice cream machine near you is working before
       you drive there [Free]
     url: https://mcbroken.com
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Myfridgefood
     description: Recipe finder that suggests meals based on ingredients you already
       have at home [Free]
     url: https://myfridgefood.com
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Onelook
     description: Reverse dictionary that finds words when you only know the definition
       or concept [Free]
     url: https://onelook.com
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Pointerpointer
     description: Whimsical website that finds photos of people pointing exactly where
       your cursor is [Free]
     url: https://pointerpointer.com
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Roadtrippers
     description: Road trip planning tool with stops attractions and route optimization
       all in one [Freemium ($8/mo)]
     url: https://roadtrippers.com
     icon: favicon
+    tags:
+    - editor
+    - utility
+    - productivity
+    - tools
+    - converter
   - title: Ssemble
     description: Browser-based video editor with AI features for creating and editing
       without downloads [Freemium]
     url: https://ssemble.com
     icon: favicon
+    tags:
+    - editor
+    - streaming
+    - watch
+    - utility
+    - productivity
+    - tools
+    - video
+    - converter
   - title: Stirlingpdf
     description: Open-source all-in-one PDF manipulation tool you can self-host for
       privacy [Free (Open Source)]
     url: https://stirlingpdf.io
     icon: favicon
+    tags:
+    - bypass
+    - editor
+    - anonymous
+    - converter
+    - utility
+    - books
+    - reading
+    - productivity
   - title: Tinywow
     description: Swiss Army knife of 200+ free online tools for PDF image video and
       file conversions [Freemium ($5.99/mo)]
     url: https://tinywow.com
     icon: favicon
+    tags:
+    - art
+    - streaming
+    - watch
+    - utility
+    - image-gen
+    - photo
+    - productivity
+    - tools
   - title: Trace
     description: Reverse image search for anime that identifies the exact scene from
       any screenshot [Free]
     url: https://trace.moe
     icon: favicon
+    tags:
+    - recon
+    - art
+    - lookup
+    - utility
+    - image-gen
+    - photo
+    - productivity
+    - tools
   - title: Unpigeon
     description: Convert email newsletter subscriptions to RSS feeds to escape inbox
       clutter [Free]
     url: https://unpigeon.me
     icon: favicon
+    tags:
+    - editor
+    - utility
+    - productivity
+    - tools
+    - converter
   - title: Versus
     description: Side-by-side product comparisons with detailed spec breakdowns across
       phones laptops and more [Free]
     url: https://versus.com
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Wifimap
     description: Crowdsourced database of WiFi passwords from cafes airports and public
       places worldwide [Freemium]
     url: https://wifimap.io
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Housecreep
     description: Address crime history (House Creep) [Free]
     url: https://www.housecreep.com/
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Cityprotect
     description: Police incident map (City Protect) [Free]
     url: https://cityprotect.com
     icon: favicon
+    tags:
+    - satellite
+    - maps
+    - utility
+    - productivity
+    - tools
+    - earth
   - title: Omnicalculator
     description: Specialty calculators (Omni Calculator) [Free]
     url: https://www.omnicalculator.com/
     icon: favicon
+    tags:
+    - budget
+    - finance
+    - utility
+    - productivity
+    - tools
+    - calculator
   - title: Ilovepdf
     description: PDF toolkit (I Love PDF) [Freemium]
     url: https://www.ilovepdf.com
     icon: favicon
+    tags:
+    - reading
+    - utility
+    - books
+    - productivity
+    - tools
+    - pdf
   - title: Accountkiller
     description: Delete-account guides (Account Killer) [Free]
     url: https://www.accountkiller.com/en/home
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Namechk
     description: Username availability (Namechk) [Free]
     url: https://namechk.com/
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Gethuman
     description: Human support shortcuts (Get Human) [Free]
     url: https://www.gethuman.com
     icon: favicon
+    tags:
+    - productivity
+    - tools
+    - utility
   - title: Savefbs
     description: Download Facebook videos for free (SaveFBS) [Free]
     url: https://savefbs.com/
     icon: favicon
+    tags:
+    - archive
+    - utility
+    - productivity
+    - tools
+    - download
+    - files
 pages:
 - name: AI & Dev Lab
   path: page-ai-dev.yml

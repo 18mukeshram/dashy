@@ -14,103 +14,229 @@ sections:
     description: Track where to stream
     url: https://justwatch.com
     icon: favicon
+    tags:
+    - streaming
+    - watch
+    - ai
+    - video
+    - ml
   - title: Unscreen
     description: Delete video backgrounds
     url: https://unscreen.com
     icon: favicon
+    tags:
+    - streaming
+    - watch
+    - ai
+    - video
+    - ml
   - title: Cinephile
     description: Search watch movies shows anime & many more
     url: https://cinephile.live
     icon: favicon
+    tags:
+    - recon
+    - lookup
+    - ai
+    - osint
+    - ml
   - title: Fmhy
     description: Download & watch any movies anime cartoon series etc
     url: https://fmhy.net
     icon: favicon
+    tags:
+    - archive
+    - ai
+    - download
+    - files
+    - ml
   - title: Ihavenotv
     description: Website to watch documentaries
     url: https://ihavenotv.com
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Flystream
     description: Watch movies tv shows and more
     url: https://flystream.net
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Duto
     description: Access to all streaming platforms for free
     url: https://duto.gd
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Everythingmoe
     description: Contains everything about anime
     url: https://everythingmoe.com
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Famelack
     description: Watch free live world TV & listen to online radio stations
     url: https://famelack.com
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Cineby
     description: Watch & download movies TV shows
     url: https://cineby.sc
     icon: favicon
+    tags:
+    - archive
+    - ai
+    - download
+    - files
+    - ml
   - title: Teraplay
     description: Play Terabox videos online & download them fast
     url: https://teraplay.com
     icon: favicon
+    tags:
+    - files
+    - archive
+    - ai
+    - retro
+    - download
+    - games
+    - ml
+    - gaming
   - title: Musicforprogramming
     description: Music mixes to help concentrate while coding
     url: https://musicforprogramming.net
     icon: favicon
+    tags:
+    - voice
+    - sound
+    - ai
+    - audio
+    - ml
   - title: Moviescenemap
     description: Shows movie scenes filmed on streets
     url: https://moviescenemap.com
     icon: favicon
+    tags:
+    - streaming
+    - watch
+    - ai
+    - video
+    - ml
   - title: Wan 2
     description: Turn any image into moving video
     url: https://WAN 2.2
     icon: favicon
+    tags:
+    - art
+    - streaming
+    - watch
+    - photo
+    - image-gen
+    - ai
+    - video
+    - ml
   - title: Vidbox
     description: Access to 100s of streaming platforms
     url: https://vidbox.cc
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Youlearn
     description: YouTube video detailed explanation
     url: https://app.youlearn.ai
     icon: favicon
+    tags:
+    - streaming
+    - watch
+    - ai
+    - video
+    - ml
   - title: Streamex
     description: Stream almost any movie or series for free
     url: https://streamex.sh
     icon: favicon
+    tags:
+    - streaming
+    - watch
+    - ai
+    - video
+    - ml
   - title: Runwayml
     description: Create video and graphics talking to AI
     url: https://runwayml.com
     icon: favicon
+    tags:
+    - streaming
+    - watch
+    - ai
+    - video
+    - ml
   - title: Setteidreams
     description: Browse anime character design references
     url: https://setteidreams.net
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Jitter
     description: Motion design and animation in the browser
     url: https://jitter.video
     icon: favicon
+    tags:
+    - streaming
+    - watch
+    - ai
+    - video
+    - ml
   - title: Agoodmovietowatch
     description: Curated movie picks (A Good Movie) [Free]
     url: https://agoodmovietowatch.com/
     icon: favicon
+    tags:
+    - streaming
+    - watch
+    - ai
+    - video
+    - ml
   - title: Reelgood
     description: Random title picker (ReelGood Roulette) [Free]
     url: https://reelgood.com/roulette/netflix
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Movielens
     description: Get movie recommendations based on ratings (Movielens) [Free]
     url: https://movielens.org/
     icon: favicon
+    tags:
+    - streaming
+    - watch
+    - ai
+    - video
+    - ml
   - title: Imgur
     description: View viral images, memes, and GIFs (Imgur) [Free]
     url: https://imgur.com/
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Randomstreetview
     description: Jump to random Google Street View locations (Random Street View)
       [Free]
     url: https://randomstreetview.com/
     icon: favicon
+    tags:
+    - ai
+    - ml
 - name: Gaming & Fun
   icon: fas fa-gamepad
   displayData:
@@ -123,124 +249,266 @@ sections:
     description: Cruise through endless car driving world directly in your browser
     url: https://slowroads.io
     icon: favicon
+    tags:
+    - gaming
+    - play
+    - games
   - title: Startmycar
     description: Find your car manual
     url: https://www.startmycar.com
     icon: favicon
+    tags:
+    - gaming
+    - play
+    - games
   - title: Steamgg
     description: Access to huge collection of PC games
     url: https://steamgg.net
     icon: favicon
+    tags:
+    - gaming
+    - play
+    - games
   - title: Neal
     description: Find the most fun websites all in one place
     url: https://neal.fun
     icon: favicon
+    tags:
+    - gaming
+    - play
+    - games
   - title: Mcstumble
     description: Cure boredom & explore hidden corners of the web
     url: https://mcstumble.com
     icon: favicon
+    tags:
+    - gaming
+    - play
+    - games
   - title: Adescargar
     description: Download apps
     url: https://adescargar.net
     icon: favicon
+    tags:
+    - archive
+    - play
+    - download
+    - games
+    - files
+    - gaming
   - title: Ankergame
     description: Download PC games for free
     url: https://ankergame.net
     icon: favicon
+    tags:
+    - archive
+    - play
+    - download
+    - games
+    - files
+    - gaming
   - title: Scaleofuniverse
     description: View from sub atomic particles to observable universe
     url: https://scaleofuniverse.com
     icon: favicon
+    tags:
+    - gaming
+    - play
+    - games
   - title: Startmycar
     description: Manual guides of any vehicle
     url: https://startmycar.com
     icon: favicon
+    tags:
+    - gaming
+    - play
+    - games
   - title: Electude
     description: Simulate real car repairs in browser
     url: https://simulator.electude.com
     icon: favicon
+    tags:
+    - gaming
+    - play
+    - games
   - title: Autocatalogarchive
     description: Explore original version of any car
     url: https://autocatalogarchive.com
     icon: favicon
+    tags:
+    - gaming
+    - play
+    - games
   - title: Playto
     description: Accept payments globally
     url: https://playto.so
     icon: favicon
+    tags:
+    - gaming
+    - play
+    - games
   - title: Emulatorgameszone
     description: Play console games online
     url: https://emulatorgameszone.com
     icon: favicon
+    tags:
+    - gaming
+    - retro
+    - play
+    - games
   - title: Wemod
     description: Single-player PC game mods and trainers
     url: https://wemod.com
     icon: favicon
+    tags:
+    - gaming
+    - retro
+    - play
+    - games
   - title: Emugames
     description: Play retro games online
     url: https://emugames.net
     icon: favicon
+    tags:
+    - gaming
+    - retro
+    - play
+    - games
   - title: Globle Game
     description: Daily mystery country geography game
     url: https://globle-game.com
     icon: favicon
+    tags:
+    - satellite
+    - maps
+    - play
+    - retro
+    - earth
+    - games
+    - gaming
   - title: Airconsole
     description: Multiplayer party games using phones as controllers - no console
       or downloads needed [Freemium ($4.99/mo)]
     url: https://airconsole.com
     icon: favicon
+    tags:
+    - gaming
+    - play
+    - games
   - title: Github
     description: Procedural fantasy map generator for D&D campaigns and worldbuilding
       projects [Free (Open Source)]
     url: https://azgaar.github.io
     icon: favicon
+    tags:
+    - satellite
+    - editor
+    - maps
+    - play
+    - utility
+    - earth
+    - games
+    - converter
   - title: Beforeiplay
     description: Spoiler-free tips and advice to read before starting any new video
       game [Free]
     url: https://beforeiplay.com
     icon: favicon
+    tags:
+    - streaming
+    - watch
+    - play
+    - books
+    - reading
+    - retro
+    - video
+    - games
   - title: Builditapp
     description: Step-by-step Minecraft building guides with layer-by-layer instructions
       for impressive structures [Freemium]
     url: https://builditapp.com
     icon: favicon
+    tags:
+    - gaming
+    - play
+    - games
   - title: Chunkbase
     description: Find Minecraft structures and biomes by entering your world seed
       before exploring [Free]
     url: https://chunkbase.com
     icon: favicon
+    tags:
+    - gaming
+    - play
+    - games
   - title: Lostgamer
     description: GeoGuessr but for video games - guess your location from in-game
       screenshots [Free]
     url: https://lostgamer.io
     icon: favicon
+    tags:
+    - streaming
+    - watch
+    - play
+    - retro
+    - video
+    - games
+    - gaming
   - title: Mapgenie
     description: Interactive game maps with collectible tracking for completionists
       who want 100% in games [Freemium ($10/yr)]
     url: https://mapgenie.io
     icon: favicon
+    tags:
+    - gaming
+    - retro
+    - play
+    - games
   - title: Moewalls
     description: Animated wallpapers and live desktop backgrounds for Windows with
       huge variety [Free]
     url: https://moewalls.com
     icon: favicon
+    tags:
+    - gaming
+    - play
+    - games
   - title: Systemrequirementslab
     description: Check if your PC can run a game by scanning your specs against requirements
       [Free]
     url: https://systemrequirementslab.com
     icon: favicon
+    tags:
+    - gaming
+    - retro
+    - play
+    - games
   - title: Github
     description: Collection of procedural generators for dungeon maps medieval cities
       and fantasy worlds [Free]
     url: https://watabou.github.io
     icon: favicon
+    tags:
+    - gaming
+    - play
+    - games
   - title: Playretrogames
     description: Browser retro games (Play Retro Games) [Free]
     url: https://playretrogames.com
     icon: favicon
+    tags:
+    - gaming
+    - retro
+    - play
+    - games
   - title: Geoguessr
     description: Guess real-world locations using Street View (GeoGuessr) [Free]
     url: https://www.geoguessr.com/free
     icon: favicon
+    tags:
+    - gaming
+    - play
+    - games
 - name: Music & Audio
   icon: fas fa-headphones
   displayData:
@@ -253,15 +521,38 @@ sections:
     description: TV/film song ID (Tune Find) [Free]
     url: https://tunefind.com/
     icon: favicon
+    tags:
+    - voice
+    - sound
+    - streaming
+    - watch
+    - music
+    - video
+    - audio
   - title: Vocalremover
     description: Split vocals & music (Vocal Remover) [Free]
     url: https://vocalremover.com/
     icon: favicon
+    tags:
+    - sound
+    - audio
+    - voice
+    - music
   - title: Whosampled
     description: Song samples database (WhoSampled) [Free]
     url: https://www.whosampled.com/
     icon: favicon
+    tags:
+    - sound
+    - audio
+    - voice
+    - music
   - title: Patatap
     description: Create music and visuals with keyboard input (Patatap) [Free]
     url: https://patatap.com/
     icon: favicon
+    tags:
+    - sound
+    - audio
+    - voice
+    - music

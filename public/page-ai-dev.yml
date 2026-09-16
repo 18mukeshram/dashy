@@ -15,315 +15,678 @@ sections:
     description: Better version of chatgpt for academics
     url: https://atlas.org/home
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: AIMAP
     description: Map exposed AI servers across the Internet & see how risky their
       exposure is
     url: https://AIMAP
     icon: favicon
+    tags:
+    - satellite
+    - maps
+    - ai
+    - earth
+    - ml
   - title: Poe AI
     description: Access to all premium AI tools
     url: https://poe.com
     icon: si-poe
+    tags:
+    - ai
+    - ml
   - title: Tranchi
     description: AI that helps you buy houses with $5K
     url: https://tranchi.ai
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Claude
     description: Get all the free Claude courses
     url: https://claude.com/resources/
     icon: favicon
+    tags:
+    - assistant
+    - ai
+    - ml
+    - chatbot
+    - llm
   - title: Vercel
     description: Human anatomy in 2284 modeled pieces
     url: https://human-atlas-seven.vercel.app
     icon: si-vercel
+    tags:
+    - ai
+    - ml
   - title: Z-Image Turbo
     description: Create premium looking AI images for free
     url: https://huggingface.co/spaces/Tongyi-MAI/Z-Image-Turbo
     icon: si-huggingface
+    tags:
+    - art
+    - photo
+    - image-gen
+    - ai
+    - ml
   - title: Trellis 2
     description: Turn any image into 3D model
     url: https://trellis3d.co
     icon: favicon
+    tags:
+    - art
+    - photo
+    - image-gen
+    - ai
+    - render
+    - ml
+    - 3d
+    - modeling
   - title: LTX 2 Distilled
     description: Turn one photo into talking video
     url: https://huggingface.co/spaces/Lightricks/ltx-2-distilled
     icon: si-huggingface
+    tags:
+    - art
+    - streaming
+    - watch
+    - photo
+    - image-gen
+    - ai
+    - video
+    - ml
   - title: MUAPI
     description: Top AI video & image models in one place
     url: https://MUAPI
     icon: favicon
+    tags:
+    - art
+    - streaming
+    - watch
+    - photo
+    - image-gen
+    - ai
+    - video
+    - ml
   - title: Pentestgpt
     description: Learn to ethically hack anything
     url: https://pentestgpt.ai
     icon: favicon
+    tags:
+    - learning
+    - ai
+    - security
+    - cyber
+    - courses
+    - ml
+    - study
+    - pentest
   - title: Yupp
     description: Gives most paid AI tools at no cost
     url: https://yupp.ai
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Artflow
     description: Type prompt & create AI videos
     url: https://artflow.ai/workspace
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Ourworldindata
     description: Data on AI wealth poverty climate and humanity
     url: https://ourworldindata.org
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Genvi
     description: Visual generative models node workflow
     url: https://genvi.io
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Expertise
     description: Reusable AI playbook skills
     url: https://expertise.ai
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Thetawise
     description: AI explainer video for textbook notes and PPTs
     url: https://thetawise.ai
     icon: favicon
+    tags:
+    - streaming
+    - watch
+    - ai
+    - video
+    - ml
   - title: Mathgpt
     description: Solve complex math with AI
     url: https://mathgpt.ai
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Voxcpm
     description: Natural expressive AI voices
     url: https://voxcpm.net
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Airmore
     description: All the newest AI breakthroughs and news in one place
     url: https://airmore.ai
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Huggingface
     description: Generate different image angles [Freemium]
     url: https://huggingface.co/spaces/multimodalart/qwen-image-multiple-angles-3d-camera
     icon: si-huggingface
+    tags:
+    - art
+    - photo
+    - image-gen
+    - ai
+    - render
+    - ml
+    - 3d
+    - modeling
   - title: Acapella Extractor
     description: Extract clean vocals from any song for remixes and music production
       projects [Freemium]
     url: https://acapella-extractor.com
     icon: favicon
+    tags:
+    - voice
+    - sound
+    - ai
+    - audio
+    - ml
   - title: Emergent
     description: AI builds functional web app MVPs from text prompts - great for rapid
       prototyping [Freemium]
     url: https://app.emergent.sh
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Autodraw
     description: Google's AI that turns rough sketches into clean professional drawings
       instantly [Free]
     url: https://autodraw.com
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Convex
     description: AI generates real-time app backends from prompts - deploy working
       prototypes in minutes [Freemium]
     url: https://chef.convex.dev
     icon: favicon
+    tags:
+    - programming
+    - developer
+    - ai
+    - ml
+    - coding
   - title: Chefgpt
     description: AI suggests recipes based on ingredients already in your fridge to
       reduce food waste [Free]
     url: https://chefgpt.xyz
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Collov
     description: AI virtual home staging that transforms empty rooms into furnished
       spaces for listings [Freemium]
     url: https://collov.ai
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Coze
     description: Build custom AI chatbots and agents without code - deploy to messaging
       platforms [Freemium]
     url: https://coze.com
     icon: favicon
+    tags:
+    - programming
+    - developer
+    - ai
+    - ml
+    - coding
   - title: DeepSite (HuggingFace)
     description: AI generates complete websites from text prompts using open-source
       models - free hosting included [Free]
     url: https://enzostvs-deepsite.hf.space
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Flowith
     description: AI workspace with infinite canvas for non-linear conversations and
       complex reasoning tasks [Freemium]
     url: https://flowith.io
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Freepik
     description: Stock graphics library with AI image generation tools - one-stop
       shop for visual assets [Freemium ($9/mo)]
     url: https://freepik.com
     icon: favicon
+    tags:
+    - stocks
+    - art
+    - trading
+    - crypto
+    - photo
+    - image-gen
+    - ai
+    - books
   - title: Gamma
     description: AI generates complete presentations from text - turn ideas into slides
       in minutes [Freemium ($10/mo)]
     url: https://gamma.app
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Github
     description: Collection of leaked AI system prompts from popular tools - study
       how they're built [Free (Open Source)]
     url: https://github.com-jujumilk3-leaked-system-prompts
     icon: favicon
+    tags:
+    - learning
+    - ai
+    - courses
+    - ml
+    - study
   - title: Gptexcel
     description: AI generates spreadsheet formulas from plain English - stop memorizing
       VLOOKUP syntax [Freemium ($6.30/mo)]
     url: https://gptexcel.uk
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Heyzxz
     description: AI voice synthesis and cloning for content creators needing voiceovers
       without recording [Freemium]
     url: https://heyzxz.me
     icon: favicon
+    tags:
+    - voice
+    - sound
+    - ai
+    - audio
+    - ml
   - title: Intangible
     description: AI video generation for pre-production visualization - save thousands
       on production costs [Freemium]
     url: https://intangible.ai
     icon: favicon
+    tags:
+    - streaming
+    - watch
+    - ai
+    - video
+    - ml
   - title: Kittl
     description: AI-powered design tool perfect for print-on-demand sellers creating
       professional graphics quickly [Freemium ($10/mo)]
     url: https://kittl.com
     icon: favicon
+    tags:
+    - editor
+    - converter
+    - utility
+    - ai
+    - ml
   - title: Layla
     description: AI travel itinerary planner that creates balanced trip plans from
       your preferences [Freemium ($49/yr)]
     url: https://layla.ai
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Meshy
     description: AI generates 3D models from text prompts or images for games and
       visualization [Freemium ($20/mo)]
     url: https://meshy.ai
     icon: favicon
+    tags:
+    - ai
+    - render
+    - ml
+    - 3d
+    - modeling
   - title: Napkin
     description: AI transforms text into visual diagrams and illustrations automatically
       - just paste and go [Freemium ($15/mo)]
     url: https://napkin.ai
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Natively
     description: AI no-code platform for building native mobile apps without any programming
       knowledge [Freemium ($49/mo)]
     url: https://natively.dev
     icon: favicon
+    tags:
+    - programming
+    - developer
+    - ai
+    - ml
+    - coding
   - title: Newarc
     description: AI architecture design tool that generates photorealistic building
       visualizations from concepts [Freemium]
     url: https://newarc.ai
     icon: favicon
+    tags:
+    - editor
+    - converter
+    - utility
+    - ai
+    - ml
   - title: Ponder
     description: AI writing assistant for creating blog posts social media content
       and marketing copy [Freemium]
     url: https://ponder.chat
     icon: favicon
+    tags:
+    - assistant
+    - ai
+    - ml
+    - chatbot
+    - llm
   - title: Reimaginehome
     description: Upload a room photo and get AI-generated interior design ideas in
       different styles [Freemium]
     url: https://reimaginehome.ai
     icon: favicon
+    tags:
+    - art
+    - photo
+    - image-gen
+    - ai
+    - ml
   - title: Remove
     description: AI background remover for quick photo editing in your browser - no
       software needed [Freemium]
     url: https://remove.photos
     icon: favicon
+    tags:
+    - art
+    - photo
+    - image-gen
+    - ai
+    - ml
   - title: Same
     description: AI clones any website's design in seconds and generates the code
       for you [Freemium]
     url: https://same.new
     icon: favicon
+    tags:
+    - programming
+    - developer
+    - ai
+    - ml
+    - coding
   - title: Metademolab
     description: Meta's AI that automatically animates hand-drawn character sketches
       - free research demo [Free]
     url: https://sketch.metademolab.com
     icon: favicon
+    tags:
+    - papers
+    - research
+    - ai
+    - academic
+    - ml
   - title: Zoo Text-to-CAD
     description: AI generates 3D CAD models from text descriptions for engineering
       and design projects [Free]
     url: https://text-to-cad.zoo.dev
     icon: favicon
+    tags:
+    - programming
+    - developer
+    - coding
+    - ai
+    - render
+    - ml
+    - 3d
+    - modeling
   - title: Vocalremover
     description: AI separates vocals from instrumentals in any song for karaoke remixing
       or production [Freemium]
     url: https://vocalremover.org
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: X Minus
     description: Split any song into vocals and instrumentals for karaoke remixing
       or music production [Freemium]
     url: https://x-minus.pro
     icon: favicon
+    tags:
+    - voice
+    - sound
+    - ai
+    - audio
+    - ml
   - title: Theinpaint
     description: Remove objects in photos (The Inpaint) [Freemium]
     url: https://theinpaint.com
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Blaze
     description: Free AI writing and research tool (AI Blaze) [Freemium]
     url: https://blaze.today/study/
     icon: favicon
+    tags:
+    - editor
+    - papers
+    - learning
+    - converter
+    - research
+    - utility
+    - ai
+    - academic
   - title: Humva
     description: Create your own AI avatar (Humva) [Freemium]
     url: https://humva.com/?utm_source=maxtalkstech&utm_medium=kol
     icon: favicon
+    tags:
+    - art
+    - photo
+    - image-gen
+    - ai
+    - ml
   - title: Pixverse
     description: Best image-to-video generator (Pixverse) [Freemium]
     url: https://app.pixverse.ai/home
     icon: favicon
+    tags:
+    - editor
+    - art
+    - streaming
+    - watch
+    - converter
+    - photo
+    - image-gen
+    - ai
   - title: Imagineexplainers
     description: Create informational videos instantly, no editing required (ImagineExplainers)
       [Freemium]
     url: https://imagineexplainers.com/
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Hailuoai
     description: Create stunning videos with sound using AI (HailuoAi) [Freemium]
     url: https://hailuoai.video/
     icon: favicon
+    tags:
+    - voice
+    - sound
+    - streaming
+    - watch
+    - ai
+    - video
+    - audio
+    - ml
   - title: Fish
     description: Clone your voice using AI (Fish.Audio) [Freemium]
     url: https://fish.audio/
     icon: favicon
+    tags:
+    - voice
+    - sound
+    - ai
+    - audio
+    - ml
   - title: Vidalgo
     description: Create viral TikToks, no editing required (Vidalgo) [Freemium]
     url: https://www.vidalgo.tech/
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Vidu
     description: Top AI video and image generator (Vidu) [Freemium]
     url: https://www.vidu.com/
     icon: favicon
+    tags:
+    - editor
+    - art
+    - streaming
+    - watch
+    - converter
+    - photo
+    - image-gen
+    - ai
   - title: Stockimg
     description: Generate stock photos, social media posts, and more (StockIMG) [Freemium]
     url: https://stockimg.ai/
     icon: favicon
+    tags:
+    - stocks
+    - trading
+    - crypto
+    - ai
+    - ml
   - title: Vizard
     description: AI video clipping tool (Vizard) [Freemium]
     url: https://vizard.ai/
     icon: favicon
+    tags:
+    - editor
+    - streaming
+    - watch
+    - converter
+    - utility
+    - ai
+    - video
+    - ml
   - title: Genspark
     description: Powerful AI tool to create powerpoints and design excel files (GenSpark)
       [Freemium]
     url: https://www.genspark.ai/
     icon: favicon
+    tags:
+    - editor
+    - converter
+    - utility
+    - ai
+    - ml
   - title: Withgoogle
     description: Doodle game where AI guesses your drawings (Quick Draw) [Free]
     url: https://quickdraw.withgoogle.com/
     icon: favicon
+    tags:
+    - ai
+    - retro
+    - games
+    - ml
+    - gaming
   - title: Same
     description: Find visually similar images for inspiration (Same Energy) [Free]
     url: https://same.energy/
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Thispersondoesnotexist
     description: AI-generated faces that don’t exist (This Person Does Not Exist)
       [Free]
     url: https://thispersondoesnotexist.com/
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Pippit
     description: AI Avatars (Pippit) [Freemium]
     url: https://www.pippit.ai/
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Runable
     description: Create presentations and websites in seconds (Runable) [Freemium]
     url: https://runable.com/?utm_source=TT&utm_medium=if
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Originality
     description: Plagiarism checker (Originality) [Freemium]
     url: https://originality.ai/
     icon: favicon
+    tags:
+    - ai
+    - ml
   - title: Deepvo
     description: Transcribe school lectures and work meetings (Deepvo) [Freemium]
     url: https://deepvo.ai/en
     icon: favicon
+    tags:
+    - learning
+    - ai
+    - courses
+    - ml
+    - study
   - title: Lightpdf
     description: Free PDF editing tools (Light PDF) [Freemium]
     url: https://lightpdf.com/tools
     icon: favicon
+    tags:
+    - reading
+    - books
+    - ai
+    - ml
+    - pdf
 - name: Developer & Coding
   icon: fas fa-code
   displayData:
@@ -336,71 +699,165 @@ sections:
     description: Style code snippets
     url: https://carbon.now.sh
     icon: favicon
+    tags:
+    - coding
+    - programming
+    - developer
+    - dev
   - title: Codedex
     description: Learn coding like gaming
     url: https://codedex.io
     icon: favicon
+    tags:
+    - programming
+    - learning
+    - study
+    - dev
+    - courses
+    - coding
   - title: Typingclub
     description: Learn typing from beginner to pro
     url: https://typingclub.com
     icon: favicon
+    tags:
+    - programming
+    - learning
+    - study
+    - dev
+    - courses
+    - coding
   - title: Withdiode
     description: Can practice all kinds of circuits
     url: https://withdiode.com
     icon: favicon
+    tags:
+    - coding
+    - programming
+    - dev
   - title: Colorado
     description: Build circuits bend light experiment with science
     url: https://phet.colorado.edu
     icon: favicon
+    tags:
+    - coding
+    - programming
+    - dev
   - title: Routevn
     description: Build visual novel games without code
     url: https://routevn.com
     icon: favicon
+    tags:
+    - programming
+    - developer
+    - reading
+    - dev
+    - books
+    - coding
+    - pdf
   - title: Devdocs
     description: Fast offline-capable API documentation for developers
     url: https://devdocs.io
     icon: si-devdotto
+    tags:
+    - coding
+    - programming
+    - developer
+    - dev
   - title: Softwareheritage
     description: Archive preserving all public source code
     url: https://softwareheritage.org
     icon: favicon
+    tags:
+    - programming
+    - developer
+    - dev
+    - archive
+    - download
+    - files
+    - coding
   - title: Coddy
     description: Bite-sized coding lessons you complete in your browser with instant
       feedback [Freemium]
     url: https://coddy.tech
     icon: favicon
+    tags:
+    - coding
+    - programming
+    - dev
   - title: Itch
     description: Tool for making interactive fiction and clicky experiences without
       learning a game engine [Free (Open Source)]
     url: https://internet-janitor.itch.io
     icon: favicon
+    tags:
+    - editor
+    - programming
+    - utility
+    - dev
+    - retro
+    - games
+    - converter
+    - coding
   - title: n8n Automation
     description: Open-source workflow automation that connects apps and automates
       tasks with visual builder [Freemium ($20/mo)]
     url: https://n8n.io
     icon: si-n8n
+    tags:
+    - coding
+    - programming
+    - dev
   - title: Roadmap
     description: Developer career learning paths with step-by-step roadmaps for any
       tech specialization [Free]
     url: https://roadmap.sh
     icon: favicon
+    tags:
+    - programming
+    - dev
+    - career
+    - jobs
+    - coding
+    - resume
   - title: Topoexport
     description: Export 3D terrain models from anywhere on Earth for 3D printing or
       game development [Freemium]
     url: https://topoexport.com
     icon: favicon
+    tags:
+    - satellite
+    - programming
+    - maps
+    - dev
+    - render
+    - retro
+    - earth
+    - gaming
   - title: Magicloops
     description: Build mobile and web apps with no coding (Magic Loops) [Freemium]
     url: https://magicloops.dev/
     icon: favicon
+    tags:
+    - coding
+    - programming
+    - developer
+    - dev
   - title: Rocket
     description: Build mobile and web apps with no coding (Rocket) [Freemium]
     url: https://rocket.new/
     icon: favicon
+    tags:
+    - coding
+    - programming
+    - dev
   - title: Trickle
     description: Build mobile and web apps with no coding (Trickle) [Freemium]
     url: https://trickle.so/
     icon: favicon
+    tags:
+    - coding
+    - programming
+    - dev
 - name: Design & Creative
   icon: fas fa-palette
   displayData:
@@ -414,229 +871,575 @@ sections:
     description: Shrink image sizes
     url: https://squoosh.app
     icon: favicon
+    tags:
+    - art
+    - design
+    - graphics
+    - photo
+    - image-gen
+    - creative
   - title: Remove
     description: Cut out backgrounds
     url: https://remove.bg
     icon: favicon
+    tags:
+    - creative
+    - graphics
+    - design
   - title: Photopea
     description: Browser-based photo editor
     url: https://photopea.com
     icon: fas fa-image
+    tags:
+    - editor
+    - art
+    - design
+    - graphics
+    - photo
+    - image-gen
+    - utility
+    - converter
   - title: Ray.so
     description: Create code images
     url: https://ray.so
     icon: favicon
+    tags:
+    - design
+    - programming
+    - developer
+    - graphics
+    - coding
+    - creative
   - title: Shots
     description: Generate product mockups
     url: https://shots.so
     icon: favicon
+    tags:
+    - creative
+    - graphics
+    - design
   - title: Smartmockups
     description: Build device mockups
     url: https://smartmockups.com
     icon: favicon
+    tags:
+    - creative
+    - graphics
+    - design
   - title: Zookeeper 3D
     description: Turn ideas into 3D
     url: https://zoo.dev/zookeeper
     icon: favicon
+    tags:
+    - design
+    - programming
+    - developer
+    - coding
+    - graphics
+    - render
+    - 3d
+    - modeling
   - title: Storytribeapp
     description: Build storyboards without drawing
     url: https://storytribeapp.com
     icon: favicon
+    tags:
+    - creative
+    - graphics
+    - design
   - title: Netryx Astra V2
     description: Use one photo and find where it was taken even without metadata
     url: https://github.com/sparkyniner/Netryx-Astra-V2-Geolocation-Tool
     icon: si-github
+    tags:
+    - editor
+    - art
+    - design
+    - graphics
+    - photo
+    - image-gen
+    - utility
+    - converter
   - title: HomeByMe
     description: Design your own home in 3D
     url: https://home.by.me
     icon: favicon
+    tags:
+    - design
+    - graphics
+    - render
+    - 3d
+    - modeling
+    - creative
   - title: Pngimg
     description: Find almost any PNG images
     url: https://pngimg.com
     icon: favicon
+    tags:
+    - creative
+    - graphics
+    - design
   - title: Tineye
     description: Reverse-image search engine
     url: https://tineye.com
     icon: favicon
+    tags:
+    - recon
+    - art
+    - design
+    - lookup
+    - graphics
+    - photo
+    - image-gen
+    - osint
   - title: TRIPOSPLAT
     description: One image becomes a 3D object
     url: https://TRIPOSPLAT
     icon: favicon
+    tags:
+    - art
+    - design
+    - graphics
+    - photo
+    - image-gen
+    - render
+    - 3d
+    - modeling
   - title: Omni Image Editor
     description: Edit any image with AI
     url: https://huggingface.co/spaces/selfit-camera/Omni-Image-Editor
     icon: si-huggingface
+    tags:
+    - editor
+    - art
+    - design
+    - graphics
+    - photo
+    - image-gen
+    - utility
+    - converter
   - title: Nasa
     description: Explore solar system in 3D
     url: https://eyes.nasa.gov
     icon: si-nasa
+    tags:
+    - design
+    - graphics
+    - render
+    - 3d
+    - modeling
+    - creative
   - title: Excalidraw
     description: Free digital whiteboard with hand-drawn look
     url: https://Excalidraw.com
     icon: favicon
+    tags:
+    - creative
+    - graphics
+    - design
   - title: Copernicus
     description: Satellite imagery of Earth changes
     url: https://browser.dataspace.copernicus.eu
     icon: favicon
+    tags:
+    - satellite
+    - design
+    - maps
+    - graphics
+    - earth
+    - creative
   - title: Smithsonian Open Access
     description: Spin museum artifacts in 3D & free images
     url: https://openaccess.si.edu
     icon: favicon
+    tags:
+    - design
+    - graphics
+    - render
+    - 3d
+    - modeling
+    - creative
   - title: Geospy
     description: Give any photo & find exact location
     url: https://geospy.ai
     icon: favicon
+    tags:
+    - art
+    - design
+    - graphics
+    - photo
+    - image-gen
+    - creative
   - title: Marklayer
     description: Draw highlight and comment over any webpage
     url: https://marklayer.com
     icon: favicon
+    tags:
+    - creative
+    - graphics
+    - design
   - title: Watermarkremover
     description: Remove image watermarks for free
     url: https://watermarkremover.io
     icon: favicon
+    tags:
+    - art
+    - design
+    - graphics
+    - photo
+    - image-gen
+    - creative
   - title: Animatedknots
     description: Learn how to tie any knot with step-by-step 3D
     url: https://animatedknots.com
     icon: favicon
+    tags:
+    - design
+    - learning
+    - study
+    - graphics
+    - render
+    - courses
+    - 3d
+    - modeling
   - title: Openverse
     description: 800M+ openly licensed images and audio
     url: https://openverse.org
     icon: favicon
+    tags:
+    - voice
+    - design
+    - sound
+    - graphics
+    - audio
+    - creative
   - title: Sentinel Hub
     description: Near real-time satellite imagery analysis
     url: https://sentinel-hub.com
     icon: favicon
+    tags:
+    - satellite
+    - design
+    - maps
+    - graphics
+    - earth
+    - creative
   - title: Reka
     description: Website for clippers. Create youtube clips instantly. [Freemium]
     url: https://reka.ai
     icon: favicon
+    tags:
+    - creative
+    - graphics
+    - design
   - title: Hyperpost
     description: Social media template booster packs [Freemium]
     url: https://hyperpost.studio
     icon: favicon
+    tags:
+    - creative
+    - graphics
+    - design
   - title: 3Dtuning
     description: Virtual car customization tool to visualize modifications and dream
       builds before spending money [Freemium ($2.99)]
     url: https://3dtuning.com
     icon: favicon
+    tags:
+    - budget
+    - editor
+    - design
+    - graphics
+    - utility
+    - finance
+    - converter
+    - creative
   - title: Animejs
     description: Lightweight JavaScript animation library for smooth web animations
       without heavy dependencies [Free (Open Source)]
     url: https://animejs.com
     icon: favicon
+    tags:
+    - design
+    - streaming
+    - watch
+    - graphics
+    - books
+    - reading
+    - video
+    - creative
   - title: Carcarekiosk
     description: Vehicle-specific maintenance video tutorials for your exact car make
       and model [Free]
     url: https://carcarekiosk.com
     icon: favicon
+    tags:
+    - design
+    - streaming
+    - watch
+    - graphics
+    - render
+    - video
+    - 3d
+    - modeling
   - title: Clicktheredbutton
     description: Random weird website discovery tool - click and find something unexpected
       on the internet [Free]
     url: https://clicktheredbutton.com
     icon: favicon
+    tags:
+    - editor
+    - design
+    - graphics
+    - utility
+    - converter
+    - creative
   - title: Dora
     description: No-code builder for impressive 3D animated websites without learning
       WebGL or Three.js [Freemium ($18/mo)]
     url: https://dora.run
     icon: favicon
+    tags:
+    - design
+    - programming
+    - developer
+    - coding
+    - graphics
+    - render
+    - 3d
+    - modeling
   - title: Dreamforth
     description: Dream interpretation dictionary to explore what your vivid or recurring
       dreams might mean [Free]
     url: https://dreamforth.com
     icon: favicon
+    tags:
+    - creative
+    - graphics
+    - design
   - title: Flourish
     description: Create beautiful interactive data visualizations and charts without
       knowing how to code [Freemium]
     url: https://flourish.studio
     icon: favicon
+    tags:
+    - design
+    - programming
+    - developer
+    - graphics
+    - coding
+    - creative
   - title: Fragrantica
     description: Comprehensive perfume database with detailed notes and community
       reviews before you buy [Free]
     url: https://fragrantica.com
     icon: favicon
+    tags:
+    - creative
+    - graphics
+    - design
   - title: Framer
     description: No-code website builder with pixel-perfect control for designers
       who want professional results [Freemium ($30/mo)]
     url: https://framer.com
     icon: favicon
+    tags:
+    - design
+    - programming
+    - developer
+    - graphics
+    - coding
+    - creative
   - title: Music Map
     description: Discover similar artists visualized as a spatial map - type any band
       and explore [Free]
     url: https://music-map.com
     icon: favicon
+    tags:
+    - satellite
+    - voice
+    - design
+    - sound
+    - graphics
+    - maps
+    - earth
+    - audio
   - title: Nullfake
     description: Detect fake Amazon reviews and see adjusted ratings based only on
       authentic reviews [Free]
     url: https://nullfake.com
     icon: favicon
+    tags:
+    - creative
+    - graphics
+    - design
   - title: Pacdora
     description: 3D packaging mockup generator for product branding with realistic
       visualization [Freemium]
     url: https://pacdora.com
     icon: favicon
+    tags:
+    - editor
+    - design
+    - graphics
+    - utility
+    - render
+    - converter
+    - 3d
+    - modeling
   - title: Planyourroom
     description: Drag-and-drop room layout planner to test furniture arrangements
       before buying or moving [Free]
     url: https://planyourroom.com
     icon: favicon
+    tags:
+    - creative
+    - graphics
+    - design
   - title: Radio
     description: Listen to live radio stations from around the world by spinning an
       interactive 3D globe [Free]
     url: https://radio.garden
     icon: favicon
+    tags:
+    - design
+    - graphics
+    - render
+    - 3d
+    - modeling
+    - creative
   - title: Reactbits
     description: Collection of animated React components ready to copy and paste into
       your projects [Free (Open Source)]
     url: https://reactbits.dev
     icon: favicon
+    tags:
+    - design
+    - programming
+    - developer
+    - graphics
+    - coding
+    - creative
   - title: Supercook
     description: Recipe search engine that finds dishes you can make with ingredients
       you already have [Free]
     url: https://supercook.com
     icon: favicon
+    tags:
+    - recon
+    - design
+    - lookup
+    - graphics
+    - osint
+    - creative
   - title: Tailornova
     description: Generate custom sewing patterns made-to-measure from your exact body
       measurements [Freemium]
     url: https://tailornova.com
     icon: favicon
+    tags:
+    - creative
+    - graphics
+    - design
   - title: Thetoymaker
     description: Printable paper toy templates you can cut fold and glue into whimsical
       3D figures [Free]
     url: https://thetoymaker.com
     icon: favicon
+    tags:
+    - papers
+    - design
+    - graphics
+    - research
+    - render
+    - academic
+    - 3d
+    - modeling
   - title: Typefaceanimator
     description: Browser tool for creating animated typeface transitions and kinetic
       typography effects [Free]
     url: https://typefaceanimator.com
     icon: favicon
+    tags:
+    - editor
+    - design
+    - graphics
+    - utility
+    - converter
+    - creative
   - title: Uiball
     description: Free collection of beautiful loading spinners and UI loaders for
       modern web projects [Free (Open Source)]
     url: https://uiball.com
     icon: favicon
+    tags:
+    - design
+    - frontend
+    - graphics
+    - ui-ux
+    - creative
   - title: Uiverse
     description: Community-driven library of free open-source UI elements including
       buttons cards and loaders [Free (Open Source)]
     url: https://uiverse.io
     icon: favicon
+    tags:
+    - design
+    - frontend
+    - graphics
+    - reading
+    - books
+    - ui-ux
+    - creative
+    - pdf
   - title: Whitescreen
     description: Full-screen color display for testing monitors lighting video calls
       or cleaning screens [Free]
     url: https://whitescreen.online
     icon: favicon
+    tags:
+    - design
+    - frontend
+    - streaming
+    - watch
+    - graphics
+    - video
+    - ui-ux
+    - creative
   - title: Myfonts
     description: Font identifier (WhatTheFont) [Free]
     url: https://www.myfonts.com/pages/whatthefont
     icon: favicon
+    tags:
+    - design
+    - frontend
+    - graphics
+    - ui-ux
+    - creative
   - title: Gardena
     description: Garden planner (Gardena My Garden) [Free]
     url: https://my-garden.gardena.com/int
     icon: favicon
+    tags:
+    - creative
+    - graphics
+    - design
   - title: Deepstock
     description: Millions of royalty-free images to use (Deepstock) [Free]
     url: https://deepstock.com/
     icon: favicon
+    tags:
+    - creative
+    - graphics
+    - design
   - title: Neon Flames
     description: Create cosmic art with glowing brushstrokes (Neon Flames) [Free]
     url: https://29a.ch/sandbox/2011/neonflames/
     icon: favicon
+    tags:
+    - art
+    - design
+    - graphics
+    - photo
+    - image-gen
+    - creative
