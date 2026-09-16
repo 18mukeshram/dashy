@@ -29,31 +29,26 @@ export default class ConfigAccumulator {
   /* App Config */
   appConfig() {
     let appConfigFile = {};
-    // Set app config from file
     if (this.conf && this.conf.appConfig) {
       appConfigFile = this.conf.appConfig;
     }
-    // Fill in defaults if anything missing
-    let usersAppConfig = { ...defaultAppConfig };
-    if (localStorage[localStorageKeys.APP_CONFIG]) {
-      try { usersAppConfig = JSON.parse(localStorage[localStorageKeys.APP_CONFIG]); }
-      catch { ErrorHandler('Malformed app config in local storage'); }
-    } else if (Object.keys(appConfigFile).length > 0) {
-      usersAppConfig = { ...appConfigFile };
+    let usersAppConfig = { ...defaultAppConfig, ...appConfigFile };
+
+    // Local user preferences for theme, layout, iconSize
+    if (localStorage[localStorageKeys.LAYOUT_ORIENTATION]) {
+      usersAppConfig.layout = localStorage[localStorageKeys.LAYOUT_ORIENTATION];
     }
-    // Some settings have their own local storage keys, apply them here
-    usersAppConfig.layout = localStorage[localStorageKeys.LAYOUT_ORIENTATION]
-      || appConfigFile.layout
-      || defaultLayout;
-    usersAppConfig.iconSize = localStorage[localStorageKeys.ICON_SIZE]
-      || appConfigFile.iconSize
-      || defaultIconSize;
-    usersAppConfig.theme = localStorage[localStorageKeys.THEME]
-      || appConfigFile.theme
-      || defaultTheme;
-    // Don't let users modify users locally
+    if (localStorage[localStorageKeys.ICON_SIZE]) {
+      usersAppConfig.iconSize = localStorage[localStorageKeys.ICON_SIZE];
+    }
+    if (localStorage[localStorageKeys.THEME]) {
+      usersAppConfig.theme = localStorage[localStorageKeys.THEME];
+    }
+    // Ensure background image from conf is always respected
+    if (appConfigFile.backgroundImg) {
+      usersAppConfig.backgroundImg = appConfigFile.backgroundImg;
+    }
     if (appConfigFile.auth) usersAppConfig.auth = appConfigFile.auth;
-    // All done, return final appConfig object
     return usersAppConfig;
   }
 
@@ -72,19 +67,19 @@ export default class ConfigAccumulator {
   /* Sections */
   sections() {
     let sections = [];
-    // If the user has stored sections in local storage, return those
-    const localSections = localStorage[localStorageKeys.CONF_SECTIONS];
-    if (localSections) {
-      try {
-        const json = JSON.parse(localSections);
-        if (json.length >= 1) sections = json;
-      } catch {
-        ErrorHandler('Malformed section data in local storage');
+    // Prioritize file config sections from conf.yml
+    if (this.conf && Array.isArray(this.conf.sections) && this.conf.sections.length > 0) {
+      sections = this.conf.sections;
+    } else {
+      const localSections = localStorage[localStorageKeys.CONF_SECTIONS];
+      if (localSections) {
+        try {
+          const json = JSON.parse(localSections);
+          if (json.length >= 1) sections = json;
+        } catch {
+          ErrorHandler('Malformed section data in local storage');
+        }
       }
-    }
-    // If sections were not set from local data, then use config file instead
-    if (sections.length === 0) {
-      sections = this.conf ? this.conf.sections || [] : [];
     }
     // Apply a unique ID to each item
     sections = applyItemId(sections);

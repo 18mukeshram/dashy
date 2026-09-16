@@ -7,7 +7,7 @@ sections:
   displayData:
     sortBy: title
     rows: 0
-    cols: 0
+    cols: 1
     collapsed: false
     itemSize: small
   items:
@@ -21,6 +21,7 @@ sections:
     - ai
     - video
     - ml
+    statusCheck: false
   - title: Unscreen
     description: Delete video backgrounds
     url: https://unscreen.com
@@ -31,6 +32,7 @@ sections:
     - ai
     - video
     - ml
+    statusCheck: false
   - title: Cinephile
     description: Search watch movies shows anime & many more
     url: https://cinephile.live
@@ -41,6 +43,7 @@ sections:
     - ai
     - osint
     - ml
+    statusCheck: false
   - title: Fmhy
     description: Download & watch any movies anime cartoon series etc
     url: https://fmhy.net
@@ -51,6 +54,7 @@ sections:
     - download
     - files
     - ml
+    statusCheck: false
   - title: Ihavenotv
     description: Website to watch documentaries
     url: https://ihavenotv.com
@@ -58,6 +62,7 @@ sections:
     tags:
     - ai
     - ml
+    statusCheck: false
   - title: Flystream
     description: Watch movies tv shows and more
     url: https://flystream.net
@@ -65,6 +70,7 @@ sections:
     tags:
     - ai
     - ml
+    statusCheck: false
   - title: Duto
     description: Access to all streaming platforms for free
     url: https://duto.gd
@@ -72,6 +78,7 @@ sections:
     tags:
     - ai
     - ml
+    statusCheck: false
   - title: Everythingmoe
     description: Contains everything about anime
     url: https://everythingmoe.com
@@ -79,6 +86,7 @@ sections:
     tags:
     - ai
     - ml
+    statusCheck: false
   - title: Famelack
     description: Watch free live world TV & listen to online radio stations
     url: https://famelack.com
@@ -86,6 +94,7 @@ sections:
     tags:
     - ai
     - ml
+    statusCheck: false
   - title: Cineby
     description: Watch & download movies TV shows
     url: https://cineby.sc
@@ -96,6 +105,7 @@ sections:
     - download
     - files
     - ml
+    statusCheck: false
   - title: Teraplay
     description: Play Terabox videos online & download them fast
     url: https://teraplay.com
@@ -109,6 +119,7 @@ sections:
     - games
     - ml
     - gaming
+    statusCheck: false
   - title: Musicforprogramming
     description: Music mixes to help concentrate while coding
     url: https://musicforprogramming.net
@@ -119,6 +130,7 @@ sections:
     - ai
     - audio
     - ml
+    statusCheck: false
   - title: Moviescenemap
     description: Shows movie scenes filmed on streets
     url: https://moviescenemap.com
@@ -129,6 +141,7 @@ sections:
     - ai
     - video
     - ml
+    statusCheck: false
   - title: Wan 2
     description: Turn any image into moving video
     url: https://WAN 2.2
@@ -142,6 +155,7 @@ sections:
     - ai
     - video
     - ml
+    statusCheck: false
   - title: Vidbox
     description: Access to 100s of streaming platforms
     url: https://vidbox.cc
@@ -149,6 +163,7 @@ sections:
     tags:
     - ai
     - ml
+    statusCheck: false
   - title: Youlearn
     description: YouTube video detailed explanation
     url: https://app.youlearn.ai
@@ -159,6 +174,7 @@ sections:
     - ai
     - video
     - ml
+    statusCheck: false
   - title: Streamex
     description: Stream almost any movie or series for free
     url: https://streamex.sh
@@ -169,6 +185,7 @@ sections:
     - ai
     - video
     - ml
+    statusCheck: false
   - title: Runwayml
     description: Create video and graphics talking to AI
     url: https://runwayml.com
@@ -179,6 +196,7 @@ sections:
     - ai
     - video
     - ml
+    statusCheck: false
   - title: Setteidreams
     description: Browse anime character design references
     url: https://setteidreams.net
@@ -186,6 +204,7 @@ sections:
     tags:
     - ai
     - ml
+    statusCheck: false
   - title: Jitter
     description: Motion design and animation in the browser
     url: https://jitter.video
@@ -196,6 +215,7 @@ sections:
     - ai
     - video
     - ml
+    statusCheck: false
   - title: Agoodmovietowatch
     description: Curated movie picks (A Good Movie) [Free]
     url: https://agoodmovietowatch.com/
@@ -206,6 +226,7 @@ sections:
     - ai
     - video
     - ml
+    statusCheck: false
   - title: Reelgood
     description: Random title picker (ReelGood Roulette) [Free]
     url: https://reelgood.com/roulette/netflix
@@ -213,6 +234,7 @@ sections:
     tags:
     - ai
     - ml
+    statusCheck: false
   - title: Movielens
     description: Get movie recommendations based on ratings (Movielens) [Free]
     url: https://movielens.org/
@@ -223,6 +245,7 @@ sections:
     - ai
     - video
     - ml
+    statusCheck: false
   - title: Imgur
     description: View viral images, memes, and GIFs (Imgur) [Free]
     url: https://imgur.com/
@@ -230,6 +253,7 @@ sections:
     tags:
     - ai
     - ml
+    statusCheck: false
   - title: Randomstreetview
     description: Jump to random Google Street View locations (Random Street View)
       [Free]
@@ -238,12 +262,13 @@ sections:
     tags:
     - ai
     - ml
+    statusCheck: false
 - name: Gaming & Fun
   icon: fas fa-gamepad
   displayData:
     sortBy: title
     rows: 0
-    cols: 0
+    cols: 1
     collapsed: false
     itemSize: small
   items:
@@ -255,6 +280,7 @@ sections:
     - gaming
     - play
     - games
+    statusCheck: false
   - title: Startmycar
     description: Find your car manual
     url: https://www.startmycar.com
@@ -263,6 +289,7 @@ sections:
     - gaming
     - play
     - games
+    statusCheck: false
   - title: Steamgg
     description: Access to huge collection of PC games
     url: https://steamgg.net
@@ -271,6 +298,7 @@ sections:
     - gaming
     - play
     - games
+    statusCheck: false
   - title: Neal
     description: Find the most fun websites all in one place
     url: https://neal.fun
@@ -279,6 +307,7 @@ sections:
     - gaming
     - play
     - games
+    statusCheck: false
   - title: Mcstumble
     description: Cure boredom & explore hidden corners of the web
     url: https://mcstumble.com
@@ -287,6 +316,7 @@ sections:
     - gaming
     - play
     - games
+    statusCheck: false
   - title: Adescargar
     description: Download apps
     url: https://adescargar.net
@@ -298,6 +328,7 @@ sections:
     - games
     - files
     - gaming
+    statusCheck: false
   - title: Ankergame
     description: Download PC games for free
     url: https://ankergame.net
@@ -309,6 +340,7 @@ sections:
     - games
     - files
     - gaming
+    statusCheck: false
   - title: Scaleofuniverse
     description: View from sub atomic particles to observable universe
     url: https://scaleofuniverse.com
@@ -317,6 +349,7 @@ sections:
     - gaming
     - play
     - games
+    statusCheck: false
   - title: Startmycar
     description: Manual guides of any vehicle
     url: https://startmycar.com
@@ -325,6 +358,7 @@ sections:
     - gaming
     - play
     - games
+    statusCheck: false
   - title: Electude
     description: Simulate real car repairs in browser
     url: https://simulator.electude.com
@@ -333,6 +367,7 @@ sections:
     - gaming
     - play
     - games
+    statusCheck: false
   - title: Autocatalogarchive
     description: Explore original version of any car
     url: https://autocatalogarchive.com
@@ -341,6 +376,7 @@ sections:
     - gaming
     - play
     - games
+    statusCheck: false
   - title: Playto
     description: Accept payments globally
     url: https://playto.so
@@ -349,6 +385,7 @@ sections:
     - gaming
     - play
     - games
+    statusCheck: false
   - title: Emulatorgameszone
     description: Play console games online
     url: https://emulatorgameszone.com
@@ -358,6 +395,7 @@ sections:
     - retro
     - play
     - games
+    statusCheck: false
   - title: Wemod
     description: Single-player PC game mods and trainers
     url: https://wemod.com
@@ -367,6 +405,7 @@ sections:
     - retro
     - play
     - games
+    statusCheck: false
   - title: Emugames
     description: Play retro games online
     url: https://emugames.net
@@ -376,6 +415,7 @@ sections:
     - retro
     - play
     - games
+    statusCheck: false
   - title: Globle Game
     description: Daily mystery country geography game
     url: https://globle-game.com
@@ -388,6 +428,7 @@ sections:
     - earth
     - games
     - gaming
+    statusCheck: false
   - title: Airconsole
     description: Multiplayer party games using phones as controllers - no console
       or downloads needed [Freemium ($4.99/mo)]
@@ -397,6 +438,7 @@ sections:
     - gaming
     - play
     - games
+    statusCheck: false
   - title: Github
     description: Procedural fantasy map generator for D&D campaigns and worldbuilding
       projects [Free (Open Source)]
@@ -411,6 +453,7 @@ sections:
     - earth
     - games
     - converter
+    statusCheck: false
   - title: Beforeiplay
     description: Spoiler-free tips and advice to read before starting any new video
       game [Free]
@@ -425,6 +468,7 @@ sections:
     - retro
     - video
     - games
+    statusCheck: false
   - title: Builditapp
     description: Step-by-step Minecraft building guides with layer-by-layer instructions
       for impressive structures [Freemium]
@@ -434,6 +478,7 @@ sections:
     - gaming
     - play
     - games
+    statusCheck: false
   - title: Chunkbase
     description: Find Minecraft structures and biomes by entering your world seed
       before exploring [Free]
@@ -443,6 +488,7 @@ sections:
     - gaming
     - play
     - games
+    statusCheck: false
   - title: Lostgamer
     description: GeoGuessr but for video games - guess your location from in-game
       screenshots [Free]
@@ -456,6 +502,7 @@ sections:
     - video
     - games
     - gaming
+    statusCheck: false
   - title: Mapgenie
     description: Interactive game maps with collectible tracking for completionists
       who want 100% in games [Freemium ($10/yr)]
@@ -466,6 +513,7 @@ sections:
     - retro
     - play
     - games
+    statusCheck: false
   - title: Moewalls
     description: Animated wallpapers and live desktop backgrounds for Windows with
       huge variety [Free]
@@ -475,6 +523,7 @@ sections:
     - gaming
     - play
     - games
+    statusCheck: false
   - title: Systemrequirementslab
     description: Check if your PC can run a game by scanning your specs against requirements
       [Free]
@@ -485,6 +534,7 @@ sections:
     - retro
     - play
     - games
+    statusCheck: false
   - title: Github
     description: Collection of procedural generators for dungeon maps medieval cities
       and fantasy worlds [Free]
@@ -494,6 +544,7 @@ sections:
     - gaming
     - play
     - games
+    statusCheck: false
   - title: Playretrogames
     description: Browser retro games (Play Retro Games) [Free]
     url: https://playretrogames.com
@@ -503,6 +554,7 @@ sections:
     - retro
     - play
     - games
+    statusCheck: false
   - title: Geoguessr
     description: Guess real-world locations using Street View (GeoGuessr) [Free]
     url: https://www.geoguessr.com/free
@@ -511,12 +563,13 @@ sections:
     - gaming
     - play
     - games
+    statusCheck: false
 - name: Music & Audio
   icon: fas fa-headphones
   displayData:
     sortBy: title
     rows: 0
-    cols: 0
+    cols: 1
     collapsed: true
     itemSize: small
   items:
@@ -532,6 +585,7 @@ sections:
     - music
     - video
     - audio
+    statusCheck: false
   - title: Vocalremover
     description: Split vocals & music (Vocal Remover) [Free]
     url: https://vocalremover.com/
@@ -541,6 +595,7 @@ sections:
     - audio
     - voice
     - music
+    statusCheck: false
   - title: Whosampled
     description: Song samples database (WhoSampled) [Free]
     url: https://www.whosampled.com/
@@ -550,6 +605,7 @@ sections:
     - audio
     - voice
     - music
+    statusCheck: false
   - title: Patatap
     description: Create music and visuals with keyboard input (Patatap) [Free]
     url: https://patatap.com/
@@ -559,5 +615,11 @@ sections:
     - audio
     - voice
     - music
+    statusCheck: false
 appConfig:
   layout: auto
+  theme: glow
+  colCount: 3
+  itemSize: small
+  backgroundImg: https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=2000&auto=format&fit=crop
+  statusCheck: false

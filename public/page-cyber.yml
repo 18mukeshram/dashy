@@ -7,7 +7,7 @@ sections:
   displayData:
     sortBy: title
     rows: 0
-    cols: 0
+    cols: 1
     collapsed: false
     itemSize: small
   items:
@@ -20,6 +20,7 @@ sections:
     - lookup
     - osint
     - security
+    statusCheck: false
   - title: Facecheck
     description: Upload face photo and find where that face appears across the Internet
     url: https://facecheck.id
@@ -32,6 +33,7 @@ sections:
     - image-gen
     - osint
     - security
+    statusCheck: false
   - title: robin
     description: Send an AI agent into dark-web sources
     url: https://robin
@@ -41,6 +43,7 @@ sections:
     - lookup
     - osint
     - security
+    statusCheck: false
   - title: MVT (Mobile Verification Toolkit)
     description: Scan your phone for traces of pegasus spyware
     url: https://github.com/mvt-project/mvt
@@ -50,6 +53,7 @@ sections:
     - lookup
     - osint
     - security
+    statusCheck: false
   - title: VOID ACCESS
     description: Search leaked logins crypto wallet references & dark-web mentions
     url: https://github.com/KatrielMoses/voidaccess
@@ -62,6 +66,7 @@ sections:
     - crypto
     - osint
     - security
+    statusCheck: false
   - title: MAILACCESS
     description: Find leaked accounts profiles and public exposure signals
     url: https://MAILACCESS
@@ -71,6 +76,7 @@ sections:
     - lookup
     - osint
     - security
+    statusCheck: false
   - title: HORUS
     description: The best infostealer & threat mitigation platform
     url: https://HORUS
@@ -80,6 +86,7 @@ sections:
     - lookup
     - osint
     - security
+    statusCheck: false
   - title: TORBOT
     description: Run multiple OSINT lookups from one terminal tool
     url: https://TORBOT
@@ -93,6 +100,7 @@ sections:
     - utility
     - osint
     - security
+    statusCheck: false
   - title: Kaspersky
     description: See all cyberthreats in real time globally
     url: https://cybermap.kaspersky.com
@@ -102,6 +110,7 @@ sections:
     - lookup
     - osint
     - security
+    statusCheck: false
   - title: Sploitus
     description: Search engine for ethical hacking & exploits
     url: https://sploitus.com
@@ -111,6 +120,7 @@ sections:
     - lookup
     - osint
     - security
+    statusCheck: false
   - title: Hacksplaining
     description: Interactive ethical hacking lessons
     url: https://hacksplaining.com
@@ -120,6 +130,7 @@ sections:
     - lookup
     - osint
     - security
+    statusCheck: false
   - title: Breachdirectory
     description: Check compromised credentials and breaches
     url: https://breachdirectory.org
@@ -129,6 +140,7 @@ sections:
     - lookup
     - osint
     - security
+    statusCheck: false
   - title: Flocintel
     description: Search breached records and leaked emails
     url: https://flocintel.com
@@ -138,6 +150,7 @@ sections:
     - lookup
     - osint
     - security
+    statusCheck: false
   - title: Start
     description: Massive curated directory of OSINT tools
     url: https://start.me/p/q6P85n/osint4all
@@ -147,6 +160,7 @@ sections:
     - lookup
     - osint
     - security
+    statusCheck: false
   - title: Facecheck
     description: Face recognition reverse image search
     url: https://facecheck.id
@@ -159,6 +173,7 @@ sections:
     - image-gen
     - osint
     - security
+    statusCheck: false
   - title: Shodan
     description: Search engine for internet-connected devices
     url: https://shodan.io
@@ -168,12 +183,13 @@ sections:
     - lookup
     - osint
     - security
+    statusCheck: false
 - name: Privacy & Web Utilities
   icon: fas fa-user-shield
   displayData:
     sortBy: title
     rows: 0
-    cols: 0
+    cols: 1
     collapsed: false
     itemSize: small
   items:
@@ -186,6 +202,7 @@ sections:
     - bypass
     - anonymous
     - security
+    statusCheck: false
   - title: '10015'
     description: All-in-one fake generator
     url: https://10015.io
@@ -198,6 +215,7 @@ sections:
     - utility
     - security
     - privacy
+    statusCheck: false
   - title: Temp Mail
     description: Disposable temporary email address
     url: https://temp-mail.org
@@ -207,6 +225,7 @@ sections:
     - bypass
     - anonymous
     - security
+    statusCheck: false
   - title: Privnote
     description: Write a private self-destructing note
     url: https://privnote.com
@@ -216,6 +235,7 @@ sections:
     - bypass
     - anonymous
     - security
+    statusCheck: false
   - title: Fast
     description: Simple internet-speed test
     url: https://fast.com
@@ -225,6 +245,7 @@ sections:
     - bypass
     - anonymous
     - security
+    statusCheck: false
   - title: Wifispc
     description: Find wifi passwords for nearby routers
     url: https://wifispc.com
@@ -234,6 +255,7 @@ sections:
     - bypass
     - anonymous
     - security
+    statusCheck: false
   - title: Justdelete
     description: Directory with direct links to delete accounts
     url: https://justdelete.me
@@ -243,6 +265,7 @@ sections:
     - bypass
     - anonymous
     - security
+    statusCheck: false
   - title: Removepaywall
     description: Read paywalled articles cleanly
     url: https://removepaywall.com
@@ -255,12 +278,13 @@ sections:
     - security
     - privacy
     - pdf
+    statusCheck: false
 - name: Finance & Markets
   icon: fas fa-chart-line
   displayData:
     sortBy: title
     rows: 0
-    cols: 0
+    cols: 1
     collapsed: false
     itemSize: small
   items:
@@ -276,6 +300,7 @@ sections:
     - finance
     - money
     - calculator
+    statusCheck: false
   - title: Camelcamelcamel
     description: Free price tracker for Amazon products
     url: https://camelcamelcamel.com
@@ -286,6 +311,7 @@ sections:
     - finance
     - money
     - calculator
+    statusCheck: false
   - title: Finviz
     description: Scan and filter stock markets with charts
     url: https://finviz.com
@@ -298,6 +324,7 @@ sections:
     - finance
     - money
     - calculator
+    statusCheck: false
   - title: Invoapp
     description: Copy trades of successful investors
     url: https://app.invoapp.com
@@ -308,6 +335,7 @@ sections:
     - finance
     - money
     - calculator
+    statusCheck: false
   - title: Quiverquant
     description: Alternative financial data & political trading
     url: https://quiverquant.com
@@ -320,6 +348,7 @@ sections:
     - finance
     - money
     - calculator
+    statusCheck: false
   - title: Oxford Roman Economy
     description: Ancient Roman trade and shipwreck database
     url: https://oxrep.classics.ox.ac.uk
@@ -330,6 +359,7 @@ sections:
     - finance
     - money
     - calculator
+    statusCheck: false
   - title: Icij
     description: Investigate offshore company leaks and networks
     url: https://offshoreleaks.icij.org
@@ -340,6 +370,7 @@ sections:
     - finance
     - money
     - calculator
+    statusCheck: false
   - title: Printful
     description: No-cost apparel dropshipping side hustle (Printful) [Free]
     url: https://www.printful.com/
@@ -350,6 +381,7 @@ sections:
     - finance
     - money
     - calculator
+    statusCheck: false
   - title: Apple
     description: Free personal finance and budgeting app (Cleo) [Freemium]
     url: https://apps.apple.com/us/app/cleo-ai-smart-money-manager/id1447274646
@@ -360,5 +392,11 @@ sections:
     - finance
     - money
     - calculator
+    statusCheck: false
 appConfig:
   layout: auto
+  theme: glow
+  colCount: 3
+  itemSize: small
+  backgroundImg: https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=2000&auto=format&fit=crop
+  statusCheck: false

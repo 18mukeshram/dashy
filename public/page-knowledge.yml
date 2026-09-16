@@ -7,7 +7,7 @@ sections:
   displayData:
     sortBy: title
     rows: 0
-    cols: 0
+    cols: 1
     collapsed: false
     itemSize: small
   items:
@@ -22,6 +22,7 @@ sections:
     - books
     - research
     - academic
+    statusCheck: false
   - title: Sci Hub
     description: Access research papers
     url: https://sci-hub.se
@@ -33,6 +34,7 @@ sections:
     - books
     - research
     - academic
+    statusCheck: false
   - title: Gutenberg
     description: Read public domain books
     url: https://gutenberg.org
@@ -45,6 +47,7 @@ sections:
     - books
     - academic
     - pdf
+    statusCheck: false
   - title: Pdfdrive
     description: Search pdf books
     url: https://pdfdrive.com
@@ -58,6 +61,7 @@ sections:
     - books
     - research
     - osint
+    statusCheck: false
   - title: Paperanimator
     description: Animate text like paper
     url: https://paperanimator.com
@@ -69,6 +73,7 @@ sections:
     - books
     - research
     - academic
+    statusCheck: false
   - title: Openlibrary
     description: Library with 1000s of books for free
     url: https://openlibrary.org
@@ -81,6 +86,7 @@ sections:
     - books
     - academic
     - pdf
+    statusCheck: false
   - title: Weblib
     description: Find & download almost any book
     url: https://pt.weblib.org
@@ -94,6 +100,7 @@ sections:
     - archive
     - academic
     - download
+    statusCheck: false
   - title: Gutenberg
     description: More than 70000 free ebooks
     url: https://gutenberg.org
@@ -105,6 +112,7 @@ sections:
     - books
     - research
     - academic
+    statusCheck: false
   - title: Turbo
     description: Upload textbook & turn into podcast
     url: https://turbo.ai
@@ -118,6 +126,7 @@ sections:
     - books
     - research
     - academic
+    statusCheck: false
   - title: Calcsolver
     description: Hidden game library in code mode
     url: https://calcsolver.net
@@ -131,6 +140,7 @@ sections:
     - reading
     - books
     - academic
+    statusCheck: false
   - title: Messari
     description: Crypto market research and analytics
     url: https://messari.io
@@ -144,6 +154,7 @@ sections:
     - reading
     - books
     - research
+    statusCheck: false
   - title: Annas Archive
     description: Universal shadow library search engine
     url: https://annas-archive.org
@@ -157,6 +168,7 @@ sections:
     - books
     - research
     - archive
+    statusCheck: false
   - title: Anara
     description: Upload research papers and chat with files
     url: https://anara.com
@@ -170,6 +182,7 @@ sections:
     - research
     - academic
     - chatbot
+    statusCheck: false
   - title: Welib
     description: Download millions of books for free
     url: https://welib.org
@@ -183,6 +196,7 @@ sections:
     - archive
     - academic
     - download
+    statusCheck: false
   - title: Entertrained
     description: Practice typing speed while reading books
     url: https://entertrained.app
@@ -194,6 +208,7 @@ sections:
     - books
     - research
     - academic
+    statusCheck: false
   - title: Refseek
     description: Academic search engine for research and students
     url: https://refseek.com
@@ -207,6 +222,7 @@ sections:
     - books
     - research
     - osint
+    statusCheck: false
   - title: Biodiversitylibrary
     description: Millions of digitized natural history books
     url: https://biodiversitylibrary.org
@@ -218,6 +234,7 @@ sections:
     - books
     - research
     - academic
+    statusCheck: false
   - title: Elephind
     description: Search historical newspapers worldwide
     url: https://elephind.com
@@ -231,6 +248,7 @@ sections:
     - books
     - research
     - osint
+    statusCheck: false
   - title: Zenodo
     description: Open scientific research and datasets archive
     url: https://zenodo.org
@@ -244,6 +262,7 @@ sections:
     - archive
     - academic
     - download
+    statusCheck: false
   - title: Openalex
     description: Fully open index of the global research system
     url: https://openalex.org
@@ -255,6 +274,7 @@ sections:
     - books
     - research
     - academic
+    statusCheck: false
   - title: Standardebooks
     description: Beautifully formatted public domain ebooks
     url: https://standardebooks.org
@@ -266,6 +286,7 @@ sections:
     - books
     - research
     - academic
+    statusCheck: false
   - title: Ourworldindata
     description: Research and data to make progress against the worlds largest problems
     url: https://ourworldindata.org
@@ -277,6 +298,7 @@ sections:
     - books
     - research
     - academic
+    statusCheck: false
   - title: Pangaea
     description: Ocean and earth science research data
     url: https://pangaea.de
@@ -290,6 +312,7 @@ sections:
     - books
     - research
     - academic
+    statusCheck: false
   - title: Whichbook
     description: Mood-based book picks (Which Book) [Free]
     url: https://whichbook.net/
@@ -302,12 +325,13 @@ sections:
     - books
     - academic
     - pdf
+    statusCheck: false
 - name: Education & Learning
   icon: fas fa-graduation-cap
   displayData:
     sortBy: title
     rows: 0
-    cols: 0
+    cols: 1
     collapsed: false
     itemSize: small
   items:
@@ -319,6 +343,7 @@ sections:
     - learning
     - education
     - courses
+    statusCheck: false
   - title: Learn Anything
     description: Learn anything you like
     url: https://learn-anything.xyz
@@ -328,6 +353,7 @@ sections:
     - education
     - study
     - courses
+    statusCheck: false
   - title: Quickref
     description: Learn any coding language you wish
     url: https://quickref.me
@@ -337,6 +363,7 @@ sections:
     - education
     - study
     - courses
+    statusCheck: false
   - title: Classcentral
     description: Free courses from Harvard Stanford and top universities
     url: https://classcentral.com
@@ -345,6 +372,7 @@ sections:
     - learning
     - education
     - courses
+    statusCheck: false
   - title: Hooktheory
     description: Search any song & learn how to play
     url: https://hooktheory.com
@@ -358,6 +386,7 @@ sections:
     - osint
     - retro
     - courses
+    statusCheck: false
   - title: Ifixit
     description: Learn to fix phones cars tools and appliances
     url: https://ifixit.com
@@ -367,6 +396,7 @@ sections:
     - education
     - study
     - courses
+    statusCheck: false
   - title: Fastsolve
     description: Chrome extension for homework and quizzes
     url: https://fastsolve.app
@@ -375,6 +405,7 @@ sections:
     - learning
     - education
     - courses
+    statusCheck: false
   - title: Openculture
     description: 1700+ free courses from top universities
     url: https://openculture.com
@@ -383,6 +414,7 @@ sections:
     - learning
     - education
     - courses
+    statusCheck: false
   - title: Learnkata
     description: Turn notes into personalized Duolingo-style study plans
     url: https://learnkata.ai
@@ -392,6 +424,7 @@ sections:
     - education
     - study
     - courses
+    statusCheck: false
   - title: Mindluster
     description: Over 300000 free courses with certificates
     url: https://mindluster.com
@@ -400,6 +433,7 @@ sections:
     - learning
     - education
     - courses
+    statusCheck: false
   - title: Purrfessor
     description: Cat that replaces social media with micro-learning
     url: https://purrfessor.io
@@ -408,6 +442,7 @@ sections:
     - learning
     - education
     - courses
+    statusCheck: false
   - title: 101Languages
     description: Free foreign language learning guides
     url: https://101languages.net
@@ -416,6 +451,7 @@ sections:
     - learning
     - education
     - courses
+    statusCheck: false
   - title: Lingohut
     description: Free conversational language lessons
     url: https://lingohut.com
@@ -424,6 +460,7 @@ sections:
     - learning
     - education
     - courses
+    statusCheck: false
   - title: Etymonline
     description: Complete online etymology dictionary
     url: https://etymonline.com
@@ -432,6 +469,7 @@ sections:
     - learning
     - education
     - courses
+    statusCheck: false
   - title: Metaprompt
     description: Highlight anything for an instant answer [Freemium]
     url: https://metaprompt.pro
@@ -440,6 +478,7 @@ sections:
     - learning
     - education
     - courses
+    statusCheck: false
   - title: Nobook
     description: Interactive chemistry experiments [Free]
     url: https://chemistry-en.nobook.com/console/templates/resource
@@ -448,6 +487,7 @@ sections:
     - learning
     - education
     - courses
+    statusCheck: false
   - title: Chemequations
     description: Auto-balance chemical equations instantly - essential tool for chemistry
       homework and learning [Free]
@@ -460,6 +500,7 @@ sections:
     - utility
     - courses
     - converter
+    statusCheck: false
   - title: Cymath
     description: Step-by-step math problem solver that shows you how to get the answer
       [Freemium ($4.99/mo)]
@@ -469,6 +510,7 @@ sections:
     - learning
     - education
     - courses
+    statusCheck: false
   - title: Biodigital
     description: Interactive 3D human anatomy model for medical students and curious
       minds to explore [Free]
@@ -481,6 +523,7 @@ sections:
     - courses
     - 3d
     - modeling
+    statusCheck: false
   - title: Kiddoworksheets
     description: Free printable worksheets for kids covering math reading and educational
       activities [Free]
@@ -490,6 +533,7 @@ sections:
     - learning
     - education
     - courses
+    statusCheck: false
   - title: Litsolutions
     description: Free textbook solutions and homework help with step-by-step workings
       for STEM courses [Free]
@@ -499,6 +543,7 @@ sections:
     - learning
     - education
     - courses
+    statusCheck: false
   - title: Musicca
     description: Interactive music theory lessons with virtual instruments and exercises
       to practice concepts [Free]
@@ -511,6 +556,7 @@ sections:
     - education
     - courses
     - audio
+    statusCheck: false
   - title: Spacetypegenerator
     description: Animated typography effects generator for creating dynamic text for
       videos and social media [Free]
@@ -523,6 +569,7 @@ sections:
     - utility
     - courses
     - converter
+    statusCheck: false
   - title: Typelit
     description: Practice typing by retyping classic literature - combine skill development
       with reading great books [Freemium]
@@ -532,6 +579,7 @@ sections:
     - learning
     - education
     - courses
+    statusCheck: false
   - title: ZType
     description: Typing game where you shoot down enemy ships by typing words - fun
       skill practice [Free]
@@ -544,6 +592,7 @@ sections:
     - retro
     - games
     - gaming
+    statusCheck: false
   - title: Docsity
     description: Past exams & notes (Docsity) [Freemium]
     url: https://www.docsity.com/en/
@@ -552,6 +601,7 @@ sections:
     - learning
     - education
     - courses
+    statusCheck: false
   - title: Cheatography
     description: Printable cheat sheets (Cheatography) [Free]
     url: https://cheatography.com
@@ -560,6 +610,7 @@ sections:
     - learning
     - education
     - courses
+    statusCheck: false
   - title: edX
     description: Free university courses (edX) [Freemium]
     url: https://www.edx.org/
@@ -568,6 +619,7 @@ sections:
     - learning
     - education
     - courses
+    statusCheck: false
   - title: Monkeytype
     description: Free typing test to improve speed (MonkeyType) [Free]
     url: https://monkeytype.com/
@@ -576,6 +628,7 @@ sections:
     - learning
     - education
     - courses
+    statusCheck: false
   - title: Chromeexperiments
     description: 3D interactive exploration of our galaxy (100,000 Stars) [Free]
     url: https://stars.chromeexperiments.com/
@@ -587,6 +640,7 @@ sections:
     - courses
     - 3d
     - modeling
+    statusCheck: false
   - title: Chatedu
     description: Create study guides, practice quizzes, and more (ChatEDU) [Freemium]
     url: https://chatedu.io/en
@@ -596,6 +650,7 @@ sections:
     - education
     - study
     - courses
+    statusCheck: false
   - title: Biorender
     description: Free icons and templates from 30+ fields of life sciences (bioRender)
       [Freemium]
@@ -605,6 +660,7 @@ sections:
     - learning
     - education
     - courses
+    statusCheck: false
   - title: Solvely
     description: Generate quizzes, flashcards, and solve homework problems (Solvely.ai)
       [Freemium]
@@ -614,6 +670,7 @@ sections:
     - learning
     - education
     - courses
+    statusCheck: false
   - title: Education
     description: Free printable worksheets K-8th Grade (Education.com) [Freemium]
     url: https://www.education.com/
@@ -622,12 +679,13 @@ sections:
     - learning
     - education
     - courses
+    statusCheck: false
 - name: Science & World Data
   icon: fas fa-flask
   displayData:
     sortBy: title
     rows: 0
-    cols: 0
+    cols: 1
     collapsed: true
     itemSize: small
   items:
@@ -639,6 +697,7 @@ sections:
     - science
     - data
     - research
+    statusCheck: false
   - title: Opencorporates
     description: Open database of 225M+ global companies
     url: https://opencorporates.com
@@ -647,6 +706,7 @@ sections:
     - science
     - data
     - research
+    statusCheck: false
   - title: Europeana
     description: 50M+ digitized European cultural heritage artifacts
     url: https://europeana.eu
@@ -655,6 +715,7 @@ sections:
     - science
     - data
     - research
+    statusCheck: false
   - title: Iucnredlist
     description: Global conservation status of plant and animal species
     url: https://iucnredlist.org
@@ -663,6 +724,7 @@ sections:
     - science
     - data
     - research
+    statusCheck: false
   - title: Openfoodfacts
     description: Nutritional and ingredient data on 3M+ food products
     url: https://openfoodfacts.org
@@ -671,6 +733,7 @@ sections:
     - science
     - data
     - research
+    statusCheck: false
   - title: Ebird
     description: Global bird sightings and biodiversity database
     url: https://ebird.org
@@ -679,6 +742,7 @@ sections:
     - science
     - data
     - research
+    statusCheck: false
   - title: Paleobiodb
     description: Fossil and paleontology records spanning 500M years
     url: https://paleobiodb.org
@@ -687,6 +751,7 @@ sections:
     - science
     - data
     - research
+    statusCheck: false
   - title: Opencontext
     description: Archaeological and cultural excavation datasets
     url: https://opencontext.org
@@ -695,12 +760,13 @@ sections:
     - science
     - data
     - research
+    statusCheck: false
 - name: Space, Earth & Maps
   icon: fas fa-globe
   displayData:
     sortBy: title
     rows: 0
-    cols: 0
+    cols: 1
     collapsed: false
     itemSize: small
   items:
@@ -715,6 +781,7 @@ sections:
     - maps
     - earth
     - space
+    statusCheck: false
   - title: Airplanes
     description: Track aircraft with fewer blind spots
     url: https://AIRPLANES.LIVE
@@ -726,6 +793,7 @@ sections:
     - maps
     - earth
     - space
+    statusCheck: false
   - title: Flightradar24
     description: Interactive map of live aircraft worldwide
     url: https://flightradar24.com
@@ -737,6 +805,7 @@ sections:
     - maps
     - earth
     - space
+    statusCheck: false
   - title: Towaway
     description: Sit in window seat of any plane flying over you
     url: https://towaway.live
@@ -748,6 +817,7 @@ sections:
     - maps
     - earth
     - space
+    statusCheck: false
   - title: Volcano Monitor
     description: Monitor volcanoes & ash in real time
     url: https://abu.cikoytew.my.id
@@ -759,6 +829,7 @@ sections:
     - maps
     - earth
     - space
+    statusCheck: false
   - title: Skymaponline
     description: View constellations
     url: https://skymaponline.net
@@ -770,6 +841,7 @@ sections:
     - maps
     - earth
     - space
+    statusCheck: false
   - title: Dungeonscrawl
     description: Create fantasy maps
     url: https://dungeonscrawl.com
@@ -781,6 +853,7 @@ sections:
     - maps
     - earth
     - space
+    statusCheck: false
   - title: Thetruesize
     description: Drag countries across map to see true size
     url: https://thetruesize.com
@@ -792,6 +865,7 @@ sections:
     - maps
     - earth
     - space
+    statusCheck: false
   - title: Submarinecablemap
     description: Interactive map of underwater internet cables
     url: https://submarinecablemap.com
@@ -803,6 +877,7 @@ sections:
     - maps
     - earth
     - space
+    statusCheck: false
   - title: Davidrumsey
     description: Centuries old historical maps overlay
     url: https://davidrumsey.com
@@ -814,6 +889,7 @@ sections:
     - maps
     - earth
     - space
+    statusCheck: false
   - title: Windy
     description: Watch global weather move in real time
     url: https://windy.com
@@ -825,6 +901,7 @@ sections:
     - maps
     - earth
     - space
+    statusCheck: false
   - title: Earthcam
     description: Live HD webcams across the globe
     url: https://earthcam.com
@@ -836,6 +913,7 @@ sections:
     - maps
     - earth
     - space
+    statusCheck: false
   - title: Ankiweb
     description: Spaced repetition flashcards
     url: https://apps.ankiweb.net
@@ -847,6 +925,7 @@ sections:
     - maps
     - earth
     - space
+    statusCheck: false
   - title: Adsb
     description: Community-driven real-time flight tracking
     url: https://adsb.fi
@@ -858,6 +937,7 @@ sections:
     - maps
     - earth
     - space
+    statusCheck: false
   - title: Antcat
     description: Catalog of every ant species on Earth
     url: https://antcat.org
@@ -869,6 +949,7 @@ sections:
     - maps
     - earth
     - space
+    statusCheck: false
   - title: Oldmapsonline
     description: Historical maps index
     url: https://oldmapsonline.org
@@ -880,6 +961,7 @@ sections:
     - maps
     - earth
     - space
+    statusCheck: false
   - title: Seatguru
     description: Airplane seat guide (Seat Guru) [Free]
     url: https://www.seatguru.com/
@@ -891,12 +973,13 @@ sections:
     - maps
     - earth
     - space
+    statusCheck: false
 - name: Lifestyle & Food
   icon: fas fa-utensils
   displayData:
     sortBy: title
     rows: 0
-    cols: 0
+    cols: 1
     collapsed: true
     itemSize: small
   items:
@@ -908,6 +991,7 @@ sections:
     - food
     - lifestyle
     - recipes
+    statusCheck: false
   - title: Whatthefuckshouldimakefordinner
     description: Random dinner idea (What Should I Make?) [Free]
     url: http://whatthefuckshouldimakefordinner.com/
@@ -916,6 +1000,7 @@ sections:
     - food
     - lifestyle
     - recipes
+    statusCheck: false
   - title: Eatthismuch
     description: Auto meal planner (Eat This Much) [Freemium]
     url: https://www.eatthismuch.com/
@@ -924,6 +1009,7 @@ sections:
     - food
     - lifestyle
     - recipes
+    statusCheck: false
   - title: Hackthemenu
     description: Secret fast-food menus (Hack the Menu) [Free]
     url: http://hackthemenu.com/
@@ -935,6 +1021,7 @@ sections:
     - cyber
     - recipes
     - pentest
+    statusCheck: false
   - title: Justtherecipe
     description: Recipe-only extractor (Just The Recipe) [Free]
     url: https://www.justtherecipe.com/
@@ -943,12 +1030,13 @@ sections:
     - food
     - lifestyle
     - recipes
+    statusCheck: false
 - name: Health & Fitness
   icon: fas fa-heart-pulse
   displayData:
     sortBy: title
     rows: 0
-    cols: 0
+    cols: 1
     collapsed: true
     itemSize: small
   items:
@@ -960,12 +1048,13 @@ sections:
     - wellness
     - health
     - fitness
+    statusCheck: false
 - name: Shopping & Deals
   icon: fas fa-shopping-cart
   displayData:
     sortBy: title
     rows: 0
-    cols: 0
+    cols: 1
     collapsed: true
     itemSize: small
   items:
@@ -977,6 +1066,7 @@ sections:
     - shopping
     - deals
     - discounts
+    statusCheck: false
   - title: Amazon
     description: Photo-based product match (Amazon Style Snap) [Free]
     url: https://www.amazon.com/stylesnap
@@ -988,6 +1078,7 @@ sections:
     - image-gen
     - shopping
     - deals
+    statusCheck: false
   - title: Dealseek
     description: Free Amazon Deals and Coupon website (DealSeek) [Free]
     url: https://dealseek.com/
@@ -996,12 +1087,13 @@ sections:
     - shopping
     - deals
     - discounts
+    statusCheck: false
 - name: Career & Resume
   icon: fas fa-briefcase
   displayData:
     sortBy: title
     rows: 0
-    cols: 0
+    cols: 1
     collapsed: false
     itemSize: small
   items:
@@ -1013,6 +1105,7 @@ sections:
     - career
     - jobs
     - resume
+    statusCheck: false
   - title: Jobcrawl
     description: Find the latest jobs before they're posted on LinkedIn or Indeed.
       [Freemium ($3.99)]
@@ -1022,6 +1115,7 @@ sections:
     - career
     - jobs
     - resume
+    statusCheck: false
   - title: Joinstudyscout
     description: High paying online focus groups (JoinSideQuest) [Free]
     url: https://www.joinstudyscout.com/
@@ -1030,6 +1124,7 @@ sections:
     - career
     - jobs
     - resume
+    statusCheck: false
   - title: Rareroles
     description: Great remote job board (Rare Roles) [Free]
     url: https://www.rareroles.com/
@@ -1038,6 +1133,7 @@ sections:
     - career
     - jobs
     - resume
+    statusCheck: false
   - title: Remoteok
     description: Remote job board (Remote OK) [Free]
     url: https://remoteok.com/
@@ -1046,6 +1142,7 @@ sections:
     - career
     - jobs
     - resume
+    statusCheck: false
   - title: Weworkremotely
     description: Remote and hybrid job board (We Work Remotely) [Free]
     url: http://weworkremotely.com/
@@ -1054,6 +1151,7 @@ sections:
     - career
     - jobs
     - resume
+    statusCheck: false
   - title: Jobspresso
     description: Remote and hybrid job board (Jobspresso) [Free]
     url: https://jobspresso.co/
@@ -1062,6 +1160,7 @@ sections:
     - career
     - jobs
     - resume
+    statusCheck: false
   - title: Flexjobs
     description: Remote and hybrid job board (FlexJobs) [Paid]
     url: https://www.flexjobs.com/
@@ -1070,6 +1169,7 @@ sections:
     - career
     - jobs
     - resume
+    statusCheck: false
   - title: Remotescout24
     description: Remote and hybrid job board (RemoteScout24) [Free]
     url: https://remotescout24.com/en
@@ -1078,5 +1178,11 @@ sections:
     - career
     - jobs
     - resume
+    statusCheck: false
 appConfig:
   layout: auto
+  theme: glow
+  colCount: 4
+  itemSize: small
+  backgroundImg: https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=2000&auto=format&fit=crop
+  statusCheck: false

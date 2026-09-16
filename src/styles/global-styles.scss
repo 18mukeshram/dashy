@@ -107,3 +107,272 @@ html, body, #app, .app, .home {
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
+
+
+/* === MASTER DIRECTIVE GLASSMORPHISM & LAYOUT OVERHAUL === */
+
+/* 1. Global Viewport & Wallpaper Lock */
+html, body, #dashy, #app, .app, .home {
+  background-image: url('https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=2000&auto=format&fit=crop') !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-color: #090a10 !important;
+}
+
+/* 2. Top Navigation Tabs: Sleek Pill Capsules */
+.nav-outer nav,
+.nav {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.nav-item,
+.page-nav-link {
+  border-radius: 20px !important;
+  padding: 6px 16px !important;
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  color: #94a3b8 !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  transition: all 0.2s ease !important;
+  box-shadow: none !important;
+  margin: 0 !important;
+  min-width: unset !important;
+}
+
+.nav-item:hover,
+.page-nav-link:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+.nav-item.router-link-active,
+.nav-item.active,
+.page-nav-link.router-link-active,
+.page-nav-link.active {
+  background: #e11d48 !important; /* Vivid Ruby/Red accent */
+  color: #ffffff !important;
+  box-shadow: 0 0 14px rgba(225, 29, 72, 0.5) !important;
+  border-color: transparent !important;
+}
+
+/* 3. Grid & Section Spanning */
+.item-group-container {
+  max-width: 96% !important;
+  margin: 1.5rem auto !important;
+  gap: 20px !important;
+}
+
+/* Search and News ALWAYS span the FULL WIDTH */
+.collapsable.col-4,
+.collapsable.col-6,
+.section_⚡-multi-engine-search,
+.section_📰-daily.dev-intelligence-engine,
+.section_multi-engine-search,
+.section_daily.dev-intelligence-engine {
+  grid-column: 1 / -1 !important;
+  width: 100% !important;
+  margin: 0 0 10px 0 !important;
+}
+
+/* 4. Frosted Glass Category Panels */
+.collapsable {
+  background: rgba(15, 18, 30, 0.65) !important;
+  backdrop-filter: blur(24px) !important;
+  -webkit-backdrop-filter: blur(24px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 16px !important;
+  padding: 16px !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4) !important;
+  margin: 0 !important;
+  transition: transform 0.2s ease, border-color 0.2s ease !important;
+
+  &:hover {
+    border-color: rgba(255, 255, 255, 0.14) !important;
+  }
+
+  .section-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    padding-bottom: 8px !important;
+    margin-bottom: 12px !important;
+
+    h3 {
+      font-size: 14px !important;
+      font-weight: 700 !important;
+      color: #ffffff !important;
+      letter-spacing: 0.5px !important;
+      margin: 0 !important;
+    }
+
+    .arrow {
+      border-color: #94a3b8 !important;
+    }
+    .header-action {
+      opacity: 0.6;
+      transition: opacity 0.15s ease;
+      &:hover { opacity: 1; }
+    }
+  }
+}
+
+/* 5. Sleek Single-Line Horizontal Bookmark Rows (Stop Chunky Square Blocks) */
+.there-are-items,
+.item-group {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 6px !important;
+  width: 100% !important;
+}
+
+.item-wrapper {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.item {
+  display: flex !important;
+  flex-direction: row-reverse !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  width: 100% !important;
+  height: 32px !important;
+  min-height: 32px !important;
+  padding: 4px 10px !important;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  transition: background 0.2s ease, transform 0.15s ease !important;
+
+  &:hover, &:focus {
+    background: rgba(255, 255, 255, 0.08) !important;
+    transform: translateX(4px) !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+
+  .bounce,
+  .tile-icon,
+  .tile-svg {
+    width: 18px !important;
+    height: 18px !important;
+    min-width: 18px !important;
+    margin-right: 12px !important;
+    margin-left: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    img, svg {
+      width: 18px !important;
+      height: 18px !important;
+      object-fit: contain !important;
+    }
+  }
+
+  .tile-title {
+    flex: 1 1 auto !important;
+    height: auto !important;
+    min-height: 0 !important;
+    text-align: left !important;
+    margin: 0 !important;
+    padding: 0 !important;
+
+    span.text {
+      font-size: 13px !important;
+      font-weight: 500 !important;
+      color: #e2e8f0 !important;
+      text-align: left !important;
+      padding: 0 !important;
+      line-height: 1.3 !important;
+    }
+  }
+
+  p.description {
+    display: none !important;
+  }
+}
+
+/* 6. Multi-Engine Search Widget: Centralized Command Bar */
+.custom-search {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  width: 100% !important;
+  max-width: 800px !important;
+  margin: 0 auto !important;
+  padding: 10px 0 !important;
+
+  input {
+    width: 100% !important;
+    max-width: 640px !important;
+    height: 42px !important;
+    padding: 0 18px !important;
+    margin: 0 0 12px 0 !important;
+    background: rgba(15, 23, 42, 0.75) !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    border-radius: 21px !important;
+    color: #f8fafc !important;
+    font-size: 14px !important;
+    outline: none !important;
+    box-sizing: border-box !important;
+    backdrop-filter: blur(12px) !important;
+    transition: all 0.2s ease !important;
+
+    &:focus {
+      border-color: #38bdf8 !important;
+      box-shadow: 0 0 16px rgba(56, 189, 248, 0.3) !important;
+    }
+  }
+
+  .buttons {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 8px !important;
+
+    button {
+      border-radius: 16px !important;
+      padding: 5px 14px !important;
+      background: rgba(255, 255, 255, 0.05) !important;
+      border: 1px solid rgba(255, 255, 255, 0.08) !important;
+      color: #94a3b8 !important;
+      font-size: 12px !important;
+      font-weight: 500 !important;
+      margin: 0 !important;
+      cursor: pointer !important;
+      transition: all 0.2s ease !important;
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.12) !important;
+        color: #ffffff !important;
+        transform: translateY(-1px) !important;
+      }
+    }
+  }
+}
+
+/* 7. daily.dev News Container: Horizontal Grid */
+.news-container,
+.daily-dev-feed,
+.daily-dev-news,
+.articles-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)) !important;
+  gap: 16px !important;
+  width: 100% !important;
+}
+
+/* 8. Settings header clean up */
+section.settings-outer {
+  background: transparent !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+}

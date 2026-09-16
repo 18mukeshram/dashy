@@ -240,6 +240,15 @@ export default {
   },
   /* Basic initialization tasks on app load. Config is already loaded by router.beforeEach. */
   mounted() {
+    // Purge legacy stale cached sections if present from old builds
+    try {
+      const cachedSecs = localStorage.getItem('confSections');
+      if (cachedSecs && (cachedSecs.includes('Mission Control') || cachedSecs.includes('Productivity & Utilities'))) {
+        localStorage.removeItem('confSections');
+        localStorage.removeItem('appConfig');
+      }
+    } catch (_) {}
+
     this.applyLanguage();
     this.hideSplash();
     this.applyCustomStyles();
