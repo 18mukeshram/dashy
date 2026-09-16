@@ -1,0 +1,160 @@
+pageInfo:
+  title: Cyber & OSINT
+  description: Security Tools, OSINT, Privacy & Financial Intelligence
+sections:
+- name: OSINT & Cybersecurity
+  icon: fas fa-shield-halved
+  displayData:
+    sortBy: title
+    rows: 0
+    cols: 0
+    collapsed: false
+  items:
+  - title: Haveibeenpwned
+    description: Check data breaches
+    url: https://haveibeenpwned.com
+    icon: favicon
+  - title: Facecheck
+    description: Upload face photo and find where that face appears across the Internet
+    url: https://facecheck.id
+    icon: favicon
+  - title: robin
+    description: Send an AI agent into dark-web sources
+    url: https://robin
+    icon: favicon
+  - title: MVT (Mobile Verification Toolkit)
+    description: Scan your phone for traces of pegasus spyware
+    url: https://github.com/mvt-project/mvt
+    icon: favicon
+  - title: VOID ACCESS
+    description: Search leaked logins crypto wallet references & dark-web mentions
+    url: https://github.com/KatrielMoses/voidaccess
+    icon: favicon
+  - title: MAILACCESS
+    description: Find leaked accounts profiles and public exposure signals
+    url: https://MAILACCESS
+    icon: favicon
+  - title: HORUS
+    description: The best infostealer & threat mitigation platform
+    url: https://HORUS
+    icon: favicon
+  - title: TORBOT
+    description: Run multiple OSINT lookups from one terminal tool
+    url: https://TORBOT
+    icon: favicon
+  - title: Kaspersky
+    description: See all cyberthreats in real time globally
+    url: https://cybermap.kaspersky.com
+    icon: favicon
+  - title: Sploitus
+    description: Search engine for ethical hacking & exploits
+    url: https://sploitus.com
+    icon: favicon
+  - title: Hacksplaining
+    description: Interactive ethical hacking lessons
+    url: https://hacksplaining.com
+    icon: favicon
+  - title: Breachdirectory
+    description: Check compromised credentials and breaches
+    url: https://breachdirectory.org
+    icon: favicon
+  - title: Flocintel
+    description: Search breached records and leaked emails
+    url: https://flocintel.com
+    icon: favicon
+  - title: Start
+    description: Massive curated directory of OSINT tools
+    url: https://start.me/p/q6P85n/osint4all
+    icon: favicon
+  - title: Facecheck
+    description: Face recognition reverse image search
+    url: https://facecheck.id
+    icon: favicon
+  - title: Shodan
+    description: Search engine for internet-connected devices
+    url: https://shodan.io
+    icon: favicon
+- name: Privacy & Web Utilities
+  icon: fas fa-user-shield
+  displayData:
+    sortBy: title
+    rows: 0
+    cols: 0
+    collapsed: false
+  items:
+  - title: Removepaywall
+    description: Access paywalled articles
+    url: https://removepaywall.com
+    icon: favicon
+  - title: '10015'
+    description: All-in-one fake generator
+    url: https://10015.io
+    icon: favicon
+  - title: Temp Mail
+    description: Disposable temporary email address
+    url: https://temp-mail.org
+    icon: favicon
+  - title: Privnote
+    description: Write a private self-destructing note
+    url: https://privnote.com
+    icon: favicon
+  - title: Fast
+    description: Simple internet-speed test
+    url: https://fast.com
+    icon: favicon
+  - title: Wifispc
+    description: Find wifi passwords for nearby routers
+    url: https://wifispc.com
+    icon: favicon
+  - title: Justdelete
+    description: Directory with direct links to delete accounts
+    url: https://justdelete.me
+    icon: favicon
+  - title: Removepaywall
+    description: Read paywalled articles cleanly
+    url: https://removepaywall.com
+    icon: favicon
+- name: Finance & Markets
+  icon: fas fa-chart-line
+  displayData:
+    sortBy: title
+    rows: 0
+    cols: 0
+    collapsed: false
+  items:
+  - title: Legend
+    description: Find top crypto millionaires and copy their trades exactly
+    url: https://app.legend.trade
+    icon: favicon
+  - title: Camelcamelcamel
+    description: Free price tracker for Amazon products
+    url: https://camelcamelcamel.com
+    icon: favicon
+  - title: Finviz
+    description: Scan and filter stock markets with charts
+    url: https://finviz.com
+    icon: favicon
+  - title: Invoapp
+    description: Copy trades of successful investors
+    url: https://app.invoapp.com
+    icon: favicon
+  - title: Quiverquant
+    description: Alternative financial data & political trading
+    url: https://quiverquant.com
+    icon: favicon
+  - title: Oxford Roman Economy
+    description: Ancient Roman trade and shipwreck database
+    url: https://oxrep.classics.ox.ac.uk
+    icon: favicon
+  - title: Icij
+    description: Investigate offshore company leaks and networks
+    url: https://offshoreleaks.icij.org
+    icon: favicon
+  - title: Printful
+    description: No-cost apparel dropshipping side hustle (Printful) [Free]
+    url: https://www.printful.com/
+    icon: favicon
+  - title: Apple
+    description: Free personal finance and budgeting app (Cleo) [Freemium]
+    url: https://apps.apple.com/us/app/cleo-ai-smart-money-manager/id1447274646
+    icon: favicon
