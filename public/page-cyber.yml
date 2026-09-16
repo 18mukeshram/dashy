@@ -13,7 +13,7 @@ sections:
   - title: Haveibeenpwned
     description: Check data breaches
     url: https://haveibeenpwned.com
-    icon: favicon
+    icon: fas fa-shield-halved
   - title: Facecheck
     description: Upload face photo and find where that face appears across the Internet
     url: https://facecheck.id
@@ -25,11 +25,11 @@ sections:
   - title: MVT (Mobile Verification Toolkit)
     description: Scan your phone for traces of pegasus spyware
     url: https://github.com/mvt-project/mvt
-    icon: favicon
+    icon: si-github
   - title: VOID ACCESS
     description: Search leaked logins crypto wallet references & dark-web mentions
     url: https://github.com/KatrielMoses/voidaccess
-    icon: favicon
+    icon: si-github
   - title: MAILACCESS
     description: Find leaked accounts profiles and public exposure signals
     url: https://MAILACCESS
@@ -73,7 +73,7 @@ sections:
   - title: Shodan
     description: Search engine for internet-connected devices
     url: https://shodan.io
-    icon: favicon
+    icon: fas fa-server
 - name: Privacy & Web Utilities
   icon: fas fa-user-shield
   displayData:

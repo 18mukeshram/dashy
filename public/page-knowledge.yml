@@ -138,7 +138,7 @@ sections:
   - title: Ifixit
     description: Learn to fix phones cars tools and appliances
     url: https://ifixit.com
-    icon: favicon
+    icon: si-ifixit
   - title: Fastsolve
     description: Chrome extension for homework and quizzes
     url: https://fastsolve.app
@@ -235,7 +235,7 @@ sections:
   - title: edX
     description: Free university courses (edX) [Freemium]
     url: https://www.edx.org/
-    icon: favicon
+    icon: si-edx
   - title: Monkeytype
     description: Free typing test to improve speed (MonkeyType) [Free]
     url: https://monkeytype.com/
@@ -321,7 +321,7 @@ sections:
   - title: Flightradar24
     description: Interactive map of live aircraft worldwide
     url: https://flightradar24.com
-    icon: favicon
+    icon: fas fa-plane
   - title: Towaway
     description: Sit in window seat of any plane flying over you
     url: https://towaway.live
@@ -353,7 +353,7 @@ sections:
   - title: Windy
     description: Watch global weather move in real time
     url: https://windy.com
-    icon: favicon
+    icon: fas fa-wind
   - title: Earthcam
     description: Live HD webcams across the globe
     url: https://earthcam.com
@@ -361,7 +361,7 @@ sections:
   - title: Ankiweb
     description: Spaced repetition flashcards
     url: https://apps.ankiweb.net
-    icon: favicon
+    icon: fas fa-brain
   - title: Adsb
     description: Community-driven real-time flight tracking
     url: https://adsb.fi
@@ -433,7 +433,7 @@ sections:
   - title: Amazon
     description: Photo-based product match (Amazon Style Snap) [Free]
     url: https://www.amazon.com/stylesnap
-    icon: favicon
+    icon: si-amazon
   - title: Dealseek
     description: Free Amazon Deals and Coupon website (DealSeek) [Free]
     url: https://dealseek.com/

@@ -23,7 +23,7 @@ sections:
   - title: Poe AI
     description: Access to all premium AI tools
     url: https://poe.com
-    icon: favicon
+    icon: si-poe
   - title: Tranchi
     description: AI that helps you buy houses with $5K
     url: https://tranchi.ai
@@ -35,11 +35,11 @@ sections:
   - title: Vercel
     description: Human anatomy in 2284 modeled pieces
     url: https://human-atlas-seven.vercel.app
-    icon: favicon
+    icon: si-vercel
   - title: Z-Image Turbo
     description: Create premium looking AI images for free
     url: https://huggingface.co/spaces/Tongyi-MAI/Z-Image-Turbo
-    icon: favicon
+    icon: si-huggingface
   - title: Trellis 2
     description: Turn any image into 3D model
     url: https://trellis3d.co
@@ -47,7 +47,7 @@ sections:
   - title: LTX 2 Distilled
     description: Turn one photo into talking video
     url: https://huggingface.co/spaces/Lightricks/ltx-2-distilled
-    icon: favicon
+    icon: si-huggingface
   - title: MUAPI
     description: Top AI video & image models in one place
     url: https://MUAPI
@@ -95,7 +95,7 @@ sections:
   - title: Huggingface
     description: Generate different image angles [Freemium]
     url: https://huggingface.co/spaces/multimodalart/qwen-image-multiple-angles-3d-camera
-    icon: favicon
+    icon: si-huggingface
   - title: Acapella Extractor
     description: Extract clean vocals from any song for remixes and music production
       projects [Freemium]
@@ -359,7 +359,7 @@ sections:
   - title: Devdocs
     description: Fast offline-capable API documentation for developers
     url: https://devdocs.io
-    icon: favicon
+    icon: si-devdotto
   - title: Softwareheritage
     description: Archive preserving all public source code
     url: https://softwareheritage.org
@@ -378,7 +378,7 @@ sections:
     description: Open-source workflow automation that connects apps and automates
       tasks with visual builder [Freemium ($20/mo)]
     url: https://n8n.io
-    icon: favicon
+    icon: si-n8n
   - title: Roadmap
     description: Developer career learning paths with step-by-step roadmaps for any
       tech specialization [Free]
@@ -421,7 +421,7 @@ sections:
   - title: Photopea
     description: Browser-based photo editor
     url: https://photopea.com
-    icon: favicon
+    icon: fas fa-image
   - title: Ray.so
     description: Create code images
     url: https://ray.so
@@ -445,7 +445,7 @@ sections:
   - title: Netryx Astra V2
     description: Use one photo and find where it was taken even without metadata
     url: https://github.com/sparkyniner/Netryx-Astra-V2-Geolocation-Tool
-    icon: favicon
+    icon: si-github
   - title: HomeByMe
     description: Design your own home in 3D
     url: https://home.by.me
@@ -465,11 +465,11 @@ sections:
   - title: Omni Image Editor
     description: Edit any image with AI
     url: https://huggingface.co/spaces/selfit-camera/Omni-Image-Editor
-    icon: favicon
+    icon: si-huggingface
   - title: Nasa
     description: Explore solar system in 3D
     url: https://eyes.nasa.gov
-    icon: favicon
+    icon: si-nasa
   - title: Excalidraw
     description: Free digital whiteboard with hand-drawn look
     url: https://Excalidraw.com
