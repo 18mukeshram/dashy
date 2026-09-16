@@ -9,6 +9,7 @@ sections:
     rows: 0
     cols: 0
     collapsed: false
+    itemSize: small
   items:
   - title: Justwatch
     description: Track where to stream
@@ -244,6 +245,7 @@ sections:
     rows: 0
     cols: 0
     collapsed: false
+    itemSize: small
   items:
   - title: Slowroads
     description: Cruise through endless car driving world directly in your browser
@@ -516,6 +518,7 @@ sections:
     rows: 0
     cols: 0
     collapsed: true
+    itemSize: small
   items:
   - title: Tunefind
     description: TV/film song ID (Tune Find) [Free]

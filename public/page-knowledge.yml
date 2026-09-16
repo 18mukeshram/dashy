@@ -9,6 +9,7 @@ sections:
     rows: 0
     cols: 0
     collapsed: false
+    itemSize: small
   items:
   - title: Libgen
     description: Find free academic books
@@ -628,6 +629,7 @@ sections:
     rows: 0
     cols: 0
     collapsed: true
+    itemSize: small
   items:
   - title: Mindat
     description: Worlds largest mineral and meteorite database
@@ -700,6 +702,7 @@ sections:
     rows: 0
     cols: 0
     collapsed: false
+    itemSize: small
   items:
   - title: Davesgames
     description: Simulate space in browser
@@ -895,6 +898,7 @@ sections:
     rows: 0
     cols: 0
     collapsed: true
+    itemSize: small
   items:
   - title: Tasteatlas
     description: World food guide (Taste Atlas) [Free]
@@ -946,6 +950,7 @@ sections:
     rows: 0
     cols: 0
     collapsed: true
+    itemSize: small
   items:
   - title: Sleepyti
     description: Optimal sleep times (SleepyTime) [Free]
@@ -962,6 +967,7 @@ sections:
     rows: 0
     cols: 0
     collapsed: true
+    itemSize: small
   items:
   - title: Rakuten
     description: Free Cashback from online shopping (Rakuten) [Free]
@@ -997,6 +1003,7 @@ sections:
     rows: 0
     cols: 0
     collapsed: false
+    itemSize: small
   items:
   - title: Tryrobin
     description: Optimize your resume and land more interviews. [Freemium]

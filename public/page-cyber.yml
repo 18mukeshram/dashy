@@ -9,6 +9,7 @@ sections:
     rows: 0
     cols: 0
     collapsed: false
+    itemSize: small
   items:
   - title: Haveibeenpwned
     description: Check data breaches
@@ -174,6 +175,7 @@ sections:
     rows: 0
     cols: 0
     collapsed: false
+    itemSize: small
   items:
   - title: Removepaywall
     description: Access paywalled articles
@@ -260,6 +262,7 @@ sections:
     rows: 0
     cols: 0
     collapsed: false
+    itemSize: small
   items:
   - title: Legend
     description: Find top crypto millionaires and copy their trades exactly

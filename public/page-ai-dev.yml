@@ -694,6 +694,7 @@ sections:
     rows: 0
     cols: 0
     collapsed: false
+    itemSize: small
   items:
   - title: Carbon
     description: Style code snippets
