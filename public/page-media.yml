@@ -560,4 +560,4 @@ sections:
     - voice
     - music
 appConfig:
-  layout: horizontal
+  layout: auto

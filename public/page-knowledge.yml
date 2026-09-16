@@ -1079,4 +1079,4 @@ sections:
     - jobs
     - resume
 appConfig:
-  layout: horizontal
+  layout: auto

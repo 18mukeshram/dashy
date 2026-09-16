@@ -8,7 +8,7 @@ pageInfo:
     path: /download
 appConfig:
   theme: glow
-  layout: horizontal
+  layout: auto
   iconSize: medium
   language: en
   statusCheck: false
@@ -26,37 +26,35 @@ appConfig:
     \ sans-serif !important;\n  --font-monospace: 'JetBrains Mono', monospace !important;\n\
     \  --accent-cyan: #06b6d4;\n  --accent-cyan-glow: rgba(6, 182, 212, 0.4);\n  --accent-ruby:\
     \ #e11d48;\n  --accent-ruby-glow: rgba(225, 29, 72, 0.35);\n  --accent-indigo:\
-    \ #6366f1;\n}\n\nbody {\n  font-family: 'Plus Jakarta Sans', system-ui, -apple-system,\
-    \ sans-serif !important;\n  background-attachment: fixed !important;\n  background-size:\
-    \ cover !important;\n  background-position: center !important;\n  background-repeat:\
-    \ no-repeat !important;\n  /* Add a dark overlay to make it look even more cyber/premium\
-    \ */\n  background-color: #050510 !important;\n  background-blend-mode: overlay;\n\
-    }\n\n/* Force Dashy Main Container to fill width */\n#dashy-main {\n  max-width:\
-    \ 100% !important;\n  padding: 0 2rem !important;\n  box-sizing: border-box;\n\
-    }\n\n/* Force Masonry/Grid Layout for Items */\n.item-group-container {\n  display:\
-    \ grid !important;\n  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr))\
-    \ !important;\n  gap: 1.5rem !important;\n  align-items: start !important;\n}\n\
-    \n/* Daily.dev Style Glass Cards */\n.item-group {\n  background: rgba(15, 15,\
-    \ 25, 0.6) !important;\n  backdrop-filter: blur(16px) saturate(180%) !important;\n\
+    \ #6366f1;\n}\n\nhtml, body, #app, .app {\n  font-family: 'Plus Jakarta Sans',\
+    \ system-ui, -apple-system, sans-serif !important;\n  background-attachment: fixed\
+    \ !important;\n  background-size: cover !important;\n  background-position: center\
+    \ !important;\n  background-repeat: no-repeat !important;\n  /* Add a dark overlay\
+    \ to make it look even more cyber/premium */\n  background-color: #050510 !important;\n\
+    \  background-blend-mode: overlay;\n}\n\n/* Force Dashy Main Container to fill\
+    \ width for wide masonry grid */\nmain, #dashy-main {\n  max-width: 100% !important;\n\
+    \  padding: 1rem 2rem !important;\n  box-sizing: border-box;\n}\n\n/* Daily.dev\
+    \ Style Glass Cards for the Categories */\n.item-group {\n  background: rgba(15,\
+    \ 15, 25, 0.6) !important;\n  backdrop-filter: blur(16px) saturate(180%) !important;\n\
     \  -webkit-backdrop-filter: blur(16px) saturate(180%) !important;\n  border: 1px\
     \ solid rgba(255, 255, 255, 0.08) !important;\n  border-radius: 16px !important;\n\
     \  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3) !important;\n  transition: all\
-    \ 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;\n  margin-bottom: 0 !important;\n\
-    \  height: 100% !important;\n}\n\n.item-group:hover {\n  transform: translateY(-2px);\n\
-    \  border-color: rgba(255, 255, 255, 0.15) !important;\n  box-shadow: 0 12px 40px\
-    \ rgba(0, 0, 0, 0.4), 0 0 20px var(--accent-cyan-glow) !important;\n}\n\n.item-group-title\
-    \ {\n  font-family: var(--font-headings);\n  font-weight: 700 !important;\n  font-size:\
-    \ 1.1rem !important;\n  color: #ffffff !important;\n  letter-spacing: -0.01em\
-    \ !important;\n  border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;\n\
-    \  padding-bottom: 12px !important;\n  margin-bottom: 12px !important;\n  padding:\
-    \ 1rem 1.2rem !important;\n}\n\n.item-container {\n  padding: 0 1rem 1rem 1rem\
-    \ !important;\n  display: flex !important;\n  flex-direction: column !important;\n\
-    \  gap: 8px !important;\n}\n\n/* Sleek Single-Line Bookmark Entries */\n.item\
-    \ {\n  background: rgba(255, 255, 255, 0.03) !important;\n  border: 1px solid\
-    \ rgba(255, 255, 255, 0.04) !important;\n  border-radius: 8px !important;\n  padding:\
-    \ 8px 12px !important;\n  transition: all 0.2s ease !important;\n}\n\n.item:hover\
-    \ {\n  background: rgba(255, 255, 255, 0.08) !important;\n  border-color: rgba(255,\
-    \ 255, 255, 0.1) !important;\n  transform: translateX(4px);\n}\n\n.item-title\
+    \ 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;\n  margin-bottom: 1.5rem !important;\n\
+    \  height: max-content !important; /* ensures it sizes correctly in masonry */\n\
+    }\n\n.item-group:hover {\n  transform: translateY(-2px);\n  border-color: rgba(255,\
+    \ 255, 255, 0.15) !important;\n  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4), 0\
+    \ 0 20px var(--accent-cyan-glow) !important;\n}\n\n.item-group-title {\n  font-family:\
+    \ var(--font-headings);\n  font-weight: 700 !important;\n  font-size: 1.1rem !important;\n\
+    \  color: #ffffff !important;\n  letter-spacing: -0.01em !important;\n  border-bottom:\
+    \ 1px solid rgba(255, 255, 255, 0.06) !important;\n  padding-bottom: 12px !important;\n\
+    \  margin-bottom: 12px !important;\n  padding: 1rem 1.2rem !important;\n}\n\n\
+    .item-container {\n  padding: 0 1rem 1rem 1rem !important;\n  display: flex !important;\n\
+    \  flex-direction: column !important;\n  gap: 8px !important;\n}\n\n/* Sleek Single-Line\
+    \ Bookmark Entries */\n.item {\n  background: rgba(255, 255, 255, 0.03) !important;\n\
+    \  border: 1px solid rgba(255, 255, 255, 0.04) !important;\n  border-radius: 8px\
+    \ !important;\n  padding: 8px 12px !important;\n  transition: all 0.2s ease !important;\n\
+    }\n\n.item:hover {\n  background: rgba(255, 255, 255, 0.08) !important;\n  border-color:\
+    \ rgba(255, 255, 255, 0.1) !important;\n  transform: translateX(4px);\n}\n\n.item-title\
     \ {\n  font-size: 0.95rem !important;\n  font-weight: 500 !important;\n  color:\
     \ #f1f5f9 !important;\n  margin: 0 !important;\n}\n\n.item-description {\n  font-size:\
     \ 0.8rem !important;\n  color: #94a3b8 !important;\n  display: -webkit-box;\n\
@@ -64,8 +62,7 @@ appConfig:
     \  margin-top: 4px !important;\n}\n\n/* Cyberpill Navigation Header */\nheader\
     \ {\n  background: rgba(10, 10, 15, 0.7) !important;\n  backdrop-filter: blur(20px)\
     \ !important;\n  border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;\n\
-    }\n\n/* Ensure widgets render properly */\n.widget-container {\n  max-width: 100%\
-    \ !important;\n  overflow: hidden;\n}\n"
+    }\n"
   defaultOpeningMethod: newtab
   allowConfigEdit: true
   statusCheckInterval: 0

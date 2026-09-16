@@ -1445,4 +1445,4 @@ sections:
     - image-gen
     - creative
 appConfig:
-  layout: horizontal
+  layout: auto

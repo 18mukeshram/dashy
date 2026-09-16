@@ -361,4 +361,4 @@ sections:
     - money
     - calculator
 appConfig:
-  layout: horizontal
+  layout: auto
