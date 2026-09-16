@@ -15,82 +15,133 @@ appConfig:
   showSearchClearButton: true
   faviconApi: google
   backgroundImg: https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2560&auto=format&fit=crop
-  customCss: "/* Futuristic Glassmorphism & Cyber-Tech Styling */\n@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');\n\
+  customCss: "/* ==========================================================================\n\
+    \   Antigravity HUD Cyberpunk & Sci-Fi Glassmorphism Styling\n   ==========================================================================\
+    \ */\n@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700;800&display=swap');\n\
     \n:root {\n  --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif\
     \ !important;\n  --font-headings: 'Plus Jakarta Sans', system-ui, -apple-system,\
     \ sans-serif !important;\n  --font-monospace: 'JetBrains Mono', monospace !important;\n\
-    \  --cyan-glow: #06b6d4;\n  --indigo-glow: #6366f1;\n  --purple-glow: #a855f7;\n\
-    }\n\nbody {\n  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif\
-    \ !important;\n  background-attachment: fixed !important;\n  background-size:\
+    \  --neon-cyan: #06b6d4;\n  --neon-cyan-glow: rgba(6, 182, 212, 0.45);\n  --neon-indigo:\
+    \ #6366f1;\n  --neon-indigo-glow: rgba(99, 102, 241, 0.35);\n  --neon-purple:\
+    \ #a855f7;\n}\n\nbody {\n  font-family: 'Plus Jakarta Sans', system-ui, -apple-system,\
+    \ sans-serif !important;\n  background-attachment: fixed !important;\n  background-size:\
     \ cover !important;\n  background-position: center !important;\n  min-height:\
-    \ 100vh !important;\n}\n\n/* Background dark vignette overlay with subtle cyber\
-    \ grid */\nbody::before {\n  content: '';\n  position: fixed;\n  top: 0; left:\
-    \ 0; right: 0; bottom: 0;\n  background: \n    radial-gradient(circle at 50% 15%,\
-    \ rgba(6, 182, 212, 0.08) 0%, transparent 60%),\n    radial-gradient(circle at\
-    \ 80% 80%, rgba(99, 102, 241, 0.08) 0%, transparent 50%),\n    radial-gradient(circle\
-    \ at 50% 50%, rgba(10, 14, 26, 0.55), rgba(5, 8, 16, 0.94));\n  pointer-events:\
-    \ none;\n  z-index: 0;\n}\n\n#app, #main-page {\n  position: relative;\n  z-index:\
-    \ 1;\n}\n\n/* Glass Header / Nav Bar */\nheader, #nav-outer, #nav {\n  background:\
-    \ rgba(10, 15, 29, 0.72) !important;\n  backdrop-filter: blur(24px) saturate(200%)\
-    \ !important;\n  -webkit-backdrop-filter: blur(24px) saturate(200%) !important;\n\
-    \  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;\n  box-shadow:\
-    \ 0 10px 32px rgba(0, 0, 0, 0.6) !important;\n}\n\n/* Sub-page Navigation Tabs\
-    \ */\n#nav .nav-item {\n  font-family: 'Plus Jakarta Sans', sans-serif !important;\n\
-    \  font-weight: 600 !important;\n  font-size: 0.88rem !important;\n  padding:\
-    \ 8px 18px !important;\n  margin: 4px 6px !important;\n  border-radius: 12px !important;\n\
-    \  color: #94a3b8 !important;\n  background: rgba(255, 255, 255, 0.03) !important;\n\
-    \  border: 1px solid rgba(255, 255, 255, 0.06) !important;\n  transition: all\
-    \ 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;\n  text-decoration: none !important;\n\
-    }\n\n#nav .nav-item:hover {\n  color: #f8fafc !important;\n  background: rgba(99,\
-    \ 102, 241, 0.15) !important;\n  border-color: rgba(99, 102, 241, 0.4) !important;\n\
-    \  box-shadow: 0 0 16px rgba(99, 102, 241, 0.25) !important;\n  transform: translateY(-1px)\
-    \ !important;\n}\n\n#nav .nav-item.router-link-active {\n  color: #38bdf8 !important;\n\
-    \  background: rgba(6, 182, 212, 0.15) !important;\n  border-color: rgba(56, 189,\
-    \ 248, 0.6) !important;\n  box-shadow: 0 0 20px rgba(56, 189, 248, 0.3), inset\
-    \ 0 1px 1px rgba(255, 255, 255, 0.15) !important;\n}\n\n/* Floating Futuristic\
-    \ Search Bar */\n.search-container {\n  background: rgba(15, 23, 42, 0.8) !important;\n\
-    \  backdrop-filter: blur(28px) saturate(200%) !important;\n  -webkit-backdrop-filter:\
-    \ blur(28px) saturate(200%) !important;\n  border: 1px solid rgba(99, 102, 241,\
-    \ 0.4) !important;\n  border-radius: 16px !important;\n  box-shadow: 0 0 25px\
-    \ rgba(99, 102, 241, 0.18), inset 0 1px 1px rgba(255, 255, 255, 0.1) !important;\n\
-    \  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;\n}\n\n.search-container:focus-within\
-    \ {\n  border-color: rgba(56, 189, 248, 0.9) !important;\n  box-shadow: 0 0 35px\
-    \ rgba(56, 189, 248, 0.4), inset 0 1px 2px rgba(255, 255, 255, 0.2) !important;\n\
-    \  transform: translateY(-2px) scale(1.005) !important;\n}\n\n.search-container\
-    \ input {\n  color: #f8fafc !important;\n  font-weight: 500 !important;\n  font-family:\
-    \ 'Plus Jakarta Sans', sans-serif !important;\n}\n\n/* Frosted Glass Section Cards\
-    \ */\n.collapsable {\n  background: rgba(13, 19, 36, 0.72) !important;\n  backdrop-filter:\
-    \ blur(24px) saturate(190%) !important;\n  -webkit-backdrop-filter: blur(24px)\
-    \ saturate(190%) !important;\n  border: 1px solid rgba(255, 255, 255, 0.07) !important;\n\
-    \  border-radius: 18px !important;\n  box-shadow: 0 12px 36px 0 rgba(0, 0, 0,\
-    \ 0.5) !important;\n  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;\n\
-    }\n\n.collapsable:hover {\n  border-color: rgba(99, 102, 241, 0.35) !important;\n\
-    \  box-shadow: 0 16px 44px 0 rgba(0, 0, 0, 0.65), 0 0 24px rgba(99, 102, 241,\
-    \ 0.18) !important;\n}\n\n/* Glowing Category Header */\n.section-header {\n \
-    \ padding: 14px 20px !important;\n  border-bottom: 1px solid rgba(255, 255, 255,\
-    \ 0.05) !important;\n}\n\n.section-header h3 {\n  font-weight: 700 !important;\n\
-    \  letter-spacing: 0.5px !important;\n  color: #f8fafc !important;\n}\n\n.section-icon\
-    \ {\n  filter: drop-shadow(0 0 10px rgba(56, 189, 248, 0.7)) !important;\n  color:\
-    \ #38bdf8 !important;\n}\n\n/* Tech Item Tiles */\n.item-wrapper {\n  margin:\
+    \ 100vh !important;\n}\n\n/* Ambient Cyber Grid & Vignette Overlay */\nbody::before\
+    \ {\n  content: '';\n  position: fixed;\n  top: 0; left: 0; right: 0; bottom:\
+    \ 0;\n  background: \n    linear-gradient(to right, rgba(255, 255, 255, 0.015)\
+    \ 1px, transparent 1px),\n    linear-gradient(to bottom, rgba(255, 255, 255, 0.015)\
+    \ 1px, transparent 1px),\n    radial-gradient(circle at 50% 10%, rgba(6, 182,\
+    \ 212, 0.12) 0%, transparent 60%),\n    radial-gradient(circle at 80% 85%, rgba(99,\
+    \ 102, 241, 0.1) 0%, transparent 55%),\n    radial-gradient(circle at 50% 50%,\
+    \ rgba(10, 14, 26, 0.5) 0%, rgba(5, 8, 16, 0.95) 100%);\n  background-size: 40px\
+    \ 40px, 40px 40px, 100% 100%, 100% 100%, 100% 100%;\n  pointer-events: none;\n\
+    \  z-index: 0;\n}\n\n#app, #main-page {\n  position: relative;\n  z-index: 1;\n\
+    }\n\n/* Glass Header / Nav Bar */\nheader, #nav-outer, #nav {\n  background: rgba(10,\
+    \ 15, 29, 0.75) !important;\n  backdrop-filter: blur(24px) saturate(200%) !important;\n\
+    \  -webkit-backdrop-filter: blur(24px) saturate(200%) !important;\n  border-bottom:\
+    \ 1px solid rgba(255, 255, 255, 0.08) !important;\n  box-shadow: 0 10px 32px rgba(0,\
+    \ 0, 0, 0.65) !important;\n}\n\n/* Navigation Tabs */\n#nav .nav-item {\n  font-family:\
+    \ 'Plus Jakarta Sans', sans-serif !important;\n  font-weight: 600 !important;\n\
+    \  font-size: 0.88rem !important;\n  padding: 8px 18px !important;\n  margin:\
+    \ 4px 6px !important;\n  border-radius: 12px !important;\n  color: #94a3b8 !important;\n\
+    \  background: rgba(255, 255, 255, 0.035) !important;\n  border: 1px solid rgba(255,\
+    \ 255, 255, 0.07) !important;\n  transition: all 0.25s cubic-bezier(0.4, 0, 0.2,\
+    \ 1) !important;\n  text-decoration: none !important;\n}\n\n#nav .nav-item:hover\
+    \ {\n  color: #f8fafc !important;\n  background: rgba(99, 102, 241, 0.16) !important;\n\
+    \  border-color: rgba(99, 102, 241, 0.45) !important;\n  box-shadow: 0 0 18px\
+    \ var(--neon-indigo-glow) !important;\n  transform: translateY(-1px) !important;\n\
+    }\n\n#nav .nav-item.router-link-active {\n  color: #38bdf8 !important;\n  background:\
+    \ rgba(6, 182, 212, 0.16) !important;\n  border-color: rgba(56, 189, 248, 0.7)\
+    \ !important;\n  box-shadow: 0 0 22px var(--neon-cyan-glow), inset 0 1px 1px rgba(255,\
+    \ 255, 255, 0.2) !important;\n}\n\n/* Floating Futuristic Search Bar */\n.search-container\
+    \ {\n  background: rgba(15, 23, 42, 0.82) !important;\n  backdrop-filter: blur(28px)\
+    \ saturate(200%) !important;\n  -webkit-backdrop-filter: blur(28px) saturate(200%)\
+    \ !important;\n  border: 1px solid rgba(99, 102, 241, 0.45) !important;\n  border-radius:\
+    \ 16px !important;\n  box-shadow: 0 0 28px rgba(99, 102, 241, 0.2), inset 0 1px\
+    \ 1px rgba(255, 255, 255, 0.12) !important;\n  transition: all 0.3s cubic-bezier(0.4,\
+    \ 0, 0.2, 1) !important;\n}\n\n.search-container:focus-within {\n  border-color:\
+    \ rgba(56, 189, 248, 0.95) !important;\n  box-shadow: 0 0 40px var(--neon-cyan-glow),\
+    \ inset 0 1px 2px rgba(255, 255, 255, 0.25) !important;\n  transform: translateY(-2px)\
+    \ scale(1.005) !important;\n}\n\n.search-container input {\n  color: #f8fafc !important;\n\
+    \  font-weight: 500 !important;\n  font-family: 'Plus Jakarta Sans', sans-serif\
+    \ !important;\n}\n\n/* Frosted Glass Section Containers */\n.collapsable {\n \
+    \ background: rgba(13, 19, 36, 0.75) !important;\n  backdrop-filter: blur(24px)\
+    \ saturate(190%) !important;\n  -webkit-backdrop-filter: blur(24px) saturate(190%)\
+    \ !important;\n  border: 1px solid rgba(255, 255, 255, 0.08) !important;\n  border-radius:\
+    \ 20px !important;\n  box-shadow: 0 14px 40px 0 rgba(0, 0, 0, 0.55) !important;\n\
+    \  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;\n}\n\n.collapsable:hover\
+    \ {\n  border-color: rgba(99, 102, 241, 0.4) !important;\n  box-shadow: 0 18px\
+    \ 48px 0 rgba(0, 0, 0, 0.7), 0 0 28px var(--neon-indigo-glow) !important;\n}\n\
+    \n/* Section Header */\n.section-header {\n  padding: 14px 22px !important;\n\
+    \  border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;\n}\n\n.section-header\
+    \ h3 {\n  font-weight: 700 !important;\n  letter-spacing: 0.5px !important;\n\
+    \  color: #f8fafc !important;\n}\n\n.section-icon {\n  filter: drop-shadow(0 0\
+    \ 12px var(--neon-cyan-glow)) !important;\n  color: #38bdf8 !important;\n}\n\n\
+    /* HUD Digital Clock Widget Styling */\n.clock {\n  font-family: 'JetBrains Mono',\
+    \ monospace !important;\n  text-align: center !important;\n  padding: 16px !important;\n\
+    \  border-radius: 16px !important;\n  background: rgba(6, 182, 212, 0.04) !important;\n\
+    \  border: 1px solid rgba(6, 182, 212, 0.2) !important;\n  box-shadow: inset 0\
+    \ 0 20px rgba(6, 182, 212, 0.08) !important;\n}\n\n.clock .time {\n  font-size:\
+    \ 2.2rem !important;\n  font-weight: 800 !important;\n  color: #38bdf8 !important;\n\
+    \  letter-spacing: 2px !important;\n  text-shadow: 0 0 18px var(--neon-cyan-glow)\
+    \ !important;\n}\n\n.clock .city, .clock .date {\n  font-size: 0.85rem !important;\n\
+    \  font-weight: 600 !important;\n  text-transform: uppercase !important;\n  letter-spacing:\
+    \ 1.5px !important;\n  color: #94a3b8 !important;\n}\n\n/* Public IP Widget Styling\
+    \ */\n.ip-info-wrapper {\n  font-family: 'JetBrains Mono', monospace !important;\n\
+    \  padding: 12px 18px !important;\n  border-radius: 16px !important;\n  background:\
+    \ rgba(99, 102, 241, 0.04) !important;\n  border: 1px solid rgba(99, 102, 241,\
+    \ 0.2) !important;\n}\n\n.ip-info-wrapper .ip-address {\n  font-size: 1.35rem\
+    \ !important;\n  font-weight: 700 !important;\n  color: #818cf8 !important;\n\
+    \  text-shadow: 0 0 14px var(--neon-indigo-glow) !important;\n}\n\n.ip-info-wrapper\
+    \ .isp-name {\n  color: #94a3b8 !important;\n  font-size: 0.85rem !important;\n\
+    }\n\n.ip-info-wrapper .ip-location {\n  color: #38bdf8 !important;\n  text-decoration:\
+    \ none !important;\n  font-size: 0.85rem !important;\n}\n\n/* Custom Search Widget\
+    \ Styling */\n.custom-search {\n  padding: 12px !important;\n}\n\n.custom-search\
+    \ input {\n  width: 90% !important;\n  margin: 0.5rem auto 1rem !important;\n\
+    \  display: block !important;\n  padding: 10px 18px !important;\n  border-radius:\
+    \ 12px !important;\n  background: rgba(15, 23, 42, 0.85) !important;\n  border:\
+    \ 1px solid rgba(99, 102, 241, 0.4) !important;\n  color: #f8fafc !important;\n\
+    \  font-family: 'Plus Jakarta Sans', sans-serif !important;\n  font-size: 0.95rem\
+    \ !important;\n  transition: all 0.25s ease !important;\n}\n\n.custom-search input:focus\
+    \ {\n  outline: none !important;\n  border-color: rgba(56, 189, 248, 0.8) !important;\n\
+    \  box-shadow: 0 0 20px var(--neon-cyan-glow) !important;\n}\n\n.custom-search\
+    \ .buttons {\n  display: flex !important;\n  flex-wrap: wrap !important;\n  justify-content:\
+    \ center !important;\n  gap: 8px !important;\n}\n\n.custom-search .buttons button\
+    \ {\n  font-family: 'Plus Jakarta Sans', sans-serif !important;\n  font-weight:\
+    \ 600 !important;\n  font-size: 0.82rem !important;\n  padding: 6px 14px !important;\n\
+    \  border-radius: 10px !important;\n  background: rgba(255, 255, 255, 0.04) !important;\n\
+    \  border: 1px solid rgba(255, 255, 255, 0.09) !important;\n  color: #cbd5e1 !important;\n\
+    \  cursor: pointer !important;\n  transition: all 0.2s ease !important;\n}\n\n\
+    .custom-search .buttons button:hover {\n  color: #38bdf8 !important;\n  background:\
+    \ rgba(6, 182, 212, 0.15) !important;\n  border-color: rgba(56, 189, 248, 0.6)\
+    \ !important;\n  box-shadow: 0 0 14px var(--neon-cyan-glow) !important;\n  transform:\
+    \ translateY(-1px) !important;\n}\n\n/* RSS Feed Cards */\n.rss-wrapper {\n  max-height:\
+    \ 380px !important;\n  overflow-y: auto !important;\n  padding-right: 6px !important;\n\
+    }\n\n.rss-wrapper .post-row {\n  border-bottom: 1px solid rgba(255, 255, 255,\
+    \ 0.05) !important;\n  padding: 10px 0 !important;\n}\n\n.rss-wrapper .post-title\
+    \ {\n  font-weight: 600 !important;\n  color: #f1f5f9 !important;\n  font-size:\
+    \ 0.92rem !important;\n}\n\n.rss-wrapper .post-title:hover {\n  color: #38bdf8\
+    \ !important;\n}\n\n.rss-wrapper .post-date {\n  color: #64748b !important;\n\
+    \  font-size: 0.75rem !important;\n}\n\n/* Item Tiles */\n.item-wrapper {\n  margin:\
     \ 5px !important;\n}\n\n.tile-title {\n  background: rgba(255, 255, 255, 0.035)\
-    \ !important;\n  border: 1px solid rgba(255, 255, 255, 0.05) !important;\n  border-radius:\
+    \ !important;\n  border: 1px solid rgba(255, 255, 255, 0.06) !important;\n  border-radius:\
     \ 14px !important;\n  padding: 10px 14px !important;\n  transition: all 0.22s\
     \ cubic-bezier(0.4, 0, 0.2, 1) !important;\n}\n\n.item-wrapper a:hover .tile-title\
-    \ {\n  background: rgba(99, 102, 241, 0.16) !important;\n  border-color: rgba(56,\
-    \ 189, 248, 0.55) !important;\n  box-shadow: 0 8px 24px -4px rgba(56, 189, 248,\
-    \ 0.28), 0 0 16px rgba(99, 102, 241, 0.2) !important;\n  transform: translateY(-2px)\
-    \ !important;\n}\n\n/* Crisp App-Badge Favicons */\n.tile-icon, .item-icon img,\
-    \ .tile-icon img {\n  border-radius: 8px !important;\n  padding: 2px !important;\n\
-    \  background: rgba(255, 255, 255, 0.07) !important;\n  filter: drop-shadow(0\
-    \ 2px 6px rgba(0, 0, 0, 0.5)) !important;\n  width: 28px !important;\n  height:\
-    \ 28px !important;\n  object-fit: contain !important;\n}\n\n/* Text Polish */\n\
-    .tile-title .title {\n  font-weight: 600 !important;\n  color: #f1f5f9 !important;\n\
-    \  font-size: 0.95rem !important;\n}\n\n.tile-title .description {\n  color: #94a3b8\
-    \ !important;\n  font-size: 0.82rem !important;\n  line-height: 1.35 !important;\n\
-    }\n\n/* Scrollbar polish */\n::-webkit-scrollbar {\n  width: 8px;\n  height: 8px;\n\
-    }\n::-webkit-scrollbar-track {\n  background: rgba(10, 14, 26, 0.6);\n}\n::-webkit-scrollbar-thumb\
-    \ {\n  background: rgba(99, 102, 241, 0.35);\n  border-radius: 4px;\n}\n::-webkit-scrollbar-thumb:hover\
-    \ {\n  background: rgba(56, 189, 248, 0.6);\n}\n"
+    \ {\n  background: rgba(99, 102, 241, 0.18) !important;\n  border-color: rgba(56,\
+    \ 189, 248, 0.6) !important;\n  box-shadow: 0 8px 24px -4px rgba(56, 189, 248,\
+    \ 0.3), 0 0 16px var(--neon-indigo-glow) !important;\n  transform: translateY(-2px)\
+    \ !important;\n}\n\n/* Favicon Badge */\n.tile-icon, .item-icon img, .tile-icon\
+    \ img {\n  border-radius: 8px !important;\n  padding: 2px !important;\n  background:\
+    \ rgba(255, 255, 255, 0.07) !important;\n  filter: drop-shadow(0 2px 6px rgba(0,\
+    \ 0, 0, 0.5)) !important;\n  width: 28px !important;\n  height: 28px !important;\n\
+    \  object-fit: contain !important;\n}\n\n/* Text Polish */\n.tile-title .title\
+    \ {\n  font-weight: 600 !important;\n  color: #f1f5f9 !important;\n  font-size:\
+    \ 0.95rem !important;\n}\n\n.tile-title .description {\n  color: #94a3b8 !important;\n\
+    \  font-size: 0.82rem !important;\n  line-height: 1.35 !important;\n}\n\n/* Custom\
+    \ Scrollbar */\n::-webkit-scrollbar {\n  width: 7px;\n  height: 7px;\n}\n::-webkit-scrollbar-track\
+    \ {\n  background: rgba(10, 14, 26, 0.6);\n}\n::-webkit-scrollbar-thumb {\n  background:\
+    \ rgba(99, 102, 241, 0.35);\n  border-radius: 4px;\n}\n::-webkit-scrollbar-thumb:hover\
+    \ {\n  background: rgba(56, 189, 248, 0.7);\n}\n"
   defaultOpeningMethod: newtab
   allowConfigEdit: true
   statusCheckInterval: 300
@@ -112,6 +163,32 @@ sections:
       hideLocation: false
   - type: apod
     options: {}
+- name: ⚡ Multi-Engine Intelligence Search
+  icon: fas fa-search
+  displayData:
+    collapsed: false
+    itemSize: medium
+    rows: 1
+  widgets:
+  - type: custom-search
+    options:
+      placeholder: Enter search query and select target engine...
+      openingMethod: newtab
+      engines:
+      - title: Google
+        url: https://google.com/search?q=
+      - title: GitHub
+        url: https://github.com/search?q=
+      - title: YouTube
+        url: https://youtube.com/results?search_query=
+      - title: Reddit
+        url: https://reddit.com/search?q=
+      - title: Shodan
+        url: https://shodan.io/search?query=
+      - title: HuggingFace
+        url: https://huggingface.co/models?search=
+      - title: Wikipedia
+        url: https://en.wikipedia.org/wiki/Special:Search?search=
 - name: 📡 Worldwide Tech, AI & Space Intelligence
   icon: fas fa-broadcast-tower
   displayData:
