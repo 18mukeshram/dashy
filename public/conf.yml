@@ -2,9 +2,9 @@ pageInfo:
   title: Mukesh's Cyber Hub
   description: 395+ Curated Tools, OSINT, AI & Learning Center
   navLinks:
-  - title: 🏠 Home
+  - title: "🏠 Home"
     path: /
-  - title: 💾 Export Config
+  - title: "💾 Export Config"
     path: /download
 appConfig:
   theme: glow
@@ -16,52 +16,190 @@ appConfig:
   enableSearchHotkeys: true
   showSearchClearButton: true
   faviconApi: google
-  backgroundImg: https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=2000&auto=format&fit=crop
-  customCss: "@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');\n\
-    \n:root {\n  --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif\
-    \ !important;\n  --font-headings: 'Plus Jakarta Sans', system-ui, -apple-system,\
-    \ sans-serif !important;\n  --font-monospace: 'JetBrains Mono', monospace !important;\n\
-    }\nbody, html {\n  font-family: 'Plus Jakarta Sans', system-ui, -apple-system,\
-    \ sans-serif !important;\n}\n"
+  backgroundImg: /img/wallpaper.jpg
   defaultOpeningMethod: newtab
   allowConfigEdit: true
   statusCheckInterval: 0
   colCount: 4
   itemSize: small
+  customCss: |
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+    :root {
+      --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif !important;
+      --font-headings: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif !important;
+      --font-monospace: 'JetBrains Mono', monospace !important;
+    }
+
+    body, html {
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif !important;
+    }
+
+    /* --- Canvas & Wallpaper --- */
+    body, #app, .home {
+      background-attachment: fixed !important;
+      background-size: cover !important;
+      background-position: center !important;
+    }
+
+    /* Hide Dashy default search bar and footer */
+    .settings-outer, footer {
+      display: none !important;
+    }
+
+    /* --- Top Navigation Bar (Pill Capsules) --- */
+    .nav-outer {
+      display: flex !important;
+      align-items: center !important;
+      padding: 12px 24px !important;
+      background: rgba(10, 10, 18, 0.6) !important;
+      backdrop-filter: blur(20px) !important;
+      -webkit-backdrop-filter: blur(20px) !important;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+      position: sticky !important;
+      top: 0 !important;
+      z-index: 100 !important;
+    }
+
+    .nav-outer nav {
+      display: flex !important;
+      align-items: center !important;
+      gap: 8px !important;
+    }
+
+    .nav-item {
+      border-radius: 20px !important;
+      padding: 6px 16px !important;
+      font-size: 13px !important;
+      font-weight: 500 !important;
+      color: #94a3b8 !important;
+      background: rgba(255, 255, 255, 0.05) !important;
+      border: 1px solid rgba(255, 255, 255, 0.08) !important;
+      text-decoration: none !important;
+      transition: all 0.2s ease !important;
+      box-shadow: none !important;
+    }
+
+    .nav-item:hover {
+      background: rgba(255, 255, 255, 0.12) !important;
+      color: #ffffff !important;
+    }
+
+    /* Active Tab: Vivid Ruby/Red Pill */
+    .nav-item.router-link-active {
+      background: #e11d48 !important;
+      color: #ffffff !important;
+      border-color: #e11d48 !important;
+      box-shadow: 0 0 14px rgba(225, 29, 72, 0.45) !important;
+    }
+
+    /* --- Responsive Multi-Column Section Grid --- */
+    .item-group-container {
+      display: grid !important;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)) !important;
+      gap: 20px !important;
+      padding: 28px !important;
+      max-width: 1600px !important;
+      margin: 0 auto !important;
+    }
+
+    /* --- Frosted Glass Panels (Category Containers) --- */
+    .collapsable {
+      background: rgba(15, 15, 25, 0.65) !important;
+      backdrop-filter: blur(24px) !important;
+      -webkit-backdrop-filter: blur(24px) !important;
+      border: 1px solid rgba(255, 255, 255, 0.08) !important;
+      border-radius: 16px !important;
+      padding: 16px 18px !important;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45) !important;
+    }
+
+    /* Category Title with Thin Bottom Border */
+    .section-header {
+      padding-bottom: 8px !important;
+      margin-bottom: 12px !important;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    }
+
+    .section-header h3 {
+      font-size: 14px !important;
+      font-weight: 700 !important;
+      color: #ffffff !important;
+      letter-spacing: 0.3px !important;
+    }
+
+    /* Hide collapse arrow and header action icons for cleanliness */
+    .collapse-toggle .arrow {
+      display: none !important;
+    }
+
+    .header-action {
+      display: none !important;
+    }
+
+    /* --- Single-Line Horizontal Bookmark Rows --- */
+    .there-are-items {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 4px !important;
+    }
+
+    .item-wrapper {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+
+    .item {
+      display: flex !important;
+      flex-direction: row-reverse !important;
+      align-items: center !important;
+      justify-content: flex-end !important;
+      padding: 6px 10px !important;
+      background: transparent !important;
+      border: none !important;
+      border-radius: 8px !important;
+      text-decoration: none !important;
+      transition: background 0.2s ease, transform 0.15s ease !important;
+      box-shadow: none !important;
+    }
+
+    .item:hover {
+      background: rgba(255, 255, 255, 0.08) !important;
+      transform: translateX(4px) !important;
+    }
+
+    /* Authentic Icon on Left (via row-reverse) */
+    .item .bounce {
+      width: 18px !important;
+      height: 18px !important;
+      margin-right: 12px !important;
+      margin-left: 0 !important;
+      flex-shrink: 0 !important;
+    }
+
+    .item .bounce img {
+      width: 18px !important;
+      height: 18px !important;
+    }
+
+    /* Crisp White Title on Right */
+    .item .tile-title .text {
+      font-size: 13px !important;
+      font-weight: 500 !important;
+      color: #f1f5f9 !important;
+      white-space: nowrap !important;
+      overflow: hidden !important;
+      text-overflow: ellipsis !important;
+    }
+
+    /* Purge Descriptions, URL, Tags & Status Dots inside rows */
+    .item .description,
+    .item .item-url,
+    .item .indicators-container,
+    .item .opening-method-icon {
+      display: none !important;
+    }
 sections:
-- name: ⚡ Multi-Engine Search
-  icon: fas fa-search
-  displayData:
-    cols: 4
-    collapsed: false
-  widgets:
-  - type: custom-search
-    options:
-      placeholder: Enter search query and select target engine...
-      openingMethod: newtab
-      engines:
-      - title: Google
-        url: https://google.com/search?q=
-      - title: GitHub
-        url: https://github.com/search?q=
-      - title: YouTube
-        url: https://youtube.com/results?search_query=
-      - title: Reddit
-        url: https://reddit.com/search?q=
-      - title: Shodan
-        url: https://shodan.io/search?query=
-      - title: HuggingFace
-        url: https://huggingface.co/models?search=
-      - title: Wikipedia
-        url: https://en.wikipedia.org/wiki/Special:Search?search=
-- name: 📰 daily.dev Intelligence Engine
-  icon: fas fa-newspaper
-  displayData:
-    cols: 4
-    collapsed: false
-  widgets:
-  - type: daily-dev-news
-    options: {}
 - name: 🛠️ Productivity & Office
   icon: si-notion
   displayData:
