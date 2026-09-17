@@ -1584,8 +1584,6 @@ sections:
     statusCheck: false
 appConfig:
   layout: auto
-  theme: glow
   colCount: 3
   itemSize: small
-  backgroundImg: /img/wallpaper.jpg
   statusCheck: false

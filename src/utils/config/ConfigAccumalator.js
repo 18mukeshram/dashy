@@ -34,16 +34,7 @@ export default class ConfigAccumulator {
     }
     let usersAppConfig = { ...defaultAppConfig, ...appConfigFile };
 
-    // Local user preferences for theme, layout, iconSize
-    if (localStorage[localStorageKeys.LAYOUT_ORIENTATION]) {
-      usersAppConfig.layout = localStorage[localStorageKeys.LAYOUT_ORIENTATION];
-    }
-    if (localStorage[localStorageKeys.ICON_SIZE]) {
-      usersAppConfig.iconSize = localStorage[localStorageKeys.ICON_SIZE];
-    }
-    if (localStorage[localStorageKeys.THEME]) {
-      usersAppConfig.theme = localStorage[localStorageKeys.THEME];
-    }
+    // Local user preferences for theme, layout, iconSize are disabled to enforce global config
     // Ensure background image from conf is always respected
     if (appConfigFile.backgroundImg) {
       usersAppConfig.backgroundImg = appConfigFile.backgroundImg;
@@ -54,14 +45,8 @@ export default class ConfigAccumulator {
 
   /* Page Info */
   pageInfo() {
-    let localPageInfo = {};
-    if (localStorage[localStorageKeys.PAGE_INFO]) {
-       
-      try { localPageInfo = JSON.parse(localStorage[localStorageKeys.PAGE_INFO]); }
-      catch { ErrorHandler('Malformed pageInfo data in local storage'); }
-    }
     const filePageInfo = (this.conf && this.conf.pageInfo) ? this.conf.pageInfo : {};
-    return { ...defaultPageInfo, ...filePageInfo, ...localPageInfo };
+    return { ...defaultPageInfo, ...filePageInfo };
   }
 
   /* Sections */
@@ -70,16 +55,6 @@ export default class ConfigAccumulator {
     // Prioritize file config sections from conf.yml
     if (this.conf && Array.isArray(this.conf.sections) && this.conf.sections.length > 0) {
       sections = this.conf.sections;
-    } else {
-      const localSections = localStorage[localStorageKeys.CONF_SECTIONS];
-      if (localSections) {
-        try {
-          const json = JSON.parse(localSections);
-          if (json.length >= 1) sections = json;
-        } catch {
-          ErrorHandler('Malformed section data in local storage');
-        }
-      }
     }
     // Apply a unique ID to each item
     sections = applyItemId(sections);
