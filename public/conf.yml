@@ -36,7 +36,8 @@ appConfig:
     }
 
     /* --- Canvas & Wallpaper --- */
-    body, #app, .home {
+    body, #app, .home, .minimal-home {
+      background-image: url('/img/wallpaper.jpg') !important;
       background-attachment: fixed !important;
       background-size: cover !important;
       background-position: center !important;

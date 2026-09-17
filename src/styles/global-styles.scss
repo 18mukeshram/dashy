@@ -109,3 +109,13 @@ html, body, #app, .app, .home {
 }
 
 
+
+
+/* === Enforce Global Wallpaper === */
+html, body, #dashy, #app, .app, .home, .minimal-home {
+  background-image: url('/img/wallpaper.jpg') !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}

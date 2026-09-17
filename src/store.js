@@ -93,8 +93,9 @@ const patchAppConfigField = (state, key, value, storageKey) => {
   if (storageKey) localStorage.setItem(storageKey, value);
 };
 
- /* Read locally saved configs/overrides from localStorage  */
+ /* Read locally saved configs/overrides from localStorage (Disabled to enforce server files) */
 function readLocalOverrides(subConfigId) {
+  return { own: {}, hasStructural: false };
   const scope = configScope(subConfigId);
   const own = {};
   let hasStructural = false;
@@ -203,16 +204,8 @@ const store = createStore({
       return state.config.pages || [];
     },
     theme(state) {
-      // Read reactive deps upfront so Vuex tracks every branch (avoids the
-      // short-circuit caching bug where unread props wouldn't invalidate).
       const cfg = state.config?.appConfig;
-      const configTheme = cfg?.theme;
-      const dayTheme = cfg?.dayTheme;
-      const nightTheme = cfg?.nightTheme;
-      const prefersDark = window.matchMedia?.('(prefers-color-scheme: dark)').matches;
-      const fromState = (prefersDark ? nightTheme : dayTheme) || configTheme || defaultTheme;
-      if (state.editMode) return fromState;
-      return localStorage.getItem(configScope(state.currentConfigInfo.confId).THEME) || fromState;
+      return cfg?.theme || defaultTheme;
     },
     webSearch(state, getters) {
       return getters.appConfig.webSearch || {};
