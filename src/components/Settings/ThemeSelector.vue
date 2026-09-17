@@ -7,6 +7,7 @@
       v-model="selectedTheme"
       class="theme-dropdown"
       :tabindex="-2"
+      @update:modelValue="themeChangedInUI"
       @option:selected="themeChangedInUI"
     />
     </div>

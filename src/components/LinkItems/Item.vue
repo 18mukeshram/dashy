@@ -51,7 +51,7 @@
       <!-- URL of the item (shown on hover, only on some themes) -->
       <p class="item-url">{{ shortUrl(item.url) }}</p>
       <!-- Edit icon (displayed only when in edit mode) -->
-      <EditModeIcon v-if="isEditMode" class="edit-mode-item" @click="openItemSettings()" />
+      <EditModeIcon v-if="isEditMode" class="edit-mode-item" @click.stop.prevent="openItemSettings()" />
     </a>
     <!-- Right-click context menu -->
     <ContextMenu

@@ -23,7 +23,7 @@ appConfig:
   colCount: 4
   itemSize: small
   customCss: |
-    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
     :root {
       --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif !important;
@@ -59,6 +59,8 @@ appConfig:
       background: transparent !important;
       border: none !important;
       gap: 12px !important;
+      position: relative !important;
+      z-index: 150 !important;
     }
 
     .settings-outer form.search-bar,
@@ -88,6 +90,7 @@ appConfig:
     .options-outer {
       display: flex !important;
       align-items: center !important;
+      position: relative !important;
     }
 
     .options-trigger {
@@ -114,6 +117,10 @@ appConfig:
       width: 18px !important;
       height: 18px !important;
       fill: #ffffff !important;
+    }
+
+    .options-panel {
+      z-index: 250 !important;
     }
 
     /* --- Top Navigation Bar (Pill Capsules) --- */
@@ -162,7 +169,7 @@ appConfig:
       box-shadow: 0 0 14px rgba(225, 29, 72, 0.45) !important;
     }
 
-    /* --- Responsive Multi-Column Section Grid --- */
+    /* --- Responsive Multi-Column Section Grid (Auto / Default) --- */
     .item-group-container {
       display: grid !important;
       grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)) !important;
@@ -172,12 +179,95 @@ appConfig:
       margin: 0 auto !important;
     }
 
+    /* --- Horizontal Layout (Full-width Stacked Sections) --- */
+    .item-group-container.orientation-horizontal {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 20px !important;
+    }
+    .item-group-container.orientation-horizontal .collapsable {
+      width: 100% !important;
+    }
+
+    /* --- Vertical Layout (Side-by-Side Flex Columns) --- */
+    .item-group-container.orientation-vertical {
+      display: flex !important;
+      flex-direction: row !important;
+      flex-wrap: nowrap !important;
+      overflow-x: auto !important;
+      gap: 20px !important;
+      align-items: flex-start !important;
+    }
+    .item-group-container.orientation-vertical .collapsable {
+      min-width: 280px !important;
+      flex: 1 1 0 !important;
+    }
+
+    /* --- Masonry Layout --- */
+    .item-group-container.orientation-masonry {
+      display: grid !important;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)) !important;
+      grid-auto-rows: var(--masonry-row-unit, 8px) !important;
+      grid-auto-flow: row dense !important;
+      row-gap: 0 !important;
+      column-gap: 20px !important;
+    }
+
+    /* --- Item Sizing: Small, Medium, Large --- */
+    .item-group-container.item-size-small .item,
+    .inner-size-small .item {
+      padding: 4px 8px !important;
+      min-height: 26px !important;
+    }
+    .item-group-container.item-size-small .item .bounce,
+    .inner-size-small .item .bounce {
+      width: 14px !important;
+      height: 14px !important;
+      margin-right: 8px !important;
+    }
+    .item-group-container.item-size-small .item .tile-title .text,
+    .inner-size-small .item .tile-title .text {
+      font-size: 11px !important;
+    }
+
+    .item-group-container.item-size-medium .item,
+    .inner-size-medium .item {
+      padding: 6px 10px !important;
+      min-height: 32px !important;
+    }
+    .item-group-container.item-size-medium .item .bounce,
+    .inner-size-medium .item .bounce {
+      width: 18px !important;
+      height: 18px !important;
+      margin-right: 12px !important;
+    }
+    .item-group-container.item-size-medium .item .tile-title .text,
+    .inner-size-medium .item .tile-title .text {
+      font-size: 13px !important;
+    }
+
+    .item-group-container.item-size-large .item,
+    .inner-size-large .item {
+      padding: 10px 14px !important;
+      min-height: 42px !important;
+    }
+    .item-group-container.item-size-large .item .bounce,
+    .inner-size-large .item .bounce {
+      width: 24px !important;
+      height: 24px !important;
+      margin-right: 14px !important;
+    }
+    .item-group-container.item-size-large .item .tile-title .text,
+    .inner-size-large .item .tile-title .text {
+      font-size: 15px !important;
+    }
+
     /* --- Frosted Glass Panels (Category Containers) --- */
     .collapsable {
-      background: rgba(15, 15, 25, 0.65) !important;
+      background: var(--item-group-background, rgba(15, 15, 25, 0.65)) !important;
       backdrop-filter: blur(24px) !important;
       -webkit-backdrop-filter: blur(24px) !important;
-      border: 1px solid rgba(255, 255, 255, 0.08) !important;
+      border: 1px solid var(--item-group-border-color, rgba(255, 255, 255, 0.08)) !important;
       border-radius: 16px !important;
       padding: 16px 18px !important;
       box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45) !important;
@@ -187,22 +277,42 @@ appConfig:
     .section-header {
       padding-bottom: 8px !important;
       margin-bottom: 12px !important;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+      border-bottom: 1px solid var(--item-group-border-color, rgba(255, 255, 255, 0.1)) !important;
     }
 
     .section-header h3 {
       font-size: 14px !important;
       font-weight: 700 !important;
-      color: #ffffff !important;
+      color: var(--item-group-heading-text-color, var(--heading-text-color, #ffffff)) !important;
       letter-spacing: 0.3px !important;
     }
 
-    /* Hide collapse arrow and header action icons for cleanliness */
+    /* Hide collapse arrow for clean design */
     .collapse-toggle .arrow {
       display: none !important;
     }
 
-    /* Header action restored for Edit Mode */
+    /* Header action icons (open, edit, context menu) */
+    .header-action {
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      width: 20px !important;
+      height: 20px !important;
+      padding: 2px !important;
+      cursor: pointer !important;
+      opacity: 0.75 !important;
+      transition: all 0.2s ease !important;
+    }
+    .header-action:hover {
+      opacity: 1 !important;
+      transform: scale(1.15) !important;
+    }
+    .header-action svg {
+      width: 14px !important;
+      height: 14px !important;
+      fill: currentColor !important;
+    }
 
     /* --- Single-Line Horizontal Bookmark Rows --- */
     .there-are-items {
@@ -231,7 +341,7 @@ appConfig:
     }
 
     .item:hover {
-      background: rgba(255, 255, 255, 0.08) !important;
+      background: var(--item-hover-background, rgba(255, 255, 255, 0.08)) !important;
       transform: translateX(4px) !important;
     }
 
@@ -249,14 +359,53 @@ appConfig:
       height: 18px !important;
     }
 
-    /* Crisp White Title on Right */
+    /* Crisp White / Theme Title on Right */
     .item .tile-title .text {
       font-size: 13px !important;
       font-weight: 500 !important;
-      color: #f1f5f9 !important;
+      color: var(--item-text-color, #f1f5f9) !important;
       white-space: nowrap !important;
       overflow: hidden !important;
       text-overflow: ellipsis !important;
+    }
+
+    /* Edit mode bookmark button */
+    .edit-mode-item {
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      width: 18px !important;
+      height: 18px !important;
+      margin-left: 6px !important;
+      cursor: pointer !important;
+      opacity: 0.75 !important;
+      transition: all 0.2s ease !important;
+    }
+    .edit-mode-item:hover {
+      opacity: 1 !important;
+      transform: scale(1.15) !important;
+    }
+    .edit-mode-item svg {
+      width: 13px !important;
+      height: 13px !important;
+      fill: currentColor !important;
+    }
+
+    /* Add new item button in edit mode */
+    .add-new-item {
+      display: flex !important;
+      align-items: center !important;
+      padding: 6px 10px !important;
+      border: 1px dashed rgba(255, 255, 255, 0.25) !important;
+      border-radius: 8px !important;
+      cursor: pointer !important;
+      margin-top: 6px !important;
+      background: transparent !important;
+      transition: all 0.2s ease !important;
+    }
+    .add-new-item:hover {
+      background: rgba(255, 255, 255, 0.08) !important;
+      border-color: rgba(255, 255, 255, 0.5) !important;
     }
 
     /* Purge Descriptions, URL, Tags & Status Dots inside rows */

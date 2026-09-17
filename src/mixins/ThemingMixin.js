@@ -26,8 +26,12 @@ export default {
   methods: {
     /* Called when the user picks a theme in the dropdown — store commit
      * triggers the central watcher in App.vue to apply to the DOM. */
-    themeChangedInUI() {
-      this.$store.commit(Keys.SET_THEME, this.selectedTheme);
+    themeChangedInUI(option) {
+      const theme = (typeof option === 'string' ? option : option?.value || option?.label) || this.selectedTheme;
+      if (theme) {
+        this.selectedTheme = theme;
+        this.$store.commit(Keys.SET_THEME, theme);
+      }
     },
   },
 };

@@ -25,7 +25,7 @@
           :groupId="makeSectionId(section)"
           :items="section.filteredItems"
           :widgets="section.widgets"
-          :itemSize="itemSizeBound"
+          :itemSize="iconSize"
           @itemClicked="finishedSearching()"
           @change-modal-visibility="updateModalVisibility"
           :isWide="!!singleSectionView || layoutOrientation === 'horizontal'"
@@ -132,7 +132,7 @@ export default {
     },
     computedClass() {
       let classes = 'item-group-container '
-      + ` orientation-${this.$store.getters.layout} item-size-${this.itemSizeBound}`;
+      + ` orientation-${this.layoutOrientation} item-size-${this.iconSize}`;
       if (this.isEditMode) classes += ' edit-mode';
       if (this.singleSectionView) classes += ' single-section-view';
       if (this.colCount) classes += ` col-count-${this.colCount}`;
@@ -154,6 +154,12 @@ export default {
     /* Re-read col count once after config loaded */
     sections() {
       this.$nextTick(this.readActiveColCount);
+    },
+    layoutOrientation(newLayout) {
+      this.layout = newLayout;
+    },
+    iconSize(newSize) {
+      this.itemSizeBound = newSize;
     },
   },
   methods: {

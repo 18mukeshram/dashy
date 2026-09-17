@@ -223,10 +223,7 @@ const store = createStore({
       return state.config.pages || [];
     },
     theme(state) {
-      const globalTheme = localStorage.getItem(localStorageKeys.THEME);
-      if (globalTheme) return globalTheme;
-      const cfg = state.config?.appConfig;
-      return cfg?.theme || defaultTheme;
+      return state.config?.appConfig?.theme || defaultTheme;
     },
     webSearch(state, getters) {
       return getters.appConfig.webSearch || {};
@@ -292,16 +289,10 @@ const store = createStore({
       return foundSection;
     },
     layout(state) {
-      const scope = configScope(state.currentConfigInfo.confId);
-      const fromState = state.configSource?.appConfig?.layout || 'auto';
-      if (state.editMode) return fromState;
-      return localStorage.getItem(scope.LAYOUT) || fromState;
+      return state.config?.appConfig?.layout || 'auto';
     },
     iconSize(state) {
-      const scope = configScope(state.currentConfigInfo.confId);
-      const fromState = state.configSource?.appConfig?.iconSize || 'medium';
-      if (state.editMode) return fromState;
-      return localStorage.getItem(scope.ICON_SIZE) || fromState;
+      return state.config?.appConfig?.iconSize || 'medium';
     },
   },
   mutations: {
@@ -431,16 +422,25 @@ const store = createStore({
     },
     [SET_THEME](state, theme) {
       localStorage.setItem(localStorageKeys.THEME, theme);
+      if (state.rootConfig?.appConfig) {
+        state.rootConfig.appConfig.theme = theme;
+      }
       patchAppConfigField(state, 'theme', theme, localStorageKeys.THEME);
       InfoHandler('Theme updated', InfoKeys.VISUAL);
     },
     [SET_ITEM_LAYOUT](state, layout) {
       localStorage.setItem(localStorageKeys.LAYOUT_ORIENTATION, layout);
+      if (state.rootConfig?.appConfig) {
+        state.rootConfig.appConfig.layout = layout;
+      }
       patchAppConfigField(state, 'layout', layout, localStorageKeys.LAYOUT_ORIENTATION);
       InfoHandler('Layout updated', InfoKeys.VISUAL);
     },
     [SET_ITEM_SIZE](state, iconSize) {
       localStorage.setItem(localStorageKeys.ICON_SIZE, iconSize);
+      if (state.rootConfig?.appConfig) {
+        state.rootConfig.appConfig.iconSize = iconSize;
+      }
       patchAppConfigField(state, 'iconSize', iconSize, localStorageKeys.ICON_SIZE);
       InfoHandler('Item size updated', InfoKeys.VISUAL);
     },
