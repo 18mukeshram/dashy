@@ -43,9 +43,77 @@ appConfig:
       background-position: center !important;
     }
 
-    /* Hide Dashy default search bar and footer */
-    .settings-outer, footer {
+    /* Footer hidden */
+    footer {
       display: none !important;
+    }
+
+    /* --- Settings & Quick Search Toolbar --- */
+    .settings-outer {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: flex-end !important;
+      max-width: 1600px !important;
+      margin: 14px auto 0 auto !important;
+      padding: 0 28px !important;
+      background: transparent !important;
+      border: none !important;
+      gap: 12px !important;
+    }
+
+    .settings-outer form.search-bar,
+    .settings-outer form {
+      flex: 1 !important;
+      max-width: 480px !important;
+    }
+
+    .settings-outer form input {
+      background: rgba(15, 15, 25, 0.65) !important;
+      backdrop-filter: blur(20px) !important;
+      -webkit-backdrop-filter: blur(20px) !important;
+      border: 1px solid rgba(255, 255, 255, 0.1) !important;
+      border-radius: 20px !important;
+      color: #ffffff !important;
+      padding: 7px 18px !important;
+      font-size: 13px !important;
+      transition: all 0.2s ease !important;
+    }
+
+    .settings-outer form input:focus {
+      border-color: rgba(255, 255, 255, 0.3) !important;
+      box-shadow: 0 0 14px rgba(255, 255, 255, 0.15) !important;
+      outline: none !important;
+    }
+
+    .options-outer {
+      display: flex !important;
+      align-items: center !important;
+    }
+
+    .options-trigger {
+      background: rgba(15, 15, 25, 0.65) !important;
+      backdrop-filter: blur(20px) !important;
+      -webkit-backdrop-filter: blur(20px) !important;
+      border: 1px solid rgba(255, 255, 255, 0.1) !important;
+      border-radius: 50% !important;
+      width: 36px !important;
+      height: 36px !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      cursor: pointer !important;
+      transition: all 0.2s ease !important;
+    }
+
+    .options-trigger:hover {
+      background: rgba(255, 255, 255, 0.15) !important;
+      transform: rotate(30deg) !important;
+    }
+
+    .options-trigger svg {
+      width: 18px !important;
+      height: 18px !important;
+      fill: #ffffff !important;
     }
 
     /* --- Top Navigation Bar (Pill Capsules) --- */
@@ -134,9 +202,7 @@ appConfig:
       display: none !important;
     }
 
-    .header-action {
-      display: none !important;
-    }
+    /* Header action restored for Edit Mode */
 
     /* --- Single-Line Horizontal Bookmark Rows --- */
     .there-are-items {

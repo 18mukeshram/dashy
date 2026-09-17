@@ -93,9 +93,8 @@ const patchAppConfigField = (state, key, value, storageKey) => {
   if (storageKey) localStorage.setItem(storageKey, value);
 };
 
- /* Read locally saved configs/overrides from localStorage (Disabled to enforce server files) */
+ /* Read locally saved configs/overrides from localStorage */
 function readLocalOverrides(subConfigId) {
-  return { own: {}, hasStructural: false };
   const scope = configScope(subConfigId);
   const own = {};
   let hasStructural = false;
@@ -125,8 +124,13 @@ function readLocalOverrides(subConfigId) {
     hasStructural = true;
   }
   if (Array.isArray(localSections) && localSections.length) {
-    own.sections = localSections;
-    hasStructural = true;
+    const filtered = localSections.filter(
+      s => !s.name?.includes('Mission Control') && !s.name?.includes('Multi-Engine') && !s.name?.includes('daily.dev')
+    );
+    if (filtered.length) {
+      own.sections = filtered;
+      hasStructural = true;
+    }
   }
   if (!subConfigId) {
     const localPages = readLocal(localStorageKeys.CONF_PAGES);
@@ -142,8 +146,16 @@ function readLocalOverrides(subConfigId) {
 function buildRootEffective(state) {
   const root = state.rootConfig || {};
   const { own } = readLocalOverrides(null);
+  const appConfig = { ...(root.appConfig || {}), ...(own.appConfig || {}) };
+  const globalTheme = localStorage.getItem(localStorageKeys.THEME);
+  if (globalTheme) appConfig.theme = globalTheme;
+  const globalLayout = localStorage.getItem(localStorageKeys.LAYOUT_ORIENTATION);
+  if (globalLayout) appConfig.layout = globalLayout;
+  const globalIconSize = localStorage.getItem(localStorageKeys.ICON_SIZE);
+  if (globalIconSize) appConfig.iconSize = globalIconSize;
+
   return {
-    appConfig: { ...(root.appConfig || {}), ...(own.appConfig || {}) },
+    appConfig,
     pageInfo: { ...(root.pageInfo || {}), ...(own.pageInfo || {}) },
     sections: own.sections || root.sections || [],
     pages: own.pages || root.pages || [],
@@ -155,6 +167,13 @@ function mergeWithRoot(root, own) {
   const rootApp = root.appConfig || {};
   const ownApp = own.appConfig || {};
   const appConfig = { ...rootApp, ...ownApp };
+  const globalTheme = localStorage.getItem(localStorageKeys.THEME);
+  if (globalTheme) appConfig.theme = globalTheme;
+  const globalLayout = localStorage.getItem(localStorageKeys.LAYOUT_ORIENTATION);
+  if (globalLayout) appConfig.layout = globalLayout;
+  const globalIconSize = localStorage.getItem(localStorageKeys.ICON_SIZE);
+  if (globalIconSize) appConfig.iconSize = globalIconSize;
+
   if (rootApp.auth !== undefined) appConfig.auth = rootApp.auth;
   else delete appConfig.auth;
   return {
@@ -204,6 +223,8 @@ const store = createStore({
       return state.config.pages || [];
     },
     theme(state) {
+      const globalTheme = localStorage.getItem(localStorageKeys.THEME);
+      if (globalTheme) return globalTheme;
       const cfg = state.config?.appConfig;
       return cfg?.theme || defaultTheme;
     },
@@ -409,15 +430,18 @@ const store = createStore({
       InfoHandler('Widget removed', InfoKeys.EDITOR);
     },
     [SET_THEME](state, theme) {
-      patchAppConfigField(state, 'theme', theme, configScope(state.currentConfigInfo.confId).THEME);
+      localStorage.setItem(localStorageKeys.THEME, theme);
+      patchAppConfigField(state, 'theme', theme, localStorageKeys.THEME);
       InfoHandler('Theme updated', InfoKeys.VISUAL);
     },
     [SET_ITEM_LAYOUT](state, layout) {
-      patchAppConfigField(state, 'layout', layout, configScope(state.currentConfigInfo.confId).LAYOUT);
+      localStorage.setItem(localStorageKeys.LAYOUT_ORIENTATION, layout);
+      patchAppConfigField(state, 'layout', layout, localStorageKeys.LAYOUT_ORIENTATION);
       InfoHandler('Layout updated', InfoKeys.VISUAL);
     },
     [SET_ITEM_SIZE](state, iconSize) {
-      patchAppConfigField(state, 'iconSize', iconSize, configScope(state.currentConfigInfo.confId).ICON_SIZE);
+      localStorage.setItem(localStorageKeys.ICON_SIZE, iconSize);
+      patchAppConfigField(state, 'iconSize', iconSize, localStorageKeys.ICON_SIZE);
       InfoHandler('Item size updated', InfoKeys.VISUAL);
     },
     [UPDATE_CUSTOM_CSS](state, customCss) {
